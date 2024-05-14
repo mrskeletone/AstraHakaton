@@ -41,6 +41,8 @@ echo -n > ../logFiles/buffer
 
 journalctl -p 7 > ../logFiles/buffer
 cat ../logFiles/buffer ../logFiles/info |sort |uniq -u >> ../logFiles/debug
-
 rm ../logFiles/buffer
+
+journalctl -p 7 > ../logFiles/allTypes
+
 
