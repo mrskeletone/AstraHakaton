@@ -43,6 +43,6 @@ journalctl -p 7 > ../logFiles/buffer
 cat ../logFiles/buffer ../logFiles/info |sort |uniq -u >> ../logFiles/debug
 rm ../logFiles/buffer
 
-journalctl -p 7 > ../logFiles/allTypes
+journalctl -p 7 > ../logFiles/all_types
 
 
