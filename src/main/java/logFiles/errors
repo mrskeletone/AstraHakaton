@@ -1,0 +1,420 @@
+                                                        
+                                                        Available platform plugins are: eglfs, linuxfb, minimal, minimalegl, offscreen, vnc, wayland-egl, wayland, wayland-xcomposite-egl, wayland-xcomposite-glx, xcb.
+-- Boot 0c197bfe16e842c69b2743a29725ad7e --
+-- Boot 195daafaa658466c95d1ac0451e8a8cc --
+-- Boot 265a8eaa682b4e83ba455e196b78a3a0 --
+-- Boot 2e2bb27cd72a4e9fa98422d6fd0b717a --
+-- Boot 4937d3eafabb488ebf53fa0ff3a35893 --
+-- Boot 700cfda7bc7c4a37931965c5ac1a4fea --
+-- Boot 8316213acc4a4f21b903e31bca0ebb2e --
+-- Boot 873cf78e56a7488fab1f4ad8ede422be --
+-- Boot 8955e12934fd4fb1a24aa6288434c3f1 --
+-- Boot 8a08f6943b254a31a937764bb8b9b4ac --
+-- Boot 966708999e374ff8a1b2d4be9cf93c76 --
+-- Boot 9f3fa80fe5b74e2c924b9f6147bdb4ef --
+-- Boot a5a5b0d4d51d4e298389c3d0c61e647f --
+-- Boot a86a81f3712a49dcaed23f41bfafd6e5 --
+-- Boot b47305fe0fbf4f009bcc15667638fa25 --
+-- Boot c42208312cc74be5b87388ada76a53ed --
+-- Boot c56157369dcb452d8a9fbc30149de4e7 --
+-- Boot cd1293ca3d734b59b13183e26ba88e8e --
+-- Boot d0afeec4b0b54fa19390691c18bfc3df --
+-- Boot e1b965a1930742329b61a9d98d9145e3 --
+-- Boot fa7940253776442e8060a6a88a0fc131 --
+-- Boot fe9cb6ff27254c43aa4f7f1a43892117 --
+-- Boot fef930516d724be2b922d6571e0e8637 --
+-- No entries --
+апр 01 16:52:04 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: Secure display: Generic Failure.
+апр 01 16:52:04 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: SECUREDISPLAY: query securedisplay TA failed. ret 0x0
+апр 01 16:52:25 strangecodder-laptop systemd[1]: Failed to start Terminate Plymouth Boot Screen.
+апр 01 16:53:02 strangecodder-laptop wpa_supplicant[547]: bgscan simple: Failed to enable signal strength monitoring
+апр 01 17:48:51 strangecodder-laptop kernel: Unable to read current time from RTC
+апр 01 17:48:54 strangecodder-laptop wpa_supplicant[547]: bgscan simple: Failed to enable signal strength monitoring
+апр 01 19:30:07 strangecodder-laptop wpa_supplicant[547]: bgscan simple: Failed to enable signal strength monitoring
+апр 01 21:16:44 strangecodder-laptop wpa_supplicant[547]: bgscan simple: Failed to enable signal strength monitoring
+апр 01 21:21:28 strangecodder-laptop dbus-broker-launch[487]: Activation request for 'org.freedesktop.nm_dispatcher' failed.
+апр 01 21:21:28 strangecodder-laptop pulseaudio[1101]: org.bluez.BatteryProviderManager1.UnregisterBatteryProvider() Failed: org.freedesktop.DBus.Error.NoReply:Remote peer disconnected
+апр 02 12:46:00 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: Secure display: Generic Failure.
+апр 02 12:46:00 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: SECUREDISPLAY: query securedisplay TA failed. ret 0x0
+апр 02 12:46:31 strangecodder-laptop wpa_supplicant[552]: bgscan simple: Failed to enable signal strength monitoring
+апр 02 13:51:46 strangecodder-laptop wpa_supplicant[552]: bgscan simple: Failed to enable signal strength monitoring
+апр 02 15:18:53 strangecodder-laptop wpa_supplicant[552]: bgscan simple: Failed to enable signal strength monitoring
+апр 02 17:14:25 strangecodder-laptop wpa_supplicant[552]: bgscan simple: Failed to enable signal strength monitoring
+апр 02 20:34:24 strangecodder-laptop wpa_supplicant[552]: bgscan simple: Failed to enable signal strength monitoring
+апр 02 20:34:48 strangecodder-laptop pulseaudio[1088]: [70B blob data]
+апр 02 21:19:42 strangecodder-laptop bluetoothd[489]: src/profile.c:ext_io_disconnected() Unable to get io data for Hands-Free Voice gateway: getpeername: Transport endpoint is not connected (107)
+апр 02 21:41:27 strangecodder-laptop pulseaudio[1088]: org.bluez.BatteryProviderManager1.UnregisterBatteryProvider() Failed: org.freedesktop.DBus.Error.NoReply:Remote peer disconnected
+апр 02 21:41:28 strangecodder-laptop dbus-broker-launch[485]: Activation request for 'org.freedesktop.nm_dispatcher' failed.
+апр 02 21:41:29 strangecodder-laptop dbus-broker-launch[485]: Activation request for 'org.freedesktop.nm_dispatcher' failed.
+апр 02 21:41:30 strangecodder-laptop dbus-broker-launch[485]: Activation request for 'org.freedesktop.nm_dispatcher' failed.
+апр 02 23:03:55 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: Secure display: Generic Failure.
+апр 02 23:03:55 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: SECUREDISPLAY: query securedisplay TA failed. ret 0x0
+апр 02 23:09:43 strangecodder-laptop dbus-broker-launch[471]: Activation request for 'org.freedesktop.nm_dispatcher' failed.
+апр 03 13:39:40 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: Secure display: Generic Failure.
+апр 03 13:39:40 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: SECUREDISPLAY: query securedisplay TA failed. ret 0x0
+апр 03 13:39:49 strangecodder-laptop wpa_supplicant[532]: bgscan simple: Failed to enable signal strength monitoring
+апр 03 13:40:44 strangecodder-laptop wpa_supplicant[532]: bgscan simple: Failed to enable signal strength monitoring
+апр 03 14:11:04 strangecodder-laptop pulseaudio[1073]: org.bluez.BatteryProviderManager1.UnregisterBatteryProvider() Failed: org.freedesktop.DBus.Error.NoReply:Remote peer disconnected
+апр 03 14:11:06 strangecodder-laptop dbus-broker-launch[471]: Activation request for 'org.freedesktop.nm_dispatcher' failed.
+апр 03 14:55:09 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: Secure display: Generic Failure.
+апр 03 14:55:09 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: SECUREDISPLAY: query securedisplay TA failed. ret 0x0
+апр 03 14:57:51 strangecodder-laptop wpa_supplicant[532]: bgscan simple: Failed to enable signal strength monitoring
+апр 03 14:59:00 strangecodder-laptop wpa_supplicant[532]: bgscan simple: Failed to enable signal strength monitoring
+апр 03 14:59:24 strangecodder-laptop wpa_supplicant[532]: bgscan simple: Failed to enable signal strength monitoring
+апр 03 15:04:36 strangecodder-laptop pulseaudio[1101]: Assertion 'pa_atomic_load(&(y)->_ref) > 0' failed at ../pulseaudio/src/modules/bluetooth/bluez5-util.c:2207, function pa_bluetooth_discovery_hook(). Aborting.
+апр 03 15:04:36 strangecodder-laptop pulseaudio[1101]: org.bluez.BatteryProviderManager1.UnregisterBatteryProvider() Failed: org.freedesktop.DBus.Error.NoReply:Remote peer disconnected
+апр 03 15:04:37 strangecodder-laptop dbus-broker-launch[484]: Activation request for 'org.freedesktop.nm_dispatcher' failed.
+апр 03 16:21:05 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: Secure display: Generic Failure.
+апр 03 16:21:05 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: SECUREDISPLAY: query securedisplay TA failed. ret 0x0
+апр 03 16:21:54 strangecodder-laptop wpa_supplicant[595]: bgscan simple: Failed to enable signal strength monitoring
+апр 03 16:31:21 strangecodder-laptop dbus-broker-launch[466]: Activation request for 'org.freedesktop.nm_dispatcher' failed.
+апр 03 16:31:21 strangecodder-laptop pulseaudio[1072]: org.bluez.BatteryProviderManager1.UnregisterBatteryProvider() Failed: org.freedesktop.DBus.Error.NoReply:Remote peer disconnected
+апр 03 16:31:45 strangecodder-laptop bluetoothd[482]: Failed to clear UUIDs: Failed (0x03)
+апр 03 16:31:45 strangecodder-laptop bluetoothd[482]: src/adapter.c:reset_adv_monitors_complete() Failed to reset Adv Monitors: Failed (0x03)
+апр 03 16:31:46 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: Secure display: Generic Failure.
+апр 03 16:31:46 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: SECUREDISPLAY: query securedisplay TA failed. ret 0x0
+апр 03 16:32:07 strangecodder-laptop systemd[1]: Failed to start Terminate Plymouth Boot Screen.
+апр 03 16:32:40 strangecodder-laptop wpa_supplicant[536]: bgscan simple: Failed to enable signal strength monitoring
+апр 03 16:34:20 strangecodder-laptop wpa_supplicant[536]: bgscan simple: Failed to enable signal strength monitoring
+апр 03 16:35:49 strangecodder-laptop wpa_supplicant[536]: bgscan simple: Failed to enable signal strength monitoring
+апр 03 16:42:41 strangecodder-laptop wpa_supplicant[536]: bgscan simple: Failed to enable signal strength monitoring
+апр 03 16:43:30 strangecodder-laptop wpa_supplicant[536]: bgscan simple: Failed to enable signal strength monitoring
+апр 03 16:43:56 strangecodder-laptop pulseaudio[1079]: org.bluez.BatteryProviderManager1.UnregisterBatteryProvider() Failed: org.freedesktop.DBus.Error.NoReply:Remote peer disconnected
+апр 03 16:43:57 strangecodder-laptop dbus-broker-launch[476]: Activation request for 'org.freedesktop.nm_dispatcher' failed.
+апр 03 16:43:57 strangecodder-laptop pulseaudio[1079]: Assertion 'pa_atomic_load(&(y)->_ref) > 0' failed at ../pulseaudio/src/modules/bluetooth/bluez5-util.c:2207, function pa_bluetooth_discovery_hook(). Aborting.
+апр 03 16:44:21 strangecodder-laptop bluetoothd[493]: Failed to clear UUIDs: Failed (0x03)
+апр 03 16:44:21 strangecodder-laptop bluetoothd[493]: src/adapter.c:reset_adv_monitors_complete() Failed to reset Adv Monitors: Failed (0x03)
+апр 03 16:44:22 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: Secure display: Generic Failure.
+апр 03 16:44:22 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: SECUREDISPLAY: query securedisplay TA failed. ret 0x0
+апр 03 16:45:49 strangecodder-laptop wpa_supplicant[549]: bgscan simple: Failed to enable signal strength monitoring
+апр 03 16:46:18 strangecodder-laptop wpa_supplicant[549]: bgscan simple: Failed to enable signal strength monitoring
+апр 03 16:49:12 strangecodder-laptop pulseaudio[1099]: Assertion 'pa_atomic_load(&(y)->_ref) > 0' failed at ../pulseaudio/src/modules/bluetooth/bluez5-util.c:2207, function pa_bluetooth_discovery_hook(). Aborting.
+апр 03 16:49:12 strangecodder-laptop pulseaudio[1099]: org.bluez.BatteryProviderManager1.UnregisterBatteryProvider() Failed: org.freedesktop.DBus.Error.NoReply:Remote peer disconnected
+апр 03 16:49:13 strangecodder-laptop dbus-broker-launch[488]: Activation request for 'org.freedesktop.nm_dispatcher' failed.
+апр 03 16:49:36 strangecodder-laptop bluetoothd[488]: Failed to clear UUIDs: Failed (0x03)
+апр 03 16:49:36 strangecodder-laptop bluetoothd[488]: src/adapter.c:reset_adv_monitors_complete() Failed to reset Adv Monitors: Failed (0x03)
+апр 03 16:49:37 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: Secure display: Generic Failure.
+апр 03 16:49:37 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: SECUREDISPLAY: query securedisplay TA failed. ret 0x0
+апр 03 16:50:57 strangecodder-laptop wpa_supplicant[541]: bgscan simple: Failed to enable signal strength monitoring
+апр 03 16:54:09 strangecodder-laptop wpa_supplicant[541]: bgscan simple: Failed to enable signal strength monitoring
+апр 03 16:55:28 strangecodder-laptop wpa_supplicant[541]: bgscan simple: Failed to enable signal strength monitoring
+апр 03 16:57:47 strangecodder-laptop wpa_supplicant[541]: bgscan simple: Failed to enable signal strength monitoring
+апр 03 16:58:11 strangecodder-laptop wpa_supplicant[541]: bgscan simple: Failed to enable signal strength monitoring
+апр 03 16:58:30 strangecodder-laptop wpa_supplicant[541]: bgscan simple: Failed to enable signal strength monitoring
+апр 03 17:06:57 strangecodder-laptop wpa_supplicant[541]: bgscan simple: Failed to enable signal strength monitoring
+апр 03 17:07:58 strangecodder-laptop wpa_supplicant[541]: bgscan simple: Failed to enable signal strength monitoring
+апр 03 17:30:59 strangecodder-laptop wpa_supplicant[541]: bgscan simple: Failed to enable signal strength monitoring
+апр 03 17:44:23 strangecodder-laptop pulseaudio[1094]: Assertion 'pa_atomic_load(&(y)->_ref) > 0' failed at ../pulseaudio/src/modules/bluetooth/bluez5-util.c:2207, function pa_bluetooth_discovery_hook(). Aborting.
+апр 03 17:44:23 strangecodder-laptop pulseaudio[1094]: org.bluez.BatteryProviderManager1.UnregisterBatteryProvider() Failed: org.freedesktop.DBus.Error.NoReply:Remote peer disconnected
+апр 03 17:44:25 strangecodder-laptop dbus-broker-launch[481]: Activation request for 'org.freedesktop.nm_dispatcher' failed.
+апр 03 21:56:37 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: Secure display: Generic Failure.
+апр 03 21:56:37 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: SECUREDISPLAY: query securedisplay TA failed. ret 0x0
+апр 03 21:57:47 strangecodder-laptop wpa_supplicant[536]: bgscan simple: Failed to enable signal strength monitoring
+апр 03 22:17:51 strangecodder-laptop wpa_supplicant[536]: bgscan simple: Failed to enable signal strength monitoring
+апр 04 10:46:38 strangecodder-laptop wpa_supplicant[536]: bgscan simple: Failed to enable signal strength monitoring
+апр 04 12:13:21 strangecodder-laptop pulseaudio[1100]: org.bluez.BatteryProviderManager1.UnregisterBatteryProvider() Failed: org.freedesktop.DBus.Error.UnknownObject:Method "UnregisterBatteryProvider" with signature "o" on interface "org.bluez.BatteryProviderManager1" doesn't exist
+апр 04 12:13:24 strangecodder-laptop wpa_supplicant[536]: bgscan simple: Failed to enable signal strength monitoring
+апр 04 14:39:33 strangecodder-laptop pulseaudio[1100]: org.bluez.BatteryProviderManager1.UnregisterBatteryProvider() Failed: org.freedesktop.DBus.Error.UnknownObject:Method "UnregisterBatteryProvider" with signature "o" on interface "org.bluez.BatteryProviderManager1" doesn't exist
+апр 04 14:39:36 strangecodder-laptop wpa_supplicant[536]: bgscan simple: Failed to enable signal strength monitoring
+апр 04 15:01:28 strangecodder-laptop wpa_supplicant[536]: bgscan simple: Failed to enable signal strength monitoring
+апр 05 10:51:37 strangecodder-laptop wpa_supplicant[536]: bgscan simple: Failed to enable signal strength monitoring
+апр 05 10:51:57 strangecodder-laptop wpa_supplicant[536]: bgscan simple: Failed to enable signal strength monitoring
+апр 05 20:12:35 strangecodder-laptop wpa_supplicant[536]: bgscan simple: Failed to enable signal strength monitoring
+апр 05 21:52:50 strangecodder-laptop wpa_supplicant[536]: bgscan simple: Failed to enable signal strength monitoring
+апр 06 15:13:11 strangecodder-laptop wpa_supplicant[536]: bgscan simple: Failed to enable signal strength monitoring
+апр 06 17:42:01 strangecodder-laptop wpa_supplicant[536]: bgscan simple: Failed to enable signal strength monitoring
+апр 07 13:14:11 strangecodder-laptop pulseaudio[1100]: org.bluez.BatteryProviderManager1.UnregisterBatteryProvider() Failed: org.freedesktop.DBus.Error.UnknownObject:Method "UnregisterBatteryProvider" with signature "o" on interface "org.bluez.BatteryProviderManager1" doesn't exist
+апр 07 13:14:14 strangecodder-laptop wpa_supplicant[536]: bgscan simple: Failed to enable signal strength monitoring
+апр 07 14:48:46 strangecodder-laptop wpa_supplicant[536]: bgscan simple: Failed to enable signal strength monitoring
+апр 07 18:57:58 strangecodder-laptop wpa_supplicant[536]: bgscan simple: Failed to enable signal strength monitoring
+апр 08 08:04:46 strangecodder-laptop wpa_supplicant[536]: bgscan simple: Failed to enable signal strength monitoring
+апр 08 08:10:12 strangecodder-laptop pulseaudio[1100]: Assertion 'pa_atomic_load(&(y)->_ref) > 0' failed at ../pulseaudio/src/modules/bluetooth/bluez5-util.c:2207, function pa_bluetooth_discovery_hook(). Aborting.
+апр 08 08:10:12 strangecodder-laptop pulseaudio[1100]: org.bluez.BatteryProviderManager1.UnregisterBatteryProvider() Failed: org.freedesktop.DBus.Error.NoReply:Remote peer disconnected
+апр 08 08:10:14 strangecodder-laptop dbus-broker-launch[487]: Activation request for 'org.freedesktop.nm_dispatcher' failed.
+апр 08 11:35:45 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: Secure display: Generic Failure.
+апр 08 11:35:45 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: SECUREDISPLAY: query securedisplay TA failed. ret 0x0
+апр 08 11:36:59 strangecodder-laptop wpa_supplicant[599]: bgscan simple: Failed to enable signal strength monitoring
+апр 08 11:37:26 strangecodder-laptop wpa_supplicant[599]: bgscan simple: Failed to enable signal strength monitoring
+апр 08 11:37:36 strangecodder-laptop wpa_supplicant[599]: bgscan simple: Failed to enable signal strength monitoring
+апр 08 12:57:01 strangecodder-laptop wpa_supplicant[599]: bgscan simple: Failed to enable signal strength monitoring
+апр 08 15:58:37 strangecodder-laptop wpa_supplicant[599]: bgscan simple: Failed to enable signal strength monitoring
+апр 08 15:58:40 strangecodder-laptop wpa_supplicant[599]: bgscan simple: Failed to enable signal strength monitoring
+апр 08 16:00:24 strangecodder-laptop pulseaudio[1078]: org.bluez.BatteryProviderManager1.UnregisterBatteryProvider() Failed: org.freedesktop.DBus.Error.NoReply:Remote peer disconnected
+апр 08 16:00:26 strangecodder-laptop dbus-broker-launch[473]: Activation request for 'org.freedesktop.nm_dispatcher' failed.
+апр 08 21:04:10 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: Secure display: Generic Failure.
+апр 08 21:04:10 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: SECUREDISPLAY: query securedisplay TA failed. ret 0x0
+апр 08 21:04:31 strangecodder-laptop systemd[1]: Failed to start Terminate Plymouth Boot Screen.
+апр 08 21:05:24 strangecodder-laptop wpa_supplicant[522]: bgscan simple: Failed to enable signal strength monitoring
+апр 09 12:42:00 strangecodder-laptop wpa_supplicant[522]: bgscan simple: Failed to enable signal strength monitoring
+апр 10 07:47:53 strangecodder-laptop wpa_supplicant[522]: bgscan simple: Failed to enable signal strength monitoring
+апр 10 07:48:12 strangecodder-laptop pulseaudio[1078]: org.bluez.BatteryProviderManager1.UnregisterBatteryProvider() Failed: org.freedesktop.DBus.Error.NoReply:Remote peer disconnected
+апр 10 07:48:13 strangecodder-laptop pulseaudio[1078]: Error opening PCM device _ucm0003.hw:acp: No such device
+апр 10 07:48:13 strangecodder-laptop pulseaudio[1078]: Error opening PCM device _ucm0003.hw:Generic_1: No such device
+апр 10 07:48:14 strangecodder-laptop dbus-broker-launch[472]: Activation request for 'org.freedesktop.nm_dispatcher' failed.
+апр 10 09:31:49 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: Secure display: Generic Failure.
+апр 10 09:31:49 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: SECUREDISPLAY: query securedisplay TA failed. ret 0x0
+апр 10 09:32:18 strangecodder-laptop wpa_supplicant[527]: bgscan simple: Failed to enable signal strength monitoring
+апр 10 09:34:06 strangecodder-laptop wpa_supplicant[527]: bgscan simple: Failed to enable signal strength monitoring
+апр 10 09:39:14 strangecodder-laptop wpa_supplicant[527]: bgscan simple: Failed to enable signal strength monitoring
+апр 10 09:51:04 strangecodder-laptop wpa_supplicant[527]: bgscan simple: Failed to enable signal strength monitoring
+апр 10 09:51:18 strangecodder-laptop wpa_supplicant[527]: bgscan simple: Failed to enable signal strength monitoring
+апр 10 10:36:35 strangecodder-laptop dbus-broker-launch[477]: Activation request for 'org.freedesktop.nm_dispatcher' failed.
+апр 10 10:36:35 strangecodder-laptop pulseaudio[1071]: org.bluez.BatteryProviderManager1.UnregisterBatteryProvider() Failed: org.freedesktop.DBus.Error.NoReply:Remote peer disconnected
+апр 10 10:36:36 strangecodder-laptop dbus-broker-launch[477]: Activation request for 'org.freedesktop.nm_dispatcher' failed.
+апр 10 10:36:37 strangecodder-laptop dbus-broker-launch[477]: Activation request for 'org.freedesktop.nm_dispatcher' failed.
+апр 10 13:18:01 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: Secure display: Generic Failure.
+апр 10 13:18:01 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: SECUREDISPLAY: query securedisplay TA failed. ret 0x0
+апр 10 13:19:48 strangecodder-laptop wpa_supplicant[560]: bgscan simple: Failed to enable signal strength monitoring
+апр 10 13:33:55 strangecodder-laptop dbus-broker-launch[481]: Activation request for 'org.freedesktop.nm_dispatcher' failed.
+апр 10 13:33:55 strangecodder-laptop pulseaudio[1075]: org.bluez.BatteryProviderManager1.UnregisterBatteryProvider() Failed: org.freedesktop.DBus.Error.NoReply:Remote peer disconnected
+апр 10 13:42:20 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: Secure display: Generic Failure.
+апр 10 13:42:20 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: SECUREDISPLAY: query securedisplay TA failed. ret 0x0
+апр 10 13:42:40 strangecodder-laptop systemd[1]: Failed to start Terminate Plymouth Boot Screen.
+апр 10 13:43:45 strangecodder-laptop wpa_supplicant[523]: bgscan simple: Failed to enable signal strength monitoring
+апр 10 13:51:17 strangecodder-laptop pulseaudio[1078]: org.bluez.BatteryProviderManager1.UnregisterBatteryProvider() Failed: org.freedesktop.DBus.Error.NoReply:Remote peer disconnected
+апр 10 13:51:18 strangecodder-laptop pulseaudio[1078]: Error opening PCM device _ucm0003.hw:acp: No such device
+апр 10 13:51:18 strangecodder-laptop pulseaudio[1078]: Error opening PCM device _ucm0003.hw:Generic_1: No such device
+апр 10 13:51:19 strangecodder-laptop dbus-broker-launch[473]: Activation request for 'org.freedesktop.nm_dispatcher' failed.
+апр 10 14:34:22 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: Secure display: Generic Failure.
+апр 10 14:34:22 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: SECUREDISPLAY: query securedisplay TA failed. ret 0x0
+апр 10 14:34:36 strangecodder-laptop wpa_supplicant[598]: bgscan simple: Failed to enable signal strength monitoring
+апр 10 14:35:13 strangecodder-laptop wpa_supplicant[598]: bgscan simple: Failed to enable signal strength monitoring
+апр 10 14:46:01 strangecodder-laptop wpa_supplicant[598]: bgscan simple: Failed to enable signal strength monitoring
+апр 10 14:49:48 strangecodder-laptop wpa_supplicant[598]: bgscan simple: Failed to enable signal strength monitoring
+апр 10 14:51:50 strangecodder-laptop wpa_supplicant[598]: bgscan simple: Failed to enable signal strength monitoring
+апр 10 16:20:32 strangecodder-laptop wpa_supplicant[598]: bgscan simple: Failed to enable signal strength monitoring
+апр 10 16:21:32 strangecodder-laptop wpa_supplicant[598]: bgscan simple: Failed to enable signal strength monitoring
+апр 10 16:47:23 strangecodder-laptop wpa_supplicant[598]: bgscan simple: Failed to enable signal strength monitoring
+апр 10 17:16:14 strangecodder-laptop dbus-broker-launch[477]: Activation request for 'org.freedesktop.nm_dispatcher' failed.
+апр 10 17:16:14 strangecodder-laptop pulseaudio[1076]: Error opening PCM device _ucm0003.hw:acp: No such device
+апр 10 17:16:14 strangecodder-laptop pulseaudio[1076]: org.bluez.BatteryProviderManager1.UnregisterBatteryProvider() Failed: org.freedesktop.DBus.Error.NoReply:Remote peer disconnected
+апр 10 19:11:00 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: Secure display: Generic Failure.
+апр 10 19:11:00 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: SECUREDISPLAY: query securedisplay TA failed. ret 0x0
+апр 10 19:11:21 strangecodder-laptop systemd[1]: Failed to start Terminate Plymouth Boot Screen.
+апр 10 19:12:05 strangecodder-laptop dbus-broker-launch[473]: Activation request for 'org.freedesktop.nm_dispatcher' failed.
+апр 10 22:59:54 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: Secure display: Generic Failure.
+апр 10 22:59:54 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: SECUREDISPLAY: query securedisplay TA failed. ret 0x0
+апр 10 23:00:12 strangecodder-laptop wpa_supplicant[535]: bgscan simple: Failed to enable signal strength monitoring
+апр 11 15:39:01 strangecodder-laptop wpa_supplicant[535]: bgscan simple: Failed to enable signal strength monitoring
+апр 11 17:52:38 strangecodder-laptop wpa_supplicant[535]: bgscan simple: Failed to enable signal strength monitoring
+апр 11 17:59:31 strangecodder-laptop wpa_supplicant[535]: bgscan simple: Failed to enable signal strength monitoring
+апр 12 21:04:31 strangecodder-laptop wpa_supplicant[535]: bgscan simple: Failed to enable signal strength monitoring
+апр 13 18:59:57 strangecodder-laptop wpa_supplicant[535]: bgscan simple: Failed to enable signal strength monitoring
+апр 13 20:47:53 strangecodder-laptop wpa_supplicant[535]: bgscan simple: Failed to enable signal strength monitoring
+апр 13 21:52:17 strangecodder-laptop dbus-broker-launch[483]: Activation request for 'org.freedesktop.nm_dispatcher' failed.
+апр 13 21:52:17 strangecodder-laptop pulseaudio[1072]: org.bluez.BatteryProviderManager1.UnregisterBatteryProvider() Failed: org.freedesktop.DBus.Error.NoReply:Remote peer disconnected
+апр 13 21:52:18 strangecodder-laptop dbus-broker-launch[483]: Activation request for 'org.freedesktop.nm_dispatcher' failed.
+апр 13 21:52:19 strangecodder-laptop dbus-broker-launch[483]: Activation request for 'org.freedesktop.nm_dispatcher' failed.
+апр 15 22:11:23 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: Secure display: Generic Failure.
+апр 15 22:11:23 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: SECUREDISPLAY: query securedisplay TA failed. ret 0x0
+апр 15 22:11:44 strangecodder-laptop systemd[1]: Failed to start Terminate Plymouth Boot Screen.
+апр 15 22:12:06 strangecodder-laptop wpa_supplicant[530]: bgscan simple: Failed to enable signal strength monitoring
+апр 15 22:16:07 strangecodder-laptop pulseaudio[1088]: org.bluez.BatteryProviderManager1.UnregisterBatteryProvider() Failed: org.freedesktop.DBus.Error.NoReply:Remote peer disconnected
+апр 15 22:16:08 strangecodder-laptop kwin_x11[1990]: This application failed to start because no Qt platform plugin could be initialized. Reinstalling the application may fix this problem.
+апр 15 22:16:08 strangecodder-laptop pulseaudio[1088]: Error opening PCM device _ucm0003.hw:acp: No such device
+апр 15 22:16:09 strangecodder-laptop dbus-broker-launch[471]: Activation request for 'org.freedesktop.nm_dispatcher' failed.
+апр 15 22:16:30 strangecodder-laptop bluetoothd[495]: Failed to clear UUIDs: Failed (0x03)
+апр 15 22:16:30 strangecodder-laptop bluetoothd[495]: src/adapter.c:reset_adv_monitors_complete() Failed to reset Adv Monitors: Failed (0x03)
+апр 15 22:16:31 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: Secure display: Generic Failure.
+апр 15 22:16:31 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: SECUREDISPLAY: query securedisplay TA failed. ret 0x0
+апр 15 22:18:14 strangecodder-laptop wpa_supplicant[597]: bgscan simple: Failed to enable signal strength monitoring
+апр 16 13:55:36 strangecodder-laptop wpa_supplicant[597]: bgscan simple: Failed to enable signal strength monitoring
+апр 16 18:13:41 strangecodder-laptop wpa_supplicant[597]: bgscan simple: Failed to enable signal strength monitoring
+апр 17 14:53:53 strangecodder-laptop wpa_supplicant[597]: bgscan simple: Failed to enable signal strength monitoring
+апр 17 16:27:08 strangecodder-laptop wpa_supplicant[597]: bgscan simple: Failed to enable signal strength monitoring
+апр 17 16:27:52 strangecodder-laptop wpa_supplicant[597]: bgscan simple: Failed to enable signal strength monitoring
+апр 17 16:36:37 strangecodder-laptop dbus-broker-launch[491]: Activation request for 'org.bluez' failed.
+апр 17 16:36:37 strangecodder-laptop pulseaudio[1108]: org.bluez.BatteryProviderManager1.UnregisterBatteryProvider() Failed: org.freedesktop.DBus.Error.NameHasNoOwner:Could not activate remote peer: activation request failed: unit is invalid.
+апр 17 16:36:38 strangecodder-laptop dbus-broker-launch[491]: Activation request for 'org.freedesktop.nm_dispatcher' failed.
+апр 17 16:37:04 strangecodder-laptop bluetoothd[496]: Failed to clear UUIDs: Failed (0x03)
+апр 17 16:37:04 strangecodder-laptop bluetoothd[496]: src/adapter.c:reset_adv_monitors_complete() Failed to reset Adv Monitors: Failed (0x03)
+апр 17 16:37:05 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: Secure display: Generic Failure.
+апр 17 16:37:05 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: SECUREDISPLAY: query securedisplay TA failed. ret 0x0
+апр 17 16:37:25 strangecodder-laptop systemd[1]: Failed to start Terminate Plymouth Boot Screen.
+апр 17 16:38:19 strangecodder-laptop wpa_supplicant[592]: bgscan simple: Failed to enable signal strength monitoring
+апр 17 16:38:46 strangecodder-laptop wpa_supplicant[592]: bgscan simple: Failed to enable signal strength monitoring
+апр 17 16:45:33 strangecodder-laptop wpa_supplicant[592]: bgscan simple: Failed to enable signal strength monitoring
+апр 17 16:48:58 strangecodder-laptop wpa_supplicant[592]: bgscan simple: Failed to enable signal strength monitoring
+апр 17 16:50:24 strangecodder-laptop wpa_supplicant[592]: bgscan simple: Failed to enable signal strength monitoring
+апр 17 16:53:19 strangecodder-laptop wpa_supplicant[592]: bgscan simple: Failed to enable signal strength monitoring
+апр 17 16:54:44 strangecodder-laptop wpa_supplicant[592]: bgscan simple: Failed to enable signal strength monitoring
+апр 17 16:55:52 strangecodder-laptop wpa_supplicant[592]: bgscan simple: Failed to enable signal strength monitoring
+апр 17 16:57:12 strangecodder-laptop wpa_supplicant[592]: bgscan simple: Failed to enable signal strength monitoring
+апр 17 16:59:52 strangecodder-laptop wpa_supplicant[592]: bgscan simple: Failed to enable signal strength monitoring
+апр 17 17:00:32 strangecodder-laptop wpa_supplicant[592]: bgscan simple: Failed to enable signal strength monitoring
+апр 17 17:01:02 strangecodder-laptop wpa_supplicant[592]: bgscan simple: Failed to enable signal strength monitoring
+апр 17 17:03:17 strangecodder-laptop wpa_supplicant[592]: bgscan simple: Failed to enable signal strength monitoring
+апр 17 17:10:01 strangecodder-laptop wpa_supplicant[592]: bgscan simple: Failed to enable signal strength monitoring
+апр 17 17:22:37 strangecodder-laptop wpa_supplicant[592]: bgscan simple: Failed to enable signal strength monitoring
+апр 17 17:24:01 strangecodder-laptop wpa_supplicant[592]: bgscan simple: Failed to enable signal strength monitoring
+апр 17 17:35:28 strangecodder-laptop wpa_supplicant[592]: bgscan simple: Failed to enable signal strength monitoring
+апр 19 09:42:36 strangecodder-laptop pulseaudio[1099]: org.bluez.BatteryProviderManager1.UnregisterBatteryProvider() Failed: org.freedesktop.DBus.Error.UnknownObject:Method "UnregisterBatteryProvider" with signature "o" on interface "org.bluez.BatteryProviderManager1" doesn't exist
+апр 19 09:42:39 strangecodder-laptop wpa_supplicant[592]: bgscan simple: Failed to enable signal strength monitoring
+апр 19 09:43:24 strangecodder-laptop wpa_supplicant[592]: bgscan simple: Failed to enable signal strength monitoring
+апр 19 09:44:24 strangecodder-laptop wpa_supplicant[592]: bgscan simple: Failed to enable signal strength monitoring
+апр 19 09:45:16 strangecodder-laptop wpa_supplicant[592]: bgscan simple: Failed to enable signal strength monitoring
+апр 19 10:10:30 strangecodder-laptop pulseaudio[1099]: org.bluez.BatteryProviderManager1.UnregisterBatteryProvider() Failed: org.freedesktop.DBus.Error.NoReply:Remote peer disconnected
+апр 19 10:10:31 strangecodder-laptop pulseaudio[1099]: Error opening PCM device _ucm0003.hw:acp: No such device
+апр 20 09:37:38 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: Secure display: Generic Failure.
+апр 20 09:37:38 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: SECUREDISPLAY: query securedisplay TA failed. ret 0x0
+апр 20 09:37:59 strangecodder-laptop systemd[1]: Failed to start Terminate Plymouth Boot Screen.
+апр 20 09:38:23 strangecodder-laptop wpa_supplicant[538]: bgscan simple: Failed to enable signal strength monitoring
+апр 22 08:18:35 strangecodder-laptop wpa_supplicant[538]: bgscan simple: Failed to enable signal strength monitoring
+апр 22 08:18:47 strangecodder-laptop dbus-broker-launch[476]: Activation request for 'org.freedesktop.nm_dispatcher' failed.
+апр 22 08:18:47 strangecodder-laptop pulseaudio[1091]: Error opening PCM device _ucm0003.hw:acp: No such device
+апр 22 08:18:47 strangecodder-laptop pulseaudio[1091]: org.bluez.BatteryProviderManager1.UnregisterBatteryProvider() Failed: org.freedesktop.DBus.Error.NoReply:Remote peer disconnected
+апр 22 15:21:01 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: Secure display: Generic Failure.
+апр 22 15:21:01 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: SECUREDISPLAY: query securedisplay TA failed. ret 0x0
+апр 22 15:21:22 strangecodder-laptop systemd[1]: Failed to start Terminate Plymouth Boot Screen.
+апр 22 15:21:34 strangecodder-laptop wpa_supplicant[523]: bgscan simple: Failed to enable signal strength monitoring
+апр 22 15:22:16 strangecodder-laptop wpa_supplicant[523]: bgscan simple: Failed to enable signal strength monitoring
+апр 22 15:23:15 strangecodder-laptop wpa_supplicant[523]: bgscan simple: Failed to enable signal strength monitoring
+апр 22 15:24:11 strangecodder-laptop wpa_supplicant[523]: bgscan simple: Failed to enable signal strength monitoring
+апр 22 15:25:07 strangecodder-laptop wpa_supplicant[523]: bgscan simple: Failed to enable signal strength monitoring
+апр 22 15:26:05 strangecodder-laptop wpa_supplicant[523]: bgscan simple: Failed to enable signal strength monitoring
+апр 22 15:27:02 strangecodder-laptop wpa_supplicant[523]: bgscan simple: Failed to enable signal strength monitoring
+апр 22 15:34:24 strangecodder-laptop pulseaudio[1084]: Error opening PCM device _ucm0003.hw:acp: No such device
+апр 22 15:34:24 strangecodder-laptop pulseaudio[1084]: Error opening PCM device _ucm0003.hw:Generic_1: No such device
+апр 22 15:34:24 strangecodder-laptop pulseaudio[1084]: org.bluez.BatteryProviderManager1.UnregisterBatteryProvider() Failed: org.freedesktop.DBus.Error.NoReply:Remote peer disconnected
+апр 22 15:34:25 strangecodder-laptop dbus-broker-launch[472]: Activation request for 'org.freedesktop.nm_dispatcher' failed.
+апр 22 15:34:46 strangecodder-laptop bluetoothd[473]: Failed to clear UUIDs: Failed (0x03)
+апр 22 15:34:46 strangecodder-laptop bluetoothd[473]: src/adapter.c:reset_adv_monitors_complete() Failed to reset Adv Monitors: Failed (0x03)
+апр 22 15:34:47 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: Secure display: Generic Failure.
+апр 22 15:34:47 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: SECUREDISPLAY: query securedisplay TA failed. ret 0x0
+апр 22 15:35:06 strangecodder-laptop wpa_supplicant[532]: bgscan simple: Failed to enable signal strength monitoring
+апр 22 15:38:03 strangecodder-laptop dbus-broker-launch[466]: Activation request for 'org.freedesktop.nm_dispatcher' failed.
+апр 22 15:38:03 strangecodder-laptop pulseaudio[1068]: org.bluez.BatteryProviderManager1.UnregisterBatteryProvider() Failed: org.freedesktop.DBus.Error.NoReply:Remote peer disconnected
+апр 22 15:38:04 strangecodder-laptop dbus-broker-launch[466]: Activation request for 'org.freedesktop.nm_dispatcher' failed.
+апр 22 15:38:05 strangecodder-laptop dbus-broker-launch[466]: Activation request for 'org.freedesktop.nm_dispatcher' failed.
+апр 24 09:08:47 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: Secure display: Generic Failure.
+апр 24 09:08:47 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: SECUREDISPLAY: query securedisplay TA failed. ret 0x0
+апр 24 09:09:00 strangecodder-laptop wpa_supplicant[536]: bgscan simple: Failed to enable signal strength monitoring
+апр 24 09:58:27 strangecodder-laptop wpa_supplicant[536]: bgscan simple: Failed to enable signal strength monitoring
+апр 24 10:03:35 strangecodder-laptop wpa_supplicant[536]: bgscan simple: Failed to enable signal strength monitoring
+апр 24 10:04:12 strangecodder-laptop wpa_supplicant[536]: bgscan simple: Failed to enable signal strength monitoring
+апр 24 10:42:03 strangecodder-laptop wpa_supplicant[536]: bgscan simple: Failed to enable signal strength monitoring
+апр 24 11:25:10 strangecodder-laptop wpa_supplicant[536]: bgscan simple: Failed to enable signal strength monitoring
+апр 24 12:56:32 strangecodder-laptop wpa_supplicant[536]: bgscan simple: Failed to enable signal strength monitoring
+апр 24 13:06:34 strangecodder-laptop wpa_supplicant[536]: bgscan simple: Failed to enable signal strength monitoring
+апр 24 15:46:53 strangecodder-laptop wpa_supplicant[536]: bgscan simple: Failed to enable signal strength monitoring
+апр 24 15:48:25 strangecodder-laptop wpa_supplicant[536]: bgscan simple: Failed to enable signal strength monitoring
+апр 24 15:49:45 strangecodder-laptop wpa_supplicant[536]: bgscan simple: Failed to enable signal strength monitoring
+апр 24 16:29:33 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: Secure display: Generic Failure.
+апр 24 16:29:33 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: SECUREDISPLAY: query securedisplay TA failed. ret 0x0
+апр 24 16:29:53 strangecodder-laptop wpa_supplicant[564]: bgscan simple: Failed to enable signal strength monitoring
+апр 24 16:30:17 strangecodder-laptop wpa_supplicant[564]: bgscan simple: Failed to enable signal strength monitoring
+апр 24 16:31:12 strangecodder-laptop wpa_supplicant[564]: bgscan simple: Failed to enable signal strength monitoring
+апр 24 16:32:04 strangecodder-laptop wpa_supplicant[564]: bgscan simple: Failed to enable signal strength monitoring
+апр 24 16:40:08 strangecodder-laptop pulseaudio[2728]: org.bluez.BatteryProviderManager1.UnregisterBatteryProvider() Failed: org.freedesktop.DBus.Error.NoReply:Remote peer disconnected
+апр 24 16:40:09 strangecodder-laptop pulseaudio[2728]: Error opening PCM device _ucm0003.hw:acp: No such device
+апр 24 16:40:10 strangecodder-laptop dbus-broker-launch[513]: Activation request for 'org.freedesktop.nm_dispatcher' failed.
+апр 25 21:58:28 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: Secure display: Generic Failure.
+апр 25 21:58:28 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: SECUREDISPLAY: query securedisplay TA failed. ret 0x0
+апр 25 21:58:49 strangecodder-laptop systemd[1]: Failed to start Terminate Plymouth Boot Screen.
+апр 25 21:59:08 strangecodder-laptop wpa_supplicant[529]: bgscan simple: Failed to enable signal strength monitoring
+апр 25 22:01:12 strangecodder-laptop pulseaudio[1082]: org.bluez.BatteryProviderManager1.UnregisterBatteryProvider() Failed: org.freedesktop.DBus.Error.NoReply:Remote peer disconnected
+апр 25 22:01:13 strangecodder-laptop pulseaudio[1082]: Error opening PCM device _ucm0003.hw:acp: No such device
+апр 25 22:01:13 strangecodder-laptop pulseaudio[1082]: Error opening PCM device _ucm0003.hw:Generic_1: No such device
+апр 26 09:28:49 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: Secure display: Generic Failure.
+апр 26 09:28:49 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: SECUREDISPLAY: query securedisplay TA failed. ret 0x0
+апр 26 09:29:03 strangecodder-laptop wpa_supplicant[615]: bgscan simple: Failed to enable signal strength monitoring
+апр 26 09:30:18 strangecodder-laptop wpa_supplicant[615]: bgscan simple: Failed to enable signal strength monitoring
+апр 26 09:49:00 strangecodder-laptop wpa_supplicant[615]: bgscan simple: Failed to enable signal strength monitoring
+апр 26 12:02:19 strangecodder-laptop wpa_supplicant[615]: bgscan simple: Failed to enable signal strength monitoring
+апр 26 12:02:58 strangecodder-laptop wpa_supplicant[615]: bgscan simple: Failed to enable signal strength monitoring
+апр 28 10:45:34 strangecodder-laptop wpa_supplicant[615]: bgscan simple: Failed to enable signal strength monitoring
+апр 28 19:05:15 strangecodder-laptop wpa_supplicant[615]: bgscan simple: Failed to enable signal strength monitoring
+апр 28 19:13:15 strangecodder-laptop wpa_supplicant[615]: bgscan simple: Failed to enable signal strength monitoring
+апр 30 10:12:34 strangecodder-laptop wpa_supplicant[615]: bgscan simple: Failed to enable signal strength monitoring
+апр 30 11:34:27 strangecodder-laptop wpa_supplicant[615]: bgscan simple: Failed to enable signal strength monitoring
+апр 30 12:03:24 strangecodder-laptop wpa_supplicant[615]: bgscan simple: Failed to enable signal strength monitoring
+апр 30 12:52:18 strangecodder-laptop wpa_supplicant[615]: bgscan simple: Failed to enable signal strength monitoring
+мар 29 22:13:19 strangecodder-laptop bluetoothd[496]: Failed to clear UUIDs: Failed (0x03)
+мар 29 22:13:19 strangecodder-laptop bluetoothd[496]: src/adapter.c:reset_adv_monitors_complete() Failed to reset Adv Monitors: Failed (0x03)
+мар 29 22:13:19 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: Secure display: Generic Failure.
+мар 29 22:13:19 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: SECUREDISPLAY: query securedisplay TA failed. ret 0x0
+мар 30 10:19:39 strangecodder-laptop wpa_supplicant[553]: bgscan simple: Failed to enable signal strength monitoring
+мар 30 11:00:06 strangecodder-laptop dbus-broker-launch[492]: Activation request for 'org.freedesktop.nm_dispatcher' failed.
+мар 30 11:00:06 strangecodder-laptop pulseaudio[1718]: org.bluez.BatteryProviderManager1.UnregisterBatteryProvider() Failed: org.freedesktop.DBus.Error.NoReply:Remote peer disconnected
+мар 30 18:25:24 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: Secure display: Generic Failure.
+мар 30 18:25:24 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: SECUREDISPLAY: query securedisplay TA failed. ret 0x0
+мар 30 18:25:56 strangecodder-laptop wpa_supplicant[610]: bgscan simple: Failed to enable signal strength monitoring
+мар 30 23:11:40 strangecodder-laptop wpa_supplicant[610]: bgscan simple: Failed to enable signal strength monitoring
+мар 30 23:42:20 strangecodder-laptop pulseaudio[1094]: Assertion 'pa_atomic_load(&(y)->_ref) > 0' failed at ../pulseaudio/src/modules/bluetooth/bluez5-util.c:2207, function pa_bluetooth_discovery_hook(). Aborting.
+мар 30 23:42:20 strangecodder-laptop pulseaudio[1094]: org.bluez.BatteryProviderManager1.UnregisterBatteryProvider() Failed: org.freedesktop.DBus.Error.NoReply:Remote peer disconnected
+мар 30 23:42:22 strangecodder-laptop dbus-broker-launch[484]: Activation request for 'org.freedesktop.nm_dispatcher' failed.
+мар 31 11:06:40 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: Secure display: Generic Failure.
+мар 31 11:06:40 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: SECUREDISPLAY: query securedisplay TA failed. ret 0x0
+мар 31 11:07:01 strangecodder-laptop systemd[1]: Failed to start Terminate Plymouth Boot Screen.
+мар 31 11:07:27 strangecodder-laptop wpa_supplicant[535]: bgscan simple: Failed to enable signal strength monitoring
+мар 31 11:08:12 strangecodder-laptop pulseaudio[1091]: org.bluez.BatteryProviderManager1.UnregisterBatteryProvider() Failed: org.freedesktop.DBus.Error.NoReply:Remote peer disconnected
+мар 31 11:08:36 strangecodder-laptop bluetoothd[508]: Failed to clear UUIDs: Failed (0x03)
+мар 31 11:08:36 strangecodder-laptop bluetoothd[508]: src/adapter.c:reset_adv_monitors_complete() Failed to reset Adv Monitors: Failed (0x03)
+мар 31 11:08:36 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: Secure display: Generic Failure.
+мар 31 11:08:36 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: SECUREDISPLAY: query securedisplay TA failed. ret 0x0
+мар 31 11:08:58 strangecodder-laptop wpa_supplicant[614]: bgscan simple: Failed to enable signal strength monitoring
+мар 31 11:26:02 strangecodder-laptop wpa_supplicant[614]: bgscan simple: Failed to enable signal strength monitoring
+мар 31 12:23:08 strangecodder-laptop wpa_supplicant[614]: bgscan simple: Failed to enable signal strength monitoring
+мар 31 12:55:24 strangecodder-laptop bluetoothd[508]: src/profile.c:record_cb() Unable to get Hands-Free Voice gateway SDP record: Host is down
+мар 31 12:55:35 strangecodder-laptop bluetoothd[508]: src/profile.c:record_cb() Unable to get Hands-Free Voice gateway SDP record: Host is down
+мар 31 17:54:10 strangecodder-laptop kernel: Bluetooth: hci0: ACL packet for unknown connection handle 3837
+мар 31 18:21:03 strangecodder-laptop pulseaudio[1106]: org.bluez.BatteryProviderManager1.UnregisterBatteryProvider() Failed: org.freedesktop.DBus.Error.NoReply:Remote peer disconnected
+мар 31 18:21:05 strangecodder-laptop dbus-broker-launch[504]: Activation request for 'org.freedesktop.nm_dispatcher' failed.
+мая 02 01:44:09 strangecodder-laptop wpa_supplicant[615]: bgscan simple: Failed to enable signal strength monitoring
+мая 02 01:49:13 strangecodder-laptop wpa_supplicant[615]: bgscan simple: Failed to enable signal strength monitoring
+мая 02 01:49:23 strangecodder-laptop wpa_supplicant[615]: bgscan simple: Failed to enable signal strength monitoring
+мая 02 23:44:37 strangecodder-laptop kernel: mt7921e 0000:01:00.0: Message 00020007 (seq 5) timeout
+мая 02 23:44:37 strangecodder-laptop kernel: mt7921e 0000:01:00.0: PM: dpm_run_callback(): pci_pm_restore+0x0/0xe0 returns -110
+мая 02 23:44:37 strangecodder-laptop kernel: mt7921e 0000:01:00.0: PM: failed to restore async: error -110
+мая 02 23:44:37 strangecodder-laptop pulseaudio[1096]: org.bluez.BatteryProviderManager1.UnregisterBatteryProvider() Failed: org.freedesktop.DBus.Error.UnknownObject:Method "UnregisterBatteryProvider" with signature "o" on interface "org.bluez.BatteryProviderManager1" doesn't exist
+мая 02 23:44:40 strangecodder-laptop wpa_supplicant[615]: bgscan simple: Failed to enable signal strength monitoring
+мая 03 00:43:12 strangecodder-laptop wpa_supplicant[615]: bgscan simple: Failed to enable signal strength monitoring
+мая 03 00:45:28 strangecodder-laptop pulseaudio[1096]: org.bluez.BatteryProviderManager1.UnregisterBatteryProvider() Failed: org.freedesktop.DBus.Error.NoReply:Remote peer disconnected
+мая 03 00:45:29 strangecodder-laptop pulseaudio[1096]: Assertion 'pa_atomic_load(&(y)->_ref) > 0' failed at ../pulseaudio/src/modules/bluetooth/bluez5-util.c:2207, function pa_bluetooth_discovery_hook(). Aborting.
+мая 03 00:45:30 strangecodder-laptop dbus-broker-launch[462]: Activation request for 'org.freedesktop.nm_dispatcher' failed.
+мая 03 09:28:16 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: Secure display: Generic Failure.
+мая 03 09:28:16 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: SECUREDISPLAY: query securedisplay TA failed. ret 0x0
+мая 03 09:28:36 strangecodder-laptop systemd[1]: Failed to start Terminate Plymouth Boot Screen.
+мая 03 09:28:47 strangecodder-laptop wpa_supplicant[576]: bgscan simple: Failed to enable signal strength monitoring
+мая 03 09:29:23 strangecodder-laptop wpa_supplicant[576]: bgscan simple: Failed to enable signal strength monitoring
+мая 03 09:29:36 strangecodder-laptop wpa_supplicant[576]: bgscan simple: Failed to enable signal strength monitoring
+мая 03 09:33:38 strangecodder-laptop pulseaudio[1084]: org.bluez.BatteryProviderManager1.UnregisterBatteryProvider() Failed: org.freedesktop.DBus.Error.NoReply:Remote peer disconnected
+мая 03 09:33:39 strangecodder-laptop pulseaudio[1084]: Error opening PCM device _ucm0003.hw:acp: No such device
+мая 03 09:33:39 strangecodder-laptop pulseaudio[1084]: Error opening PCM device _ucm0003.hw:Generic_1: No such device
+мая 03 09:33:40 strangecodder-laptop dbus-broker-launch[468]: Activation request for 'org.freedesktop.nm_dispatcher' failed.
+мая 08 09:16:08 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: Secure display: Generic Failure.
+мая 08 09:16:08 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: SECUREDISPLAY: query securedisplay TA failed. ret 0x0
+мая 08 09:16:29 strangecodder-laptop systemd[1]: Failed to start Terminate Plymouth Boot Screen.
+мая 08 09:17:00 strangecodder-laptop wpa_supplicant[541]: bgscan simple: Failed to enable signal strength monitoring
+мая 08 09:17:44 strangecodder-laptop wpa_supplicant[541]: bgscan simple: Failed to enable signal strength monitoring
+мая 08 09:18:41 strangecodder-laptop wpa_supplicant[541]: bgscan simple: Failed to enable signal strength monitoring
+мая 08 09:19:38 strangecodder-laptop wpa_supplicant[541]: bgscan simple: Failed to enable signal strength monitoring
+мая 08 09:50:27 strangecodder-laptop wpa_supplicant[541]: bgscan simple: Failed to enable signal strength monitoring
+мая 08 10:10:06 strangecodder-laptop bluetoothd[481]: Failed to set mode: Failed (0x03)
+мая 08 10:10:10 strangecodder-laptop wpa_supplicant[541]: bgscan simple: Failed to enable signal strength monitoring
+мая 10 07:47:00 strangecodder-laptop bluetoothd[481]: Failed to set mode: Failed (0x03)
+мая 10 07:47:03 strangecodder-laptop wpa_supplicant[541]: bgscan simple: Failed to enable signal strength monitoring
+мая 10 13:14:49 strangecodder-laptop bluetoothd[481]: Failed to set mode: Failed (0x03)
+мая 10 13:16:30 strangecodder-laptop dbus-broker-launch[476]: Activation request for 'org.freedesktop.nm_dispatcher' failed.
+мая 10 13:16:30 strangecodder-laptop pulseaudio[1089]: Assertion 'pa_atomic_load(&(y)->_ref) > 0' failed at ../pulseaudio/src/modules/bluetooth/bluez5-util.c:2207, function pa_bluetooth_discovery_hook(). Aborting.
+мая 10 13:16:30 strangecodder-laptop pulseaudio[1089]: org.bluez.BatteryProviderManager1.UnregisterBatteryProvider() Failed: org.freedesktop.DBus.Error.NoReply:Remote peer disconnected
+мая 10 13:25:59 strangecodder-laptop bluetoothd[480]: Failed to clear UUIDs: Failed (0x03)
+мая 10 13:25:59 strangecodder-laptop bluetoothd[480]: Failed to set mode: Failed (0x03)
+мая 10 13:25:59 strangecodder-laptop bluetoothd[480]: src/adapter.c:reset_adv_monitors_complete() Failed to reset Adv Monitors: Failed (0x03)
+мая 10 13:25:59 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: Secure display: Generic Failure.
+мая 10 13:25:59 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: SECUREDISPLAY: query securedisplay TA failed. ret 0x0
+мая 10 13:26:20 strangecodder-laptop systemd[1]: Failed to start Terminate Plymouth Boot Screen.
+мая 10 13:26:37 strangecodder-laptop bluetoothd[480]: Failed to set mode: Failed (0x03)
+мая 10 13:30:46 strangecodder-laptop wpa_supplicant[523]: bgscan simple: Failed to enable signal strength monitoring
+мая 10 13:31:12 strangecodder-laptop wpa_supplicant[523]: bgscan simple: Failed to enable signal strength monitoring
+мая 10 16:04:50 strangecodder-laptop bluetoothd[480]: Failed to set mode: Failed (0x03)
+мая 10 16:05:26 strangecodder-laptop bluetoothd[480]: Failed to set mode: Failed (0x03)
+мая 10 16:05:36 strangecodder-laptop kernel: usb usb3-port1: Cannot enable. Maybe the USB cable is bad?
+мая 10 16:05:38 strangecodder-laptop kernel: usb usb3-port1: Cannot enable. Maybe the USB cable is bad?
+мая 10 16:05:39 strangecodder-laptop kernel: usb usb3-port1: Cannot enable. Maybe the USB cable is bad?
+мая 10 16:05:54 strangecodder-laptop kernel: usb 3-1: device not accepting address 10, error -71
+мая 10 16:05:55 strangecodder-laptop kernel: usb usb3-port1: Cannot enable. Maybe the USB cable is bad?
+мая 14 16:28:45 strangecodder-laptop bluetoothd[480]: Failed to set mode: Failed (0x03)
+мая 14 16:28:48 strangecodder-laptop wpa_supplicant[523]: bgscan simple: Failed to enable signal strength monitoring
+мая 14 19:15:16 strangecodder-laptop bluetoothd[480]: Failed to set mode: Failed (0x03)
+мая 14 19:15:19 strangecodder-laptop wpa_supplicant[523]: bgscan simple: Failed to enable signal strength monitoring
