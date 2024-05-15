@@ -9,12 +9,13 @@
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
-   <Label text="Введите путь">
+   <Label text="Введите временной промежуток">
       <font>
          <Font size="18.0" />
       </font>
    </Label>
    <Label />
-   <DatePicker fx:id="datePicker" />
+   <DatePicker fx:id="datePicker1" />
+   <DatePicker fx:id="datePicker2" />
     <Button onAction="#onHelloButtonClick" text="Подтвердить" />
 </VBox>

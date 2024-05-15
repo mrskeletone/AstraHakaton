@@ -12,19 +12,27 @@ import javafx.stage.Stage;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.time.LocalDate;
 
 public class HelloController {
     @FXML
     private Label welcomeText;
     @FXML
-    private DatePicker datePicker;
+    private DatePicker datePicker1;
+    @FXML
+    private DatePicker datePicker2;
 
 
     @FXML
     protected void onHelloButtonClick() throws IOException, InterruptedException {
-         {
+        LocalDate begin =datePicker1.getValue();
+        LocalDate end=datePicker2.getValue();
+        if(end==null)
+            end=LocalDate.now();
+        if(begin!=null){
+            System.out.println(begin);
+            System.out.println(end);
             // активация скрипта
-            System.out.println(datePicker.getEditor());
             FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("allLogs-view.fxml"));
             Scene scene = new Scene(fxmlLoader.load());
             Stage stage=new HelloApplication().getPrimaryStage();
