@@ -34,10 +34,6 @@ public class HelloController {
             try(BufferedReader bufferedReader=new BufferedReader(new FileReader("src/main/java/logFiles/all_types"))){
                 while (bufferedReader.ready()){
                     s.append(bufferedReader.readLine()).append("\n");
-                    i++;
-                    if(i>1000){
-                        break;
-                    }
                 }
             }
             LogsController logsController=fxmlLoader.getController();

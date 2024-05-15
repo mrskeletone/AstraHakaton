@@ -74,10 +74,6 @@ public class LogsController {
         try(BufferedReader bufferedReader=new BufferedReader(new FileReader(path))){
             while (bufferedReader.ready()){
                 s.append(bufferedReader.readLine()).append("\n");
-                i++;
-                if(i>1000){
-                    break;
-                }
             }
         }
         LogsController logsController= fxmlLoader.getController();
