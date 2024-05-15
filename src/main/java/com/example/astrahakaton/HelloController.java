@@ -11,8 +11,12 @@ import javafx.stage.Stage;
 
 import java.io.*;
 import java.time.LocalDate;
+import java.util.Arrays;
+import java.util.List;
 import java.util.concurrent.Executors;
 import java.util.function.Consumer;
+
+
 
 public class HelloController {
 
@@ -29,11 +33,15 @@ public class HelloController {
         if(end==null)
             end=LocalDate.now();
         if(begin!=null){
-            System.out.println(begin.toString());
-            System.out.println(end.toString());
-
             // активация скрипта
-            Runtime.getRuntime().exec(new String[]{"/bin/sh" ,"log_writer_by_date.sh", begin.toString(),end.toString(),"23:59:59"});
+            String [] command = {"bash","src/main/java/scrypt/writer/log_writer_by_date.sh",
+            begin.toString(),end.toString()};
+
+            Process process = Runtime.getRuntime().exec(command);
+
+            process.getInputStream().transferTo(System.out);
+            process.getErrorStream().transferTo(System.out);
+
             //
             FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("allLogs-view.fxml"));
             Scene scene = new Scene(fxmlLoader.load());
@@ -41,7 +49,7 @@ public class HelloController {
             stage.setScene(scene);
             StringBuilder s= new StringBuilder();
             int i=0;
-            try(BufferedReader bufferedReader=new BufferedReader(new FileReader("src/main/java/logFiles/all_types"))){
+            try(BufferedReader bufferedReader=new BufferedReader(new FileReader( "src/main/java/logFiles/all_types"))){
                 while (bufferedReader.ready()){
                     s.append(bufferedReader.readLine()).append("\n");
                 }
@@ -49,8 +57,6 @@ public class HelloController {
             LogsController logsController=fxmlLoader.getController();
             logsController.setTextArea(String.valueOf(s));
         }
-
     }
-
 
 }
