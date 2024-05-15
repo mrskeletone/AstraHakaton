@@ -3,6 +3,7 @@ package com.example.astrahakaton;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.control.DatePicker;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
@@ -16,14 +17,14 @@ public class HelloController {
     @FXML
     private Label welcomeText;
     @FXML
-    private TextField textField;
+    private DatePicker datePicker;
 
 
     @FXML
     protected void onHelloButtonClick() throws IOException, InterruptedException {
-        if (textField.getText() != null && !textField.getText().isEmpty()) {
+         {
             // активация скрипта
-
+            System.out.println(datePicker.getEditor());
             FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("allLogs-view.fxml"));
             Scene scene = new Scene(fxmlLoader.load());
             Stage stage=new HelloApplication().getPrimaryStage();

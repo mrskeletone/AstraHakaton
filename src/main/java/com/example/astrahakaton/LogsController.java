@@ -53,7 +53,7 @@ public class LogsController {
     }
     @FXML
     protected void onClickMenuInfo()throws IOException{
-        onClickMenu("InfoLogs-view.fxml","src/main/java/logFiles/info");
+        onClickMenu("infoLogs-view.fxml","src/main/java/logFiles/info");
     }
     @FXML
     protected void onClickMenuNotice()throws IOException{
