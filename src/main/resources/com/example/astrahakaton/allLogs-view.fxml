@@ -4,7 +4,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.astrahakaton.HelloController">
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="998.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.astrahakaton.LogsController">
   <columnConstraints>
     <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
     <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -22,13 +22,37 @@
       <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
   </rowConstraints>
    <children>
-      <Button mnemonicParsing="false" onAction="#onClickBackButton" prefHeight="40.0" prefWidth="600.0" text="Назад" GridPane.columnSpan="6" GridPane.rowIndex="5" />
-      <Button mnemonicParsing="false" text="Error" GridPane.rowIndex="1" />
-      <Button mnemonicParsing="false" text="Info" GridPane.rowIndex="2" />
-      <Button mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.rowIndex="3" />
-      <TextFlow prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.columnSpan="4" GridPane.rowIndex="1" GridPane.rowSpan="4">
+      <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClickBackButton" prefHeight="36.0" prefWidth="1016.0" text="Назад" GridPane.columnSpan="6" GridPane.rowIndex="5" />
+      <TextFlow prefHeight="200.0" prefWidth="200.0" GridPane.columnSpan="4" GridPane.rowIndex="1" GridPane.rowSpan="4">
          <children>
-            <TextArea fx:id="textArea" editable="false" prefHeight="300.0" prefWidth="406.0" />
+            <TextArea fx:id="textArea" editable="false" prefHeight="700.0" prefWidth="602.0" />
          </children></TextFlow>
+      <MenuBar GridPane.columnSpan="6">
+        <menus>
+          <Menu mnemonicParsing="false" text="Типы логов">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#onClickMenuAlerts" text="Alerts" />
+                <MenuItem mnemonicParsing="false" onAction="#onClickMenuCrit" text="Critical" />
+                <MenuItem mnemonicParsing="false" onAction="#onClickMenuDebug" text="debug" />
+                <MenuItem mnemonicParsing="false" onAction="#onClickMenuEmerg" text="emergency" />
+                <MenuItem mnemonicParsing="false" onAction="#onClickMenuErrors" text="errors" />
+                <MenuItem mnemonicParsing="false" onAction="#onClickMenuInfo" text="info" />
+                <MenuItem mnemonicParsing="false" onAction="#onClickMenuNotice" text="notice" />
+                <MenuItem mnemonicParsing="false" onAction="#onClickMenuWarning" text="warning" />
+
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
    </children>
 </GridPane>

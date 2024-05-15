@@ -17,8 +17,7 @@ public class HelloController {
     private Label welcomeText;
     @FXML
     private TextField textField;
-    @FXML
-    private TextArea textArea;
+
 
     @FXML
     protected void onHelloButtonClick() throws IOException, InterruptedException {
@@ -30,31 +29,21 @@ public class HelloController {
             Stage stage=new HelloApplication().getPrimaryStage();
             stage.setScene(scene);
             StringBuilder s= new StringBuilder();
-            try(BufferedReader bufferedReader=new BufferedReader(new FileReader("C:\\Users\\dever\\IdeaProjects\\AstraHakaton\\logs.txt"))){
+            int i=0;
+            try(BufferedReader bufferedReader=new BufferedReader(new FileReader("src/main/java/logFiles/all_types"))){
                 while (bufferedReader.ready()){
                     s.append(bufferedReader.readLine()).append("\n");
+                    i++;
+                    if(i>1000){
+                        break;
+                    }
                 }
             }
-            textArea.setText(s.toString());
+            LogsController logsController=fxmlLoader.getController();
+            logsController.setTextArea(String.valueOf(s));
         }
 
     }
-    @FXML
-    protected void onClickBackButton() throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("start-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load());
-        Stage stage=new HelloApplication().getPrimaryStage();
-        stage.setScene(scene);
-    }
-    @FXML
-    protected void onClick() throws IOException{
-        StringBuilder s= new StringBuilder();
-        try(BufferedReader bufferedReader=new BufferedReader(new FileReader("C:\\Users\\dever\\IdeaProjects\\AstraHakaton\\logs.txt"))){
-            while (bufferedReader.ready()){
-                s.append(bufferedReader.readLine()).append("\n");
-            }
-        }
-            textArea.setText(s.toString());
-    }
+
 
 }

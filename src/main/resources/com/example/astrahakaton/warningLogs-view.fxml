@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="998.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.astrahakaton.LogsController">
+    <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    </rowConstraints>
+    <children>
+        <Button mnemonicParsing="false" onAction="#onClickBackButton" prefHeight="40.0" prefWidth="600.0" text="Назад" GridPane.columnSpan="6" GridPane.rowIndex="5" />
+
+        <TextFlow prefHeight="200.0" prefWidth="200.0" GridPane.columnSpan="4" GridPane.rowIndex="1" GridPane.rowSpan="4">
+            <children>
+                <TextArea fx:id="textArea" editable="false" prefHeight="700.0" prefWidth="800.0" />
+            </children></TextFlow>
+        <MenuBar GridPane.columnSpan="6">
+            <menus>
+                <Menu mnemonicParsing="false" text="Типы логов">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#onClickMenuAllLogs" text="All logs" />
+                        <MenuItem mnemonicParsing="false" onAction="#onClickMenuAlerts" text="Alerts" />
+                        <MenuItem mnemonicParsing="false" onAction="#onClickMenuCrit" text="Critical" />
+                        <MenuItem mnemonicParsing="false" onAction="#onClickMenuEmerg" text="emergency" />
+                        <MenuItem mnemonicParsing="false" onAction="#onClickMenuDebug" text="debug" />
+                        <MenuItem mnemonicParsing="false" onAction="#onClickMenuInfo" text="info" />
+                        <MenuItem mnemonicParsing="false" onAction="#onClickMenuNotice" text="notice" />
+                        <MenuItem mnemonicParsing="false" onAction="#onClickMenuErrors" text="errors" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Edit">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Delete" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="About" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </children>
+</GridPane>
