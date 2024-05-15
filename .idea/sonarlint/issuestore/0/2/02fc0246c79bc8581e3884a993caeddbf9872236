@@ -1,0 +1,17 @@
+
+¿
+java:S1130"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(Š¾ºîùÿÿÿÿ8‚®ì÷1J$b6af083d-86ee-4b67-b384-a3db8d7434f0
+m	java:S106 "+Replace this use of System.out by a logger.(³ŸÎ¤8ã’ÿë÷1J$daa83aa6-ff10-4877-a50e-51526bcbe011
+l	java:S106!"+Replace this use of System.out by a logger.(‘˜ìj8ä’ÿë÷1J$6be50926-d4ac-428b-922b-b79ddcd9d789
+n
+java:S1481+"&Remove this unused "i" local variable.(ùó›Ìøÿÿÿÿ8ö’ÿë÷1J$79134d5c-6598-4785-a37b-cfdb2f8b830f
+
+java:S1128"7Remove this unused import 'javafx.scene.control.Label'.(ö²­ÿÿÿÿÿ8 ‚®ì÷1J$c753aec4-3215-481d-91d7-bec3cd289da7
+}
+java:S1128":Remove this unused import 'javafx.scene.control.TextArea'.(ö ¸8 ‚®ì÷1J$2c0f1dc3-a393-4af6-ad3f-51d3d90a7aa0
+~
+java:S1128	";Remove this unused import 'javafx.scene.control.TextField'.(¨¢¤¶8 ‚®ì÷1J$5cfeee1a-fcb2-4980-821f-08aa42ba2413
+ƒ
+java:S1128";Remove this unused import 'java.util.concurrent.Executors'.(äåÒÛÿÿÿÿÿ8¡‚®ì÷1J$6850833a-c8e5-497f-b157-364444776fda
+€
+java:S1128"8Remove this unused import 'java.util.function.Consumer'.(Ì†ƒÔùÿÿÿÿ8¡‚®ì÷1J$12e0f51e-2388-486f-8a44-47200564d95a
