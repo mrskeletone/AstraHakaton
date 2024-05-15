@@ -1,4 +1,0 @@
-                                                        
-                                                        Available platform plugins are: eglfs, linuxfb, minimal, minimalegl, offscreen, vnc, wayland-egl, wayland, wayland-xcomposite-egl, wayland-xcomposite-glx, xcb.
--- No entries --
-апр 15 22:16:08 strangecodder-laptop kwin_x11[1990]: This application failed to start because no Qt platform plugin could be initialized. Reinstalling the application may fix this problem.
