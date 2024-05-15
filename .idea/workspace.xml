@@ -4,7 +4,52 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e1b6a8c-a3bd-434f-b03d-8d1355c56343" name="Changes" comment="выбор даты">
+    <list default="true" id="3e1b6a8c-a3bd-434f-b03d-8d1355c56343" name="Changes" comment="скрипт">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/2/02fc0246c79bc8581e3884a993caeddbf9872236" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/3/13d98eb5d956558a0c369d5eb30f8e2c68166d37" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/c/1c89a5491fbfda3fb050196d6a239f20200296e7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/d/1dd35c026cb6ba796cb4cee814165d6493551a7f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/f/1f1763f358c257ea3515417352b82b0165647ad1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/9/290d95b3426ed10b3511e774368aafad49b123ca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/c/2c0bdb0cbf162c5c1b56208b6013fe6da3570f19" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/32e074f71d16c1e88ac02aa83592ca6ad1fd98a8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3cfe53688d14d9ff20cbe0500d99dd60404b7614" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/423b982634cf3673c6b650fbecb5fc25b8142e39" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/c/5c703289da9a340f00323da086f1fb06c6f9ba3e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/d/5d837c4ed85ecaaf932c506e80ff5d7b9f3d590d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6fd44edfb36ac55b865bd64f64353970b7c5375d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/b/8b2ba6f4a6b9cf4714f26a1a7d3486ba93dddf25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/97dd93c1f8237689931316d80bd9bea6f31b327b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/be9a72c70a313a9651cda0b344e5f68f47b59484" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/5/d526e26a86f0c506691fabf4cc8156eaf3ea74ea" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/5/e5fabc382a48b826a6d477129f73071147829cfa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f987c1c03490bd69204b391ab8f97e9d033271e0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/2/02fc0246c79bc8581e3884a993caeddbf9872236" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/3/13d98eb5d956558a0c369d5eb30f8e2c68166d37" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/c/1c89a5491fbfda3fb050196d6a239f20200296e7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/d/1dd35c026cb6ba796cb4cee814165d6493551a7f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/f/1f1763f358c257ea3515417352b82b0165647ad1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/9/290d95b3426ed10b3511e774368aafad49b123ca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/c/2c0bdb0cbf162c5c1b56208b6013fe6da3570f19" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/2/32e074f71d16c1e88ac02aa83592ca6ad1fd98a8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/c/3cfe53688d14d9ff20cbe0500d99dd60404b7614" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/2/423b982634cf3673c6b650fbecb5fc25b8142e39" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/c/5c703289da9a340f00323da086f1fb06c6f9ba3e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/d/5d837c4ed85ecaaf932c506e80ff5d7b9f3d590d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/f/6fd44edfb36ac55b865bd64f64353970b7c5375d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/b/8b2ba6f4a6b9cf4714f26a1a7d3486ba93dddf25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/7/97dd93c1f8237689931316d80bd9bea6f31b327b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/e/be9a72c70a313a9651cda0b344e5f68f47b59484" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/5/d526e26a86f0c506691fabf4cc8156eaf3ea74ea" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/5/e5fabc382a48b826a6d477129f73071147829cfa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/9/f987c1c03490bd69204b391ab8f97e9d033271e0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/astrahakaton/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/astrahakaton/HelloController.java" afterDir="false" />
     </list>
@@ -38,21 +83,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Develop&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/dever/IdeaProjects/AstraHakaton/src/main/java/com/example/astrahakaton&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "Develop",
+    "last_directory_selection": "C:/Users/dever/IdeaProjects/AstraHakaton/src/main/java/com/example/astrahakaton",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.astrahakaton" />
@@ -71,7 +117,7 @@
       <workItem from="1715627927142" duration="1069000" />
       <workItem from="1715769802956" duration="1576000" />
       <workItem from="1715771390936" duration="6472000" />
-      <workItem from="1715795831618" duration="1685000" />
+      <workItem from="1715795831618" duration="2488000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
@@ -129,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715776940741</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="скрипт">
+      <option name="closed" value="true" />
+      <created>1715797570054</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1715797570054</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +195,7 @@
     <MESSAGE value="change" />
     <MESSAGE value="Переключение между типами логов" />
     <MESSAGE value="выбор даты" />
-    <option name="LAST_COMMIT_MESSAGE" value="выбор даты" />
+    <MESSAGE value="скрипт" />
+    <option name="LAST_COMMIT_MESSAGE" value="скрипт" />
   </component>
 </project>

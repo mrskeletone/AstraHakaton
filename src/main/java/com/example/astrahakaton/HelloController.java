@@ -15,8 +15,7 @@ import java.util.concurrent.Executors;
 import java.util.function.Consumer;
 
 public class HelloController {
-    @FXML
-    private Label welcomeText;
+
     @FXML
     private DatePicker datePicker1;
     @FXML
@@ -30,18 +29,11 @@ public class HelloController {
         if(end==null)
             end=LocalDate.now();
         if(begin!=null){
-            System.out.println(begin);
-            System.out.println(end);
+            System.out.println(begin.toString());
+            System.out.println(end.toString());
 
             // активация скрипта
-            Process process;
-            process = Runtime.getRuntime()
-                    .exec(String.format("sh log_writer_by_date.sh %s %s 23:59:59",begin,end ));
-            StreamGobbler streamGobbler =
-                    new StreamGobbler(process.getInputStream(), System.out::println);
-            Executors.newSingleThreadExecutor().submit(streamGobbler);
-            int exitCode = process.waitFor();
-            assert exitCode == 0;
+            Runtime.getRuntime().exec(new String[]{"/bin/sh" ,"log_writer_by_date.sh", begin.toString(),end.toString(),"23:59:59"});
             //
             FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("allLogs-view.fxml"));
             Scene scene = new Scene(fxmlLoader.load());
@@ -59,20 +51,6 @@ public class HelloController {
         }
 
     }
-    private static class StreamGobbler implements Runnable {
-        private InputStream inputStream;
-        private Consumer<String> consumer;
 
-        public StreamGobbler(InputStream inputStream, Consumer<String> consumer) {
-            this.inputStream = inputStream;
-            this.consumer = consumer;
-        }
-
-        @Override
-        public void run() {
-            new BufferedReader(new InputStreamReader(inputStream)).lines()
-                    .forEach(consumer);
-        }
-    }
 
 }
