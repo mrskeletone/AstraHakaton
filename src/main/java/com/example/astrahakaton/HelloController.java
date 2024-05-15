@@ -9,10 +9,10 @@ import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.time.LocalDate;
+import java.util.concurrent.Executors;
+import java.util.function.Consumer;
 
 public class HelloController {
     @FXML
@@ -32,7 +32,17 @@ public class HelloController {
         if(begin!=null){
             System.out.println(begin);
             System.out.println(end);
+
             // активация скрипта
+            Process process;
+            process = Runtime.getRuntime()
+                    .exec(String.format("sh log_writer_by_date.sh %s %s 23:59:59",begin,end ));
+            StreamGobbler streamGobbler =
+                    new StreamGobbler(process.getInputStream(), System.out::println);
+            Executors.newSingleThreadExecutor().submit(streamGobbler);
+            int exitCode = process.waitFor();
+            assert exitCode == 0;
+            //
             FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("allLogs-view.fxml"));
             Scene scene = new Scene(fxmlLoader.load());
             Stage stage=new HelloApplication().getPrimaryStage();
@@ -49,6 +59,20 @@ public class HelloController {
         }
 
     }
+    private static class StreamGobbler implements Runnable {
+        private InputStream inputStream;
+        private Consumer<String> consumer;
 
+        public StreamGobbler(InputStream inputStream, Consumer<String> consumer) {
+            this.inputStream = inputStream;
+            this.consumer = consumer;
+        }
+
+        @Override
+        public void run() {
+            new BufferedReader(new InputStreamReader(inputStream)).lines()
+                    .forEach(consumer);
+        }
+    }
 
 }
