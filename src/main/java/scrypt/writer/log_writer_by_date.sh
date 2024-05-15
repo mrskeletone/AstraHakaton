@@ -1,11 +1,11 @@
 #!/bin/bash
 
 #Создаём буффер для логов и выводим сообщение о его создании
-touch ../logFiles/buffer
+touch ../../logFiles/buffer
 
 #Очищение файлов
-echo -n > ../logFiles/emergency
-echo -n > ../logFiles/alerts
+echo -n > ../../logFiles/emergency
+echo -n > ../../logFiles/alerts
 echo -n > ../logFiles/critical
 echo -n > ../logFiles/errors
 echo -n > ../logFiles/warning
@@ -13,7 +13,9 @@ echo -n > ../logFiles/notice
 echo -n > ../logFiles/info
 echo -n > ../logFiles/debug
 
-#Заполнение файлов уникальными элементами (0-7)
+journalctl -p 7 > ../logFiles/all_types
+
+#Заполнение файлов уникальными элементами (0-6)
 journalctl -p 0 > ../logFiles/emergency
 
 journalctl -p 1 > ../logFiles/buffer
@@ -42,7 +44,3 @@ echo -n > ../logFiles/buffer
 journalctl -p 7 > ../logFiles/buffer
 cat ../logFiles/buffer ../logFiles/info |sort |uniq -u >> ../logFiles/debug
 rm ../logFiles/buffer
-
-journalctl -p 7 > ../logFiles/all_types
-
-
