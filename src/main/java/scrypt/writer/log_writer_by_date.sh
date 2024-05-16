@@ -12,46 +12,46 @@ time="23:59:59"
 endDate+="$time"
 
 #Создаём буффер для логов и выводим сообщение о его создании
-touch ../../logFiles/buffer
+touch src/main/java/logFiles/buffer
 
 #Очищение файлов
-echo -n > ../../logFiles/emergency
-echo -n > ../../logFiles/alerts
-echo -n > ../../logFiles/critical
-echo -n > ../../logFiles/errors
-echo -n > ../../logFiles/warning
-echo -n > ../../logFiles/notice
-echo -n > ../../logFiles/info
-echo -n > ../../logFiles/debug
+echo -n > src/main/java/logFiles/emergency
+echo -n > src/main/java/logFiles/alerts
+echo -n > src/main/java/logFiles/critical
+echo -n > src/main/java/logFiles/errors
+echo -n > src/main/java/logFiles/warning
+echo -n > src/main/java/logFiles/notice
+echo -n > src/main/java/logFiles/info
+echo -n > src/main/java/logFiles/debug
 
-journalctl -p 7 --since=$startDate --until=$endDate> ../../logFiles/all_types
+journalctl -p 7 --since=$startDate --until=$endDate> src/main/java/logFiles/all_types
 
 #Заполнение файлов уникальными элементами (0-6)
-journalctl -p 0 --since=$startDate --until=$endDate> ../../logFiles/emergency
+journalctl -p 0 --since=$startDate --until=$endDate> src/main/java/logFiles/emergency
 
-journalctl -p 1 --since=$startDate --until=$endDate> ../../logFiles/buffer
-cat ../../logFiles/buffer ../../logFiles/emergency |sort |uniq -u >> ../../logFiles/alerts
-echo -n > ../../logFiles/buffer
+journalctl -p 1 --since=$startDate --until=$endDate> src/main/java/logFiles/buffer
+cat src/main/java/logFiles/buffer src/main/java/logFiles/emergency |sort |uniq -u >> src/main/java/logFiles/alerts
+echo -n > src/main/java/logFiles/buffer
 
-journalctl -p 2 --since=$startDate --until=$endDate> ../../logFiles/buffer
-cat ../../logFiles/buffer ../../logFiles/alerts |sort |uniq -u >> ../../logFiles/critical
-echo -n > ../../logFiles/buffer
+journalctl -p 2 --since=$startDate --until=$endDate> src/main/java/logFiles/buffer
+cat src/main/java/logFiles/buffer src/main/java/logFiles/alerts |sort |uniq -u >> src/main/java/logFiles/critical
+echo -n > src/main/java/logFiles/buffer
 
-journalctl -p 3 --since=$startDate --until=$endDate> ../../logFiles/buffer
-cat ../../logFiles/buffer ../../logFiles/critical |sort |uniq -u >> ../../logFiles/errors
-echo -n > ../../logFiles/buffer
+journalctl -p 3 --since=$startDate --until=$endDate> src/main/java/logFiles/buffer
+cat src/main/java/logFiles/buffer src/main/java/logFiles/critical |sort |uniq -u >> src/main/java/logFiles/errors
+echo -n > src/main/java/logFiles/buffer
 
-journalctl -p 4 --since=$startDate --until=$endDate> ../../logFiles/buffer
-cat ../../logFiles/buffer ../../logFiles/errors |sort |uniq -u >> ../../logFiles/warning
-echo -n > ../../logFiles/buffer
+journalctl -p 4 --since=$startDate --until=$endDate> src/main/java/logFiles/buffer
+cat src/main/java/logFiles/buffer src/main/java/logFiles/errors |sort |uniq -u >> src/main/java/logFiles/warning
+echo -n > src/main/java/logFiles/buffer
 
-journalctl -p 5 --since=$startDate --until=$endDate> ../../logFiles/buffer
-cat ../../logFiles/buffer ../../logFiles/warning |sort |uniq -u >> ../../logFiles/notice
-echo -n > ../../logFiles/buffer
-journalctl -p 6 --since=$startDate --until=$endDate> ../../logFiles/buffer
-cat ../../logFiles/buffer ../../logFiles/notice |sort |uniq -u >> ../../logFiles/info
-echo -n > ../../logFiles/buffer
+journalctl -p 5 --since=$startDate --until=$endDate> src/main/java/logFiles/buffer
+cat src/main/java/logFiles/buffer src/main/java/logFiles/warning |sort |uniq -u >> src/main/java/logFiles/notice
+echo -n > src/main/java/logFiles/buffer
+journalctl -p 6 --since=$startDate --until=$endDate> src/main/java/logFiles/buffer
+cat src/main/java/logFiles/buffer src/main/java/logFiles/notice |sort |uniq -u >> src/main/java/logFiles/info
+echo -n > src/main/java/logFiles/buffer
 
-journalctl -p 7 --since=$startDate --until=$endDate> ../../logFiles/buffer
-cat ../../logFiles/buffer ../../logFiles/info |sort |uniq -u >> ../../logFiles/debug
-rm ../../logFiles/buffer
+journalctl -p 7 --since=$startDate --until=$endDate> src/main/java/logFiles/buffer
+cat src/main/java/logFiles/buffer src/main/java/logFiles/info |sort |uniq -u >> src/main/java/logFiles/debug
+rm src/main/java/logFiles/buffer
