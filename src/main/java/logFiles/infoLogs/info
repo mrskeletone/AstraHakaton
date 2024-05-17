@@ -1,0 +1,772 @@
+мая 02 01:44:03 strangecodder-laptop bluetoothd[469]: Controller resume with wake event 0x0
+мая 02 01:44:03 strangecodder-laptop kdeconnectd[1053]: Error sending UDP packet: QAbstractSocket::NetworkError
+мая 02 01:44:03 strangecodder-laptop kernel: ACPI: EC: interrupt blocked
+мая 02 01:44:03 strangecodder-laptop kernel: ACPI: EC: interrupt unblocked
+мая 02 01:44:03 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: dpm has been disabled
+мая 02 01:44:03 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring comp_1.0.0 uses VM inv eng 5 on hub 0
+мая 02 01:44:03 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring comp_1.0.1 uses VM inv eng 9 on hub 0
+мая 02 01:44:03 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring comp_1.1.0 uses VM inv eng 6 on hub 0
+мая 02 01:44:03 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring comp_1.1.1 uses VM inv eng 10 on hub 0
+мая 02 01:44:03 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring comp_1.2.0 uses VM inv eng 7 on hub 0
+мая 02 01:44:03 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring comp_1.2.1 uses VM inv eng 11 on hub 0
+мая 02 01:44:03 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring comp_1.3.0 uses VM inv eng 8 on hub 0
+мая 02 01:44:03 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring comp_1.3.1 uses VM inv eng 12 on hub 0
+мая 02 01:44:03 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring gfx_high uses VM inv eng 4 on hub 0
+мая 02 01:44:03 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring gfx_low uses VM inv eng 1 on hub 0
+мая 02 01:44:03 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring gfx uses VM inv eng 0 on hub 0
+мая 02 01:44:03 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring jpeg_dec uses VM inv eng 6 on hub 8
+мая 02 01:44:03 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring kiq_0.2.1.0 uses VM inv eng 13 on hub 0
+мая 02 01:44:03 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring sdma0 uses VM inv eng 0 on hub 8
+мая 02 01:44:03 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring vcn_dec uses VM inv eng 1 on hub 8
+мая 02 01:44:03 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring vcn_enc0 uses VM inv eng 4 on hub 8
+мая 02 01:44:03 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring vcn_enc1 uses VM inv eng 5 on hub 8
+мая 02 01:44:03 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: SMU is resumed successfully!
+мая 02 01:44:03 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: SMU is resuming...
+мая 02 01:44:03 strangecodder-laptop kernel: ata1: SATA link down (SStatus 0 SControl 300)
+мая 02 01:44:03 strangecodder-laptop kernel: ata2: SATA link down (SStatus 0 SControl 300)
+мая 02 01:44:03 strangecodder-laptop kernel: [drm] Alt mode has timed out after 202 ms
+мая 02 01:44:03 strangecodder-laptop kernel: [drm] JPEG decode initialized successfully.
+мая 02 01:44:03 strangecodder-laptop kernel: [drm] PCIE GART of 1024M enabled.
+мая 02 01:44:03 strangecodder-laptop kernel: [drm] PTB located at 0x000000F41FC00000
+мая 02 01:44:03 strangecodder-laptop kernel: [drm] VCN decode and encode initialized successfully(under DPG Mode).
+мая 02 01:44:03 strangecodder-laptop kernel: Filesystems sync: 0.008 seconds
+мая 02 01:44:03 strangecodder-laptop kernel: Freezing remaining freezable tasks
+мая 02 01:44:03 strangecodder-laptop kernel: Freezing remaining freezable tasks completed (elapsed 0.001 seconds)
+мая 02 01:44:03 strangecodder-laptop kernel: Freezing user space processes
+мая 02 01:44:03 strangecodder-laptop kernel: Freezing user space processes completed (elapsed 0.003 seconds)
+мая 02 01:44:03 strangecodder-laptop kernel: nvme nvme0: 8/0/0 default/read/poll queues
+мая 02 01:44:03 strangecodder-laptop kernel: OOM killer disabled.
+мая 02 01:44:03 strangecodder-laptop kernel: OOM killer enabled.
+мая 02 01:44:03 strangecodder-laptop kernel: pci 0000:00:00.2: can't derive routing for PCI INT A
+мая 02 01:44:03 strangecodder-laptop kernel: pci 0000:00:00.2: PCI INT A: no GSI
+мая 02 01:44:03 strangecodder-laptop kernel: PM: suspend entry (s2idle)
+мая 02 01:44:03 strangecodder-laptop kernel: PM: suspend exit
+мая 02 01:44:03 strangecodder-laptop kernel: printk: Suspending console(s) (use no_console_suspend to debug)
+мая 02 01:44:03 strangecodder-laptop kernel: queueing ieee80211 work while going to suspend
+мая 02 01:44:03 strangecodder-laptop kernel: Restarting tasks ... done.
+мая 02 01:44:03 strangecodder-laptop NetworkManager[465]: <info>  [1714603443.3968] manager: sleep: wake requested (sleeping: yes  enabled: yes)
+мая 02 01:44:03 strangecodder-laptop NetworkManager[465]: <info>  [1714603443.3969] device (wlp1s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+мая 02 01:44:03 strangecodder-laptop NetworkManager[465]: <info>  [1714603443.4598] device (wlp1s0): set-hw-addr: set MAC address to 7A:6E:8F:18:1A:C6 (scanning)
+мая 02 01:44:03 strangecodder-laptop NetworkManager[465]: <info>  [1714603443.5054] device (p2p-dev-wlp1s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+мая 02 01:44:03 strangecodder-laptop NetworkManager[465]: <info>  [1714603443.5066] manager: NetworkManager state is now DISCONNECTED
+мая 02 01:44:03 strangecodder-laptop NetworkManager[465]: <info>  [1714603443.5577] manager: sleep: sleep requested (sleeping: no  enabled: yes)
+мая 02 01:44:03 strangecodder-laptop NetworkManager[465]: <info>  [1714603443.5580] device (wlp1s0): state change: unavailable -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+мая 02 01:44:03 strangecodder-laptop NetworkManager[465]: <info>  [1714603443.6153] device (wlp1s0): set-hw-addr: reset MAC address to 74:4C:A1:7D:3A:3F (unmanage)
+мая 02 01:44:03 strangecodder-laptop NetworkManager[465]: <info>  [1714603443.6611] device (p2p-dev-wlp1s0): state change: unavailable -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+мая 02 01:44:03 strangecodder-laptop NetworkManager[465]: <info>  [1714603443.6615] manager: NetworkManager state is now ASLEEP
+мая 02 01:44:03 strangecodder-laptop plasmashell[11228]: [11223:11250:0502/014403.559234:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -331
+мая 02 01:44:03 strangecodder-laptop plasmashell[11228]: [11295:11310:0502/014403.558698:ERROR:ssl_client_socket_impl.cc(970)] handshake failed; returned -1, SSL error code 1, net_error -331
+мая 02 01:44:03 strangecodder-laptop systemd[1]: Finished System Suspend.
+мая 02 01:44:03 strangecodder-laptop systemd[1]: Reached target Sleep.
+мая 02 01:44:03 strangecodder-laptop systemd[1]: Reached target Suspend.
+мая 02 01:44:03 strangecodder-laptop systemd[1]: Rotate log files was skipped because of an unmet condition check (ConditionACPower=true).
+мая 02 01:44:03 strangecodder-laptop systemd[1]: shadow.service: Deactivated successfully.
+мая 02 01:44:03 strangecodder-laptop systemd[1]: Started dbus-:1.1-org.kde.powerdevil.backlighthelper@10.service.
+мая 02 01:44:03 strangecodder-laptop systemd[1]: Started Verify integrity of password and group files.
+мая 02 01:44:03 strangecodder-laptop systemd[1]: Starting System Suspend...
+мая 02 01:44:03 strangecodder-laptop systemd[1]: Stopped target Sleep.
+мая 02 01:44:03 strangecodder-laptop systemd[1]: Stopped target Suspend.
+мая 02 01:44:03 strangecodder-laptop systemd[1]: systemd-suspend.service: Deactivated successfully.
+мая 02 01:44:03 strangecodder-laptop systemd-logind[473]: Operation 'suspend' finished.
+мая 02 01:44:03 strangecodder-laptop systemd-sleep[16914]: System returned from sleep operation 'suspend'.
+мая 02 01:44:03 strangecodder-laptop systemd-sleep[17090]: Performing sleep operation 'suspend'...
+мая 02 01:44:07 strangecodder-laptop bluetoothd[469]: Controller resume with wake event 0x0
+мая 02 01:44:07 strangecodder-laptop kdeconnectd[1053]: Error sending UDP packet: QAbstractSocket::NetworkError
+мая 02 01:44:07 strangecodder-laptop kernel: ACPI: EC: interrupt blocked
+мая 02 01:44:07 strangecodder-laptop kernel: ACPI: EC: interrupt unblocked
+мая 02 01:44:07 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: dpm has been disabled
+мая 02 01:44:07 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring comp_1.0.0 uses VM inv eng 5 on hub 0
+мая 02 01:44:07 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring comp_1.0.1 uses VM inv eng 9 on hub 0
+мая 02 01:44:07 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring comp_1.1.0 uses VM inv eng 6 on hub 0
+мая 02 01:44:07 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring comp_1.1.1 uses VM inv eng 10 on hub 0
+мая 02 01:44:07 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring comp_1.2.0 uses VM inv eng 7 on hub 0
+мая 02 01:44:07 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring comp_1.2.1 uses VM inv eng 11 on hub 0
+мая 02 01:44:07 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring comp_1.3.0 uses VM inv eng 8 on hub 0
+мая 02 01:44:07 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring comp_1.3.1 uses VM inv eng 12 on hub 0
+мая 02 01:44:07 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring gfx_high uses VM inv eng 4 on hub 0
+мая 02 01:44:07 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring gfx_low uses VM inv eng 1 on hub 0
+мая 02 01:44:07 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring gfx uses VM inv eng 0 on hub 0
+мая 02 01:44:07 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring jpeg_dec uses VM inv eng 6 on hub 8
+мая 02 01:44:07 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring kiq_0.2.1.0 uses VM inv eng 13 on hub 0
+мая 02 01:44:07 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring sdma0 uses VM inv eng 0 on hub 8
+мая 02 01:44:07 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring vcn_dec uses VM inv eng 1 on hub 8
+мая 02 01:44:07 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring vcn_enc0 uses VM inv eng 4 on hub 8
+мая 02 01:44:07 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring vcn_enc1 uses VM inv eng 5 on hub 8
+мая 02 01:44:07 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: SMU is resumed successfully!
+мая 02 01:44:07 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: SMU is resuming...
+мая 02 01:44:07 strangecodder-laptop kernel: ata1: SATA link down (SStatus 0 SControl 300)
+мая 02 01:44:07 strangecodder-laptop kernel: ata2: SATA link down (SStatus 0 SControl 300)
+мая 02 01:44:07 strangecodder-laptop kernel: [drm] Alt mode has timed out after 202 ms
+мая 02 01:44:07 strangecodder-laptop kernel: [drm] JPEG decode initialized successfully.
+мая 02 01:44:07 strangecodder-laptop kernel: [drm] PCIE GART of 1024M enabled.
+мая 02 01:44:07 strangecodder-laptop kernel: [drm] PTB located at 0x000000F41FC00000
+мая 02 01:44:07 strangecodder-laptop kernel: [drm] VCN decode and encode initialized successfully(under DPG Mode).
+мая 02 01:44:07 strangecodder-laptop kernel: Freezing remaining freezable tasks
+мая 02 01:44:07 strangecodder-laptop kernel: Freezing remaining freezable tasks completed (elapsed 0.001 seconds)
+мая 02 01:44:07 strangecodder-laptop kernel: Freezing user space processes
+мая 02 01:44:07 strangecodder-laptop kernel: Freezing user space processes completed (elapsed 0.009 seconds)
+мая 02 01:44:07 strangecodder-laptop kernel: nvme nvme0: 8/0/0 default/read/poll queues
+мая 02 01:44:07 strangecodder-laptop kernel: OOM killer disabled.
+мая 02 01:44:07 strangecodder-laptop kernel: OOM killer enabled.
+мая 02 01:44:07 strangecodder-laptop kernel: pci 0000:00:00.2: can't derive routing for PCI INT A
+мая 02 01:44:07 strangecodder-laptop kernel: pci 0000:00:00.2: PCI INT A: no GSI
+мая 02 01:44:07 strangecodder-laptop kernel: PM: suspend exit
+мая 02 01:44:07 strangecodder-laptop kernel: printk: Suspending console(s) (use no_console_suspend to debug)
+мая 02 01:44:07 strangecodder-laptop kernel: Restarting tasks ... done.
+мая 02 01:44:07 strangecodder-laptop NetworkManager[465]: <info>  [1714603447.3919] manager: sleep: wake requested (sleeping: yes  enabled: yes)
+мая 02 01:44:07 strangecodder-laptop NetworkManager[465]: <info>  [1714603447.3920] device (wlp1s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+мая 02 01:44:07 strangecodder-laptop NetworkManager[465]: <info>  [1714603447.3932] device (p2p-dev-wlp1s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+мая 02 01:44:07 strangecodder-laptop NetworkManager[465]: <info>  [1714603447.3935] manager: NetworkManager state is now DISCONNECTED
+мая 02 01:44:07 strangecodder-laptop NetworkManager[465]: <info>  [1714603447.4436] device (p2p-dev-wlp1s0): state change: unavailable -> unmanaged (reason 'removed', sys-iface-state: 'removed')
+мая 02 01:44:07 strangecodder-laptop NetworkManager[465]: <info>  [1714603447.4436] device (wlp1s0): supplicant interface state: internal-starting -> disconnected
+мая 02 01:44:07 strangecodder-laptop NetworkManager[465]: <info>  [1714603447.4442] Wi-Fi P2P device controlled by interface wlp1s0 created
+мая 02 01:44:07 strangecodder-laptop NetworkManager[465]: <info>  [1714603447.4444] manager: (p2p-dev-wlp1s0): new 802.11 Wi-Fi P2P device (/org/freedesktop/NetworkManager/Devices/11)
+мая 02 01:44:07 strangecodder-laptop NetworkManager[465]: <info>  [1714603447.4445] device (p2p-dev-wlp1s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+мая 02 01:44:07 strangecodder-laptop NetworkManager[465]: <info>  [1714603447.4450] device (wlp1s0): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+мая 02 01:44:07 strangecodder-laptop NetworkManager[465]: <info>  [1714603447.4455] device (p2p-dev-wlp1s0): state change: unavailable -> disconnected (reason 'none', sys-iface-state: 'managed')
+мая 02 01:44:07 strangecodder-laptop plasmashell[11228]: [11223:11250:0502/014407.519927:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+мая 02 01:44:07 strangecodder-laptop systemd[1]: Finished System Suspend.
+мая 02 01:44:07 strangecodder-laptop systemd[1]: Reached target Suspend.
+мая 02 01:44:07 strangecodder-laptop systemd[1]: Stopped target Sleep.
+мая 02 01:44:07 strangecodder-laptop systemd[1]: Stopped target Suspend.
+мая 02 01:44:07 strangecodder-laptop systemd[1]: systemd-suspend.service: Deactivated successfully.
+мая 02 01:44:07 strangecodder-laptop systemd-logind[473]: Operation 'suspend' finished.
+мая 02 01:44:07 strangecodder-laptop systemd-sleep[17090]: System returned from sleep operation 'suspend'.
+мая 02 01:44:09 strangecodder-laptop kdeconnectd[1053]: "Object does not exist at path “/org/freedesktop/NetworkManager/ActiveConnection/2”"
+мая 02 01:44:09 strangecodder-laptop kded5[798]: kf.networkmanagerqt: void NetworkManager::ConnectionPrivate::onPropertiesChanged(const QVariantMap&) Unhandled property "VersionId"
+мая 02 01:44:09 strangecodder-laptop kded5[798]: "Object does not exist at path “/org/freedesktop/NetworkManager/ActiveConnection/2”"
+мая 02 01:44:09 strangecodder-laptop kernel: wlp1s0: associated
+мая 02 01:44:09 strangecodder-laptop kernel: wlp1s0: associate with 78:81:02:a0:e0:99 (try 1/3)
+мая 02 01:44:09 strangecodder-laptop kernel: wlp1s0: authenticated
+мая 02 01:44:09 strangecodder-laptop kernel: wlp1s0: authenticate with 78:81:02:a0:e0:99
+мая 02 01:44:09 strangecodder-laptop kernel: wlp1s0: RX AssocResp from 78:81:02:a0:e0:99 (capab=0x411 status=0 aid=1)
+мая 02 01:44:09 strangecodder-laptop kernel: wlp1s0: send auth to 78:81:02:a0:e0:99 (try 1/3)
+мая 02 01:44:09 strangecodder-laptop kernel: wlp1s0: VHT capa missing/short, disabling VHT/HE/EHT
+мая 02 01:44:09 strangecodder-laptop NetworkManager[465]: <info>  [1714603449.7782] policy: auto-activating connection 'Kv45_5G' (08459d47-310c-46c6-b3a2-2ee72d533639)
+мая 02 01:44:09 strangecodder-laptop NetworkManager[465]: <info>  [1714603449.7786] device (wlp1s0): Activation: starting connection 'Kv45_5G' (08459d47-310c-46c6-b3a2-2ee72d533639)
+мая 02 01:44:09 strangecodder-laptop NetworkManager[465]: <info>  [1714603449.7786] device (wlp1s0): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+мая 02 01:44:09 strangecodder-laptop NetworkManager[465]: <info>  [1714603449.7788] manager: NetworkManager state is now CONNECTING
+мая 02 01:44:09 strangecodder-laptop NetworkManager[465]: <info>  [1714603449.7791] device (wlp1s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+мая 02 01:44:09 strangecodder-laptop NetworkManager[465]: <info>  [1714603449.7795] device (wlp1s0): Activation: (wifi) access point 'Kv45_5G' has security, but secrets are required.
+мая 02 01:44:09 strangecodder-laptop NetworkManager[465]: <info>  [1714603449.7795] device (wlp1s0): state change: config -> need-auth (reason 'none', sys-iface-state: 'managed')
+мая 02 01:44:09 strangecodder-laptop NetworkManager[465]: <info>  [1714603449.7941] device (wlp1s0): state change: need-auth -> prepare (reason 'none', sys-iface-state: 'managed')
+мая 02 01:44:09 strangecodder-laptop NetworkManager[465]: <info>  [1714603449.7944] device (wlp1s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+мая 02 01:44:09 strangecodder-laptop NetworkManager[465]: <info>  [1714603449.7948] device (wlp1s0): Activation: (wifi) connection 'Kv45_5G' has security, and secrets exist.  No new secrets needed.
+мая 02 01:44:09 strangecodder-laptop NetworkManager[465]: <info>  [1714603449.7949] Config: added 'auth_alg' value 'OPEN'
+мая 02 01:44:09 strangecodder-laptop NetworkManager[465]: <info>  [1714603449.7949] Config: added 'bgscan' value 'simple:30:-70:86400'
+мая 02 01:44:09 strangecodder-laptop NetworkManager[465]: <info>  [1714603449.7949] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK SAE FT-SAE'
+мая 02 01:44:09 strangecodder-laptop NetworkManager[465]: <info>  [1714603449.7949] Config: added 'psk' value '<hidden>'
+мая 02 01:44:09 strangecodder-laptop NetworkManager[465]: <info>  [1714603449.7949] Config: added 'scan_ssid' value '1'
+мая 02 01:44:09 strangecodder-laptop NetworkManager[465]: <info>  [1714603449.7949] Config: added 'ssid' value 'Kv45_5G'
+мая 02 01:44:09 strangecodder-laptop NetworkManager[465]: <info>  [1714603449.8370] device (p2p-dev-wlp1s0): supplicant management interface state: disconnected -> authenticating
+мая 02 01:44:09 strangecodder-laptop NetworkManager[465]: <info>  [1714603449.8370] device (wlp1s0): supplicant interface state: disconnected -> authenticating
+мая 02 01:44:09 strangecodder-laptop NetworkManager[465]: <info>  [1714603449.8392] device (wlp1s0): supplicant interface state: authenticating -> associating
+мая 02 01:44:09 strangecodder-laptop NetworkManager[465]: <info>  [1714603449.8393] device (p2p-dev-wlp1s0): supplicant management interface state: authenticating -> associating
+мая 02 01:44:09 strangecodder-laptop NetworkManager[465]: <info>  [1714603449.9725] device (wlp1s0): supplicant interface state: associating -> completed
+мая 02 01:44:09 strangecodder-laptop NetworkManager[465]: <info>  [1714603449.9726] device (p2p-dev-wlp1s0): supplicant management interface state: associating -> completed
+мая 02 01:44:09 strangecodder-laptop NetworkManager[465]: <info>  [1714603449.9726] device (wlp1s0): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "Kv45_5G"
+мая 02 01:44:09 strangecodder-laptop NetworkManager[465]: <info>  [1714603449.9735] device (wlp1s0): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+мая 02 01:44:09 strangecodder-laptop NetworkManager[465]: <info>  [1714603449.9741] dhcp4 (wlp1s0): activation: beginning transaction (timeout in 45 seconds)
+мая 02 01:44:09 strangecodder-laptop plasmashell[872]: kf.networkmanagerqt: void NetworkManager::ConnectionPrivate::onPropertiesChanged(const QVariantMap&) Unhandled property "VersionId"
+мая 02 01:44:09 strangecodder-laptop plasmashell[872]: "Object does not exist at path “/org/freedesktop/NetworkManager/ActiveConnection/7”"
+мая 02 01:44:11 strangecodder-laptop NetworkManager[465]: <info>  [1714603451.0838] dhcp4 (wlp1s0): state changed new lease, address=192.168.1.66, acd pending
+мая 02 01:44:11 strangecodder-laptop NetworkManager[465]: <info>  [1714603451.2496] dhcp4 (wlp1s0): state changed new lease, address=192.168.1.66
+мая 02 01:44:11 strangecodder-laptop NetworkManager[465]: <info>  [1714603451.2503] policy: set 'Kv45_5G' (wlp1s0) as default for IPv4 routing and DNS
+мая 02 01:44:11 strangecodder-laptop NetworkManager[465]: <info>  [1714603451.2707] device (wlp1s0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+мая 02 01:44:11 strangecodder-laptop NetworkManager[465]: <info>  [1714603451.2744] device (wlp1s0): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+мая 02 01:44:11 strangecodder-laptop NetworkManager[465]: <info>  [1714603451.2745] device (wlp1s0): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+мая 02 01:44:11 strangecodder-laptop NetworkManager[465]: <info>  [1714603451.2749] manager: NetworkManager state is now CONNECTED_SITE
+мая 02 01:44:11 strangecodder-laptop NetworkManager[465]: <info>  [1714603451.2791] device (wlp1s0): Activation: successful, device activated.
+мая 02 01:44:12 strangecodder-laptop NetworkManager[465]: <info>  [1714603452.4001] manager: NetworkManager state is now CONNECTED_GLOBAL
+мая 02 01:44:15 strangecodder-laptop systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+мая 02 01:44:16 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@10.service: Deactivated successfully.
+мая 02 01:45:07 strangecodder-laptop systemd[1]: Started dbus-:1.1-org.kde.powerdevil.backlighthelper@11.service.
+мая 02 01:45:17 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@11.service: Deactivated successfully.
+мая 02 01:49:07 strangecodder-laptop kded5[798]: org.kde.plasma.nm.kded: Unhandled active connection state change:  3
+мая 02 01:49:07 strangecodder-laptop kernel: wlp1s0: deauthenticating from 78:81:02:a0:e0:99 by local choice (Reason: 3=DEAUTH_LEAVING)
+мая 02 01:49:07 strangecodder-laptop NetworkManager[465]: <info>  [1714603747.4219] manager: sleep: sleep requested (sleeping: no  enabled: yes)
+мая 02 01:49:07 strangecodder-laptop NetworkManager[465]: <info>  [1714603747.4221] device (p2p-dev-wlp1s0): state change: disconnected -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+мая 02 01:49:07 strangecodder-laptop NetworkManager[465]: <info>  [1714603747.4228] manager: NetworkManager state is now ASLEEP
+мая 02 01:49:07 strangecodder-laptop NetworkManager[465]: <info>  [1714603747.4230] device (wlp1s0): state change: activated -> deactivating (reason 'sleeping', sys-iface-state: 'managed')
+мая 02 01:49:07 strangecodder-laptop NetworkManager[465]: <info>  [1714603747.7474] device (wlp1s0): supplicant interface state: completed -> disconnected
+мая 02 01:49:07 strangecodder-laptop NetworkManager[465]: <info>  [1714603747.7478] device (wlp1s0): state change: deactivating -> disconnected (reason 'sleeping', sys-iface-state: 'managed')
+мая 02 01:49:07 strangecodder-laptop NetworkManager[465]: <info>  [1714603747.7482] dhcp4 (wlp1s0): canceled DHCP transaction
+мая 02 01:49:07 strangecodder-laptop NetworkManager[465]: <info>  [1714603747.7483] dhcp4 (wlp1s0): activation: beginning transaction (timeout in 45 seconds)
+мая 02 01:49:07 strangecodder-laptop NetworkManager[465]: <info>  [1714603747.7483] dhcp4 (wlp1s0): state changed no lease
+мая 02 01:49:07 strangecodder-laptop NetworkManager[465]: <info>  [1714603747.7981] device (wlp1s0): set-hw-addr: set MAC address to 86:11:67:21:DD:8F (scanning)
+мая 02 01:49:07 strangecodder-laptop NetworkManager[465]: <info>  [1714603747.9281] device (wlp1s0): supplicant interface state: disconnected -> interface_disabled
+мая 02 01:49:07 strangecodder-laptop NetworkManager[465]: <info>  [1714603747.9281] device (wlp1s0): supplicant interface state: interface_disabled -> disconnected
+мая 02 01:49:07 strangecodder-laptop NetworkManager[465]: <info>  [1714603747.9285] device (wlp1s0): state change: disconnected -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+мая 02 01:49:07 strangecodder-laptop NetworkManager[465]: <info>  [1714603747.9913] device (wlp1s0): set-hw-addr: reset MAC address to 74:4C:A1:7D:3A:3F (unmanage)
+мая 02 01:49:07 strangecodder-laptop plasmashell[11228]: [11223:11250:0502/014907.425732:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+мая 02 01:49:07 strangecodder-laptop systemd[1]: Started Network Manager Script Dispatcher Service.
+мая 02 01:49:07 strangecodder-laptop systemd[1]: Starting Network Manager Script Dispatcher Service...
+мая 02 01:49:08 strangecodder-laptop kernel: Filesystems sync: 0.009 seconds
+мая 02 01:49:08 strangecodder-laptop kernel: PM: suspend entry (s2idle)
+мая 02 01:49:08 strangecodder-laptop systemd[1]: Reached target Sleep.
+мая 02 01:49:08 strangecodder-laptop systemd[1]: Starting System Suspend...
+мая 02 01:49:08 strangecodder-laptop systemd-sleep[17595]: Performing sleep operation 'suspend'...
+мая 02 01:49:11 strangecodder-laptop bluetoothd[469]: Controller resume with wake event 0x0
+мая 02 01:49:11 strangecodder-laptop kdeconnectd[1053]: Error sending UDP packet: QAbstractSocket::NetworkError
+мая 02 01:49:11 strangecodder-laptop kernel: ACPI: EC: interrupt blocked
+мая 02 01:49:11 strangecodder-laptop kernel: ACPI: EC: interrupt unblocked
+мая 02 01:49:11 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: dpm has been disabled
+мая 02 01:49:11 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring comp_1.0.0 uses VM inv eng 5 on hub 0
+мая 02 01:49:11 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring comp_1.0.1 uses VM inv eng 9 on hub 0
+мая 02 01:49:11 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring comp_1.1.0 uses VM inv eng 6 on hub 0
+мая 02 01:49:11 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring comp_1.1.1 uses VM inv eng 10 on hub 0
+мая 02 01:49:11 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring comp_1.2.0 uses VM inv eng 7 on hub 0
+мая 02 01:49:11 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring comp_1.2.1 uses VM inv eng 11 on hub 0
+мая 02 01:49:11 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring comp_1.3.0 uses VM inv eng 8 on hub 0
+мая 02 01:49:11 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring comp_1.3.1 uses VM inv eng 12 on hub 0
+мая 02 01:49:11 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring gfx_high uses VM inv eng 4 on hub 0
+мая 02 01:49:11 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring gfx_low uses VM inv eng 1 on hub 0
+мая 02 01:49:11 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring gfx uses VM inv eng 0 on hub 0
+мая 02 01:49:11 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring jpeg_dec uses VM inv eng 6 on hub 8
+мая 02 01:49:11 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring kiq_0.2.1.0 uses VM inv eng 13 on hub 0
+мая 02 01:49:11 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring sdma0 uses VM inv eng 0 on hub 8
+мая 02 01:49:11 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring vcn_dec uses VM inv eng 1 on hub 8
+мая 02 01:49:11 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring vcn_enc0 uses VM inv eng 4 on hub 8
+мая 02 01:49:11 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring vcn_enc1 uses VM inv eng 5 on hub 8
+мая 02 01:49:11 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: SMU is resumed successfully!
+мая 02 01:49:11 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: SMU is resuming...
+мая 02 01:49:11 strangecodder-laptop kernel: ata1: SATA link down (SStatus 0 SControl 300)
+мая 02 01:49:11 strangecodder-laptop kernel: ata2: SATA link down (SStatus 0 SControl 300)
+мая 02 01:49:11 strangecodder-laptop kernel: [drm] Alt mode has timed out after 202 ms
+мая 02 01:49:11 strangecodder-laptop kernel: [drm] JPEG decode initialized successfully.
+мая 02 01:49:11 strangecodder-laptop kernel: [drm] PCIE GART of 1024M enabled.
+мая 02 01:49:11 strangecodder-laptop kernel: [drm] PTB located at 0x000000F41FC00000
+мая 02 01:49:11 strangecodder-laptop kernel: [drm] VCN decode and encode initialized successfully(under DPG Mode).
+мая 02 01:49:11 strangecodder-laptop kernel: Freezing remaining freezable tasks
+мая 02 01:49:11 strangecodder-laptop kernel: Freezing remaining freezable tasks completed (elapsed 0.001 seconds)
+мая 02 01:49:11 strangecodder-laptop kernel: Freezing user space processes
+мая 02 01:49:11 strangecodder-laptop kernel: Freezing user space processes completed (elapsed 0.003 seconds)
+мая 02 01:49:11 strangecodder-laptop kernel: nvme nvme0: 8/0/0 default/read/poll queues
+мая 02 01:49:11 strangecodder-laptop kernel: OOM killer disabled.
+мая 02 01:49:11 strangecodder-laptop kernel: OOM killer enabled.
+мая 02 01:49:11 strangecodder-laptop kernel: pci 0000:00:00.2: can't derive routing for PCI INT A
+мая 02 01:49:11 strangecodder-laptop kernel: pci 0000:00:00.2: PCI INT A: no GSI
+мая 02 01:49:11 strangecodder-laptop kernel: PM: suspend exit
+мая 02 01:49:11 strangecodder-laptop kernel: printk: Suspending console(s) (use no_console_suspend to debug)
+мая 02 01:49:11 strangecodder-laptop kernel: queueing ieee80211 work while going to suspend
+мая 02 01:49:11 strangecodder-laptop kernel: Restarting tasks ... done.
+мая 02 01:49:11 strangecodder-laptop NetworkManager[465]: <info>  [1714603751.3623] manager: sleep: wake requested (sleeping: yes  enabled: yes)
+мая 02 01:49:11 strangecodder-laptop NetworkManager[465]: <info>  [1714603751.3626] device (wlp1s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+мая 02 01:49:11 strangecodder-laptop NetworkManager[465]: <info>  [1714603751.3643] device (p2p-dev-wlp1s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+мая 02 01:49:11 strangecodder-laptop NetworkManager[465]: <info>  [1714603751.3645] manager: NetworkManager state is now DISCONNECTED
+мая 02 01:49:11 strangecodder-laptop NetworkManager[465]: <info>  [1714603751.4219] device (wlp1s0): supplicant interface state: internal-starting -> disconnected
+мая 02 01:49:11 strangecodder-laptop NetworkManager[465]: <info>  [1714603751.4220] device (p2p-dev-wlp1s0): state change: unavailable -> unmanaged (reason 'removed', sys-iface-state: 'removed')
+мая 02 01:49:11 strangecodder-laptop NetworkManager[465]: <info>  [1714603751.4224] Wi-Fi P2P device controlled by interface wlp1s0 created
+мая 02 01:49:11 strangecodder-laptop NetworkManager[465]: <info>  [1714603751.4227] manager: (p2p-dev-wlp1s0): new 802.11 Wi-Fi P2P device (/org/freedesktop/NetworkManager/Devices/12)
+мая 02 01:49:11 strangecodder-laptop NetworkManager[465]: <info>  [1714603751.4228] device (p2p-dev-wlp1s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+мая 02 01:49:11 strangecodder-laptop NetworkManager[465]: <info>  [1714603751.4232] device (wlp1s0): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+мая 02 01:49:11 strangecodder-laptop NetworkManager[465]: <info>  [1714603751.4237] device (p2p-dev-wlp1s0): state change: unavailable -> disconnected (reason 'none', sys-iface-state: 'managed')
+мая 02 01:49:11 strangecodder-laptop systemd[1]: Finished System Suspend.
+мая 02 01:49:11 strangecodder-laptop systemd[1]: Reached target Suspend.
+мая 02 01:49:11 strangecodder-laptop systemd[1]: Started dbus-:1.1-org.kde.powerdevil.backlighthelper@12.service.
+мая 02 01:49:11 strangecodder-laptop systemd[1]: Stopped target Sleep.
+мая 02 01:49:11 strangecodder-laptop systemd[1]: Stopped target Suspend.
+мая 02 01:49:11 strangecodder-laptop systemd[1]: systemd-suspend.service: Deactivated successfully.
+мая 02 01:49:11 strangecodder-laptop systemd-logind[473]: Operation 'suspend' finished.
+мая 02 01:49:11 strangecodder-laptop systemd-sleep[17595]: System returned from sleep operation 'suspend'.
+мая 02 01:49:12 strangecodder-laptop plasmashell[11228]: [11223:11250:0502/014912.485021:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+мая 02 01:49:13 strangecodder-laptop kdeconnectd[1053]: "Object does not exist at path “/org/freedesktop/NetworkManager/ActiveConnection/2”"
+мая 02 01:49:13 strangecodder-laptop kded5[798]: kf.networkmanagerqt: void NetworkManager::ConnectionPrivate::onPropertiesChanged(const QVariantMap&) Unhandled property "VersionId"
+мая 02 01:49:13 strangecodder-laptop kded5[798]: "Object does not exist at path “/org/freedesktop/NetworkManager/ActiveConnection/2”"
+мая 02 01:49:13 strangecodder-laptop kernel: wlp1s0: associated
+мая 02 01:49:13 strangecodder-laptop kernel: wlp1s0: associate with 78:81:02:a0:e0:99 (try 1/3)
+мая 02 01:49:13 strangecodder-laptop kernel: wlp1s0: authenticated
+мая 02 01:49:13 strangecodder-laptop kernel: wlp1s0: authenticate with 78:81:02:a0:e0:99
+мая 02 01:49:13 strangecodder-laptop kernel: wlp1s0: RX AssocResp from 78:81:02:a0:e0:99 (capab=0x411 status=0 aid=1)
+мая 02 01:49:13 strangecodder-laptop kernel: wlp1s0: send auth to 78:81:02:a0:e0:99 (try 1/3)
+мая 02 01:49:13 strangecodder-laptop kernel: wlp1s0: VHT capa missing/short, disabling VHT/HE/EHT
+мая 02 01:49:13 strangecodder-laptop NetworkManager[465]: <info>  [1714603753.7138] policy: auto-activating connection 'Kv45_5G' (08459d47-310c-46c6-b3a2-2ee72d533639)
+мая 02 01:49:13 strangecodder-laptop NetworkManager[465]: <info>  [1714603753.7142] device (wlp1s0): Activation: starting connection 'Kv45_5G' (08459d47-310c-46c6-b3a2-2ee72d533639)
+мая 02 01:49:13 strangecodder-laptop NetworkManager[465]: <info>  [1714603753.7143] device (wlp1s0): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+мая 02 01:49:13 strangecodder-laptop NetworkManager[465]: <info>  [1714603753.7145] manager: NetworkManager state is now CONNECTING
+мая 02 01:49:13 strangecodder-laptop NetworkManager[465]: <info>  [1714603753.7147] device (wlp1s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+мая 02 01:49:13 strangecodder-laptop NetworkManager[465]: <info>  [1714603753.7150] device (wlp1s0): Activation: (wifi) access point 'Kv45_5G' has security, but secrets are required.
+мая 02 01:49:13 strangecodder-laptop NetworkManager[465]: <info>  [1714603753.7151] device (wlp1s0): state change: config -> need-auth (reason 'none', sys-iface-state: 'managed')
+мая 02 01:49:13 strangecodder-laptop NetworkManager[465]: <info>  [1714603753.7309] device (wlp1s0): state change: need-auth -> prepare (reason 'none', sys-iface-state: 'managed')
+мая 02 01:49:13 strangecodder-laptop NetworkManager[465]: <info>  [1714603753.7311] device (wlp1s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+мая 02 01:49:13 strangecodder-laptop NetworkManager[465]: <info>  [1714603753.7314] device (wlp1s0): Activation: (wifi) connection 'Kv45_5G' has security, and secrets exist.  No new secrets needed.
+мая 02 01:49:13 strangecodder-laptop NetworkManager[465]: <info>  [1714603753.7315] Config: added 'auth_alg' value 'OPEN'
+мая 02 01:49:13 strangecodder-laptop NetworkManager[465]: <info>  [1714603753.7315] Config: added 'bgscan' value 'simple:30:-70:86400'
+мая 02 01:49:13 strangecodder-laptop NetworkManager[465]: <info>  [1714603753.7315] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK SAE FT-SAE'
+мая 02 01:49:13 strangecodder-laptop NetworkManager[465]: <info>  [1714603753.7315] Config: added 'psk' value '<hidden>'
+мая 02 01:49:13 strangecodder-laptop NetworkManager[465]: <info>  [1714603753.7315] Config: added 'scan_ssid' value '1'
+мая 02 01:49:13 strangecodder-laptop NetworkManager[465]: <info>  [1714603753.7315] Config: added 'ssid' value 'Kv45_5G'
+мая 02 01:49:13 strangecodder-laptop NetworkManager[465]: <info>  [1714603753.7721] device (p2p-dev-wlp1s0): supplicant management interface state: disconnected -> authenticating
+мая 02 01:49:13 strangecodder-laptop NetworkManager[465]: <info>  [1714603753.7721] device (wlp1s0): supplicant interface state: disconnected -> authenticating
+мая 02 01:49:13 strangecodder-laptop NetworkManager[465]: <info>  [1714603753.7743] device (wlp1s0): supplicant interface state: authenticating -> associating
+мая 02 01:49:13 strangecodder-laptop NetworkManager[465]: <info>  [1714603753.7744] device (p2p-dev-wlp1s0): supplicant management interface state: authenticating -> associating
+мая 02 01:49:13 strangecodder-laptop NetworkManager[465]: <info>  [1714603753.9068] device (wlp1s0): supplicant interface state: associating -> completed
+мая 02 01:49:13 strangecodder-laptop NetworkManager[465]: <info>  [1714603753.9069] device (p2p-dev-wlp1s0): supplicant management interface state: associating -> completed
+мая 02 01:49:13 strangecodder-laptop NetworkManager[465]: <info>  [1714603753.9069] device (wlp1s0): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "Kv45_5G"
+мая 02 01:49:13 strangecodder-laptop NetworkManager[465]: <info>  [1714603753.9086] device (wlp1s0): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+мая 02 01:49:13 strangecodder-laptop NetworkManager[465]: <info>  [1714603753.9090] dhcp4 (wlp1s0): activation: beginning transaction (timeout in 45 seconds)
+мая 02 01:49:13 strangecodder-laptop plasmashell[872]: kf.networkmanagerqt: void NetworkManager::ConnectionPrivate::onPropertiesChanged(const QVariantMap&) Unhandled property "VersionId"
+мая 02 01:49:13 strangecodder-laptop plasmashell[872]: "Object does not exist at path “/org/freedesktop/NetworkManager/ActiveConnection/7”"
+мая 02 01:49:15 strangecodder-laptop NetworkManager[465]: <info>  [1714603755.0284] dhcp4 (wlp1s0): state changed new lease, address=192.168.1.66, acd pending
+мая 02 01:49:15 strangecodder-laptop NetworkManager[465]: <info>  [1714603755.2576] dhcp4 (wlp1s0): state changed new lease, address=192.168.1.66
+мая 02 01:49:15 strangecodder-laptop NetworkManager[465]: <info>  [1714603755.2583] policy: set 'Kv45_5G' (wlp1s0) as default for IPv4 routing and DNS
+мая 02 01:49:15 strangecodder-laptop NetworkManager[465]: <info>  [1714603755.2802] device (wlp1s0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+мая 02 01:49:15 strangecodder-laptop NetworkManager[465]: <info>  [1714603755.2839] device (wlp1s0): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+мая 02 01:49:15 strangecodder-laptop NetworkManager[465]: <info>  [1714603755.2840] device (wlp1s0): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+мая 02 01:49:15 strangecodder-laptop NetworkManager[465]: <info>  [1714603755.2843] manager: NetworkManager state is now CONNECTED_SITE
+мая 02 01:49:15 strangecodder-laptop NetworkManager[465]: <info>  [1714603755.2850] device (wlp1s0): Activation: successful, device activated.
+мая 02 01:49:15 strangecodder-laptop NetworkManager[465]: <info>  [1714603755.3793] manager: NetworkManager state is now CONNECTED_GLOBAL
+мая 02 01:49:16 strangecodder-laptop kded5[798]: org.kde.plasma.nm.kded: Unhandled active connection state change:  3
+мая 02 01:49:16 strangecodder-laptop kernel: wlp1s0: deauthenticating from 78:81:02:a0:e0:99 by local choice (Reason: 3=DEAUTH_LEAVING)
+мая 02 01:49:16 strangecodder-laptop NetworkManager[465]: <info>  [1714603756.6826] manager: sleep: sleep requested (sleeping: no  enabled: yes)
+мая 02 01:49:16 strangecodder-laptop NetworkManager[465]: <info>  [1714603756.6828] device (p2p-dev-wlp1s0): state change: disconnected -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+мая 02 01:49:16 strangecodder-laptop NetworkManager[465]: <info>  [1714603756.6833] manager: NetworkManager state is now ASLEEP
+мая 02 01:49:16 strangecodder-laptop NetworkManager[465]: <info>  [1714603756.6836] device (wlp1s0): state change: activated -> deactivating (reason 'sleeping', sys-iface-state: 'managed')
+мая 02 01:49:16 strangecodder-laptop NetworkManager[465]: <info>  [1714603756.9315] device (wlp1s0): supplicant interface state: completed -> disconnected
+мая 02 01:49:16 strangecodder-laptop NetworkManager[465]: <info>  [1714603756.9317] device (wlp1s0): state change: deactivating -> disconnected (reason 'sleeping', sys-iface-state: 'managed')
+мая 02 01:49:16 strangecodder-laptop NetworkManager[465]: <info>  [1714603756.9507] dhcp4 (wlp1s0): canceled DHCP transaction
+мая 02 01:49:16 strangecodder-laptop NetworkManager[465]: <info>  [1714603756.9508] dhcp4 (wlp1s0): activation: beginning transaction (timeout in 45 seconds)
+мая 02 01:49:16 strangecodder-laptop NetworkManager[465]: <info>  [1714603756.9508] dhcp4 (wlp1s0): state changed no lease
+мая 02 01:49:16 strangecodder-laptop NetworkManager[465]: <info>  [1714603756.9931] device (wlp1s0): set-hw-addr: set MAC address to CE:23:0B:76:23:28 (scanning)
+мая 02 01:49:17 strangecodder-laptop kernel: Filesystems sync: 0.011 seconds
+мая 02 01:49:17 strangecodder-laptop kernel: PM: suspend entry (s2idle)
+мая 02 01:49:17 strangecodder-laptop NetworkManager[465]: <info>  [1714603757.1461] device (wlp1s0): supplicant interface state: disconnected -> interface_disabled
+мая 02 01:49:17 strangecodder-laptop NetworkManager[465]: <info>  [1714603757.1462] device (wlp1s0): supplicant interface state: interface_disabled -> disconnected
+мая 02 01:49:17 strangecodder-laptop NetworkManager[465]: <info>  [1714603757.1466] device (wlp1s0): state change: disconnected -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+мая 02 01:49:17 strangecodder-laptop NetworkManager[465]: <info>  [1714603757.2225] device (wlp1s0): set-hw-addr: reset MAC address to 74:4C:A1:7D:3A:3F (unmanage)
+мая 02 01:49:17 strangecodder-laptop systemd[1]: Reached target Sleep.
+мая 02 01:49:17 strangecodder-laptop systemd[1]: Starting System Suspend...
+мая 02 01:49:17 strangecodder-laptop systemd-sleep[17847]: Performing sleep operation 'suspend'...
+мая 02 01:49:20 strangecodder-laptop bluetoothd[469]: Controller resume with wake event 0x0
+мая 02 01:49:20 strangecodder-laptop kdeconnectd[1053]: Error sending UDP packet: QAbstractSocket::NetworkError
+мая 02 01:49:20 strangecodder-laptop kernel: ACPI: EC: interrupt blocked
+мая 02 01:49:20 strangecodder-laptop kernel: ACPI: EC: interrupt unblocked
+мая 02 01:49:20 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: dpm has been disabled
+мая 02 01:49:20 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring comp_1.0.0 uses VM inv eng 5 on hub 0
+мая 02 01:49:20 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring comp_1.0.1 uses VM inv eng 9 on hub 0
+мая 02 01:49:20 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring comp_1.1.0 uses VM inv eng 6 on hub 0
+мая 02 01:49:20 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring comp_1.1.1 uses VM inv eng 10 on hub 0
+мая 02 01:49:20 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring comp_1.2.0 uses VM inv eng 7 on hub 0
+мая 02 01:49:20 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring comp_1.2.1 uses VM inv eng 11 on hub 0
+мая 02 01:49:20 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring comp_1.3.0 uses VM inv eng 8 on hub 0
+мая 02 01:49:20 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring comp_1.3.1 uses VM inv eng 12 on hub 0
+мая 02 01:49:20 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring gfx_high uses VM inv eng 4 on hub 0
+мая 02 01:49:20 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring gfx_low uses VM inv eng 1 on hub 0
+мая 02 01:49:20 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring gfx uses VM inv eng 0 on hub 0
+мая 02 01:49:20 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring jpeg_dec uses VM inv eng 6 on hub 8
+мая 02 01:49:20 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring kiq_0.2.1.0 uses VM inv eng 13 on hub 0
+мая 02 01:49:20 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring sdma0 uses VM inv eng 0 on hub 8
+мая 02 01:49:20 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring vcn_dec uses VM inv eng 1 on hub 8
+мая 02 01:49:20 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring vcn_enc0 uses VM inv eng 4 on hub 8
+мая 02 01:49:20 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring vcn_enc1 uses VM inv eng 5 on hub 8
+мая 02 01:49:20 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: SMU is resumed successfully!
+мая 02 01:49:20 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: SMU is resuming...
+мая 02 01:49:20 strangecodder-laptop kernel: ata1: SATA link down (SStatus 0 SControl 300)
+мая 02 01:49:20 strangecodder-laptop kernel: ata2: SATA link down (SStatus 0 SControl 300)
+мая 02 01:49:20 strangecodder-laptop kernel: [drm] Alt mode has timed out after 202 ms
+мая 02 01:49:20 strangecodder-laptop kernel: [drm] JPEG decode initialized successfully.
+мая 02 01:49:20 strangecodder-laptop kernel: [drm] PCIE GART of 1024M enabled.
+мая 02 01:49:20 strangecodder-laptop kernel: [drm] PTB located at 0x000000F41FC00000
+мая 02 01:49:20 strangecodder-laptop kernel: [drm] VCN decode and encode initialized successfully(under DPG Mode).
+мая 02 01:49:20 strangecodder-laptop kernel: Freezing remaining freezable tasks
+мая 02 01:49:20 strangecodder-laptop kernel: Freezing remaining freezable tasks completed (elapsed 0.001 seconds)
+мая 02 01:49:20 strangecodder-laptop kernel: Freezing user space processes
+мая 02 01:49:20 strangecodder-laptop kernel: Freezing user space processes completed (elapsed 0.003 seconds)
+мая 02 01:49:20 strangecodder-laptop kernel: nvme nvme0: 8/0/0 default/read/poll queues
+мая 02 01:49:20 strangecodder-laptop kernel: OOM killer disabled.
+мая 02 01:49:20 strangecodder-laptop kernel: OOM killer enabled.
+мая 02 01:49:20 strangecodder-laptop kernel: pci 0000:00:00.2: can't derive routing for PCI INT A
+мая 02 01:49:20 strangecodder-laptop kernel: pci 0000:00:00.2: PCI INT A: no GSI
+мая 02 01:49:20 strangecodder-laptop kernel: PM: suspend exit
+мая 02 01:49:20 strangecodder-laptop kernel: printk: Suspending console(s) (use no_console_suspend to debug)
+мая 02 01:49:20 strangecodder-laptop kernel: queueing ieee80211 work while going to suspend
+мая 02 01:49:20 strangecodder-laptop kernel: Restarting tasks ... done.
+мая 02 01:49:20 strangecodder-laptop NetworkManager[465]: <info>  [1714603760.3986] manager: sleep: wake requested (sleeping: yes  enabled: yes)
+мая 02 01:49:20 strangecodder-laptop NetworkManager[465]: <info>  [1714603760.3987] device (wlp1s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+мая 02 01:49:20 strangecodder-laptop NetworkManager[465]: <info>  [1714603760.3997] device (p2p-dev-wlp1s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+мая 02 01:49:20 strangecodder-laptop NetworkManager[465]: <info>  [1714603760.3999] manager: NetworkManager state is now DISCONNECTED
+мая 02 01:49:20 strangecodder-laptop NetworkManager[465]: <info>  [1714603760.4517] device (wlp1s0): supplicant interface state: internal-starting -> disconnected
+мая 02 01:49:20 strangecodder-laptop NetworkManager[465]: <info>  [1714603760.4518] device (p2p-dev-wlp1s0): state change: unavailable -> unmanaged (reason 'removed', sys-iface-state: 'removed')
+мая 02 01:49:20 strangecodder-laptop NetworkManager[465]: <info>  [1714603760.4525] Wi-Fi P2P device controlled by interface wlp1s0 created
+мая 02 01:49:20 strangecodder-laptop NetworkManager[465]: <info>  [1714603760.4527] manager: (p2p-dev-wlp1s0): new 802.11 Wi-Fi P2P device (/org/freedesktop/NetworkManager/Devices/13)
+мая 02 01:49:20 strangecodder-laptop NetworkManager[465]: <info>  [1714603760.4529] device (p2p-dev-wlp1s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+мая 02 01:49:20 strangecodder-laptop NetworkManager[465]: <info>  [1714603760.4534] device (wlp1s0): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+мая 02 01:49:20 strangecodder-laptop NetworkManager[465]: <info>  [1714603760.4539] device (p2p-dev-wlp1s0): state change: unavailable -> disconnected (reason 'none', sys-iface-state: 'managed')
+мая 02 01:49:20 strangecodder-laptop systemd[1]: Daily man-db regeneration was skipped because of an unmet condition check (ConditionACPower=true).
+мая 02 01:49:20 strangecodder-laptop systemd[1]: Finished System Suspend.
+мая 02 01:49:20 strangecodder-laptop systemd[1]: Reached target Suspend.
+мая 02 01:49:20 strangecodder-laptop systemd[1]: Stopped target Sleep.
+мая 02 01:49:20 strangecodder-laptop systemd[1]: Stopped target Suspend.
+мая 02 01:49:20 strangecodder-laptop systemd[1]: systemd-suspend.service: Deactivated successfully.
+мая 02 01:49:20 strangecodder-laptop systemd-logind[473]: Operation 'suspend' finished.
+мая 02 01:49:20 strangecodder-laptop systemd-sleep[17847]: System returned from sleep operation 'suspend'.
+мая 02 01:49:22 strangecodder-laptop kdeconnectd[1053]: "Object does not exist at path “/org/freedesktop/NetworkManager/ActiveConnection/2”"
+мая 02 01:49:22 strangecodder-laptop kded5[798]: kf.networkmanagerqt: void NetworkManager::ConnectionPrivate::onPropertiesChanged(const QVariantMap&) Unhandled property "VersionId"
+мая 02 01:49:22 strangecodder-laptop kded5[798]: "Object does not exist at path “/org/freedesktop/NetworkManager/ActiveConnection/2”"
+мая 02 01:49:22 strangecodder-laptop kernel: wlp1s0: associated
+мая 02 01:49:22 strangecodder-laptop kernel: wlp1s0: associate with 78:81:02:a0:e0:99 (try 1/3)
+мая 02 01:49:22 strangecodder-laptop kernel: wlp1s0: authenticated
+мая 02 01:49:22 strangecodder-laptop kernel: wlp1s0: authenticate with 78:81:02:a0:e0:99
+мая 02 01:49:22 strangecodder-laptop kernel: wlp1s0: RX AssocResp from 78:81:02:a0:e0:99 (capab=0x411 status=0 aid=1)
+мая 02 01:49:22 strangecodder-laptop kernel: wlp1s0: send auth to 78:81:02:a0:e0:99 (try 1/3)
+мая 02 01:49:22 strangecodder-laptop kernel: wlp1s0: VHT capa missing/short, disabling VHT/HE/EHT
+мая 02 01:49:22 strangecodder-laptop NetworkManager[465]: <info>  [1714603762.8680] policy: auto-activating connection 'Kv45_5G' (08459d47-310c-46c6-b3a2-2ee72d533639)
+мая 02 01:49:22 strangecodder-laptop NetworkManager[465]: <info>  [1714603762.8684] device (wlp1s0): Activation: starting connection 'Kv45_5G' (08459d47-310c-46c6-b3a2-2ee72d533639)
+мая 02 01:49:22 strangecodder-laptop NetworkManager[465]: <info>  [1714603762.8685] device (wlp1s0): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+мая 02 01:49:22 strangecodder-laptop NetworkManager[465]: <info>  [1714603762.8687] manager: NetworkManager state is now CONNECTING
+мая 02 01:49:22 strangecodder-laptop NetworkManager[465]: <info>  [1714603762.8690] device (wlp1s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+мая 02 01:49:22 strangecodder-laptop NetworkManager[465]: <info>  [1714603762.8693] device (wlp1s0): Activation: (wifi) access point 'Kv45_5G' has security, but secrets are required.
+мая 02 01:49:22 strangecodder-laptop NetworkManager[465]: <info>  [1714603762.8693] device (wlp1s0): state change: config -> need-auth (reason 'none', sys-iface-state: 'managed')
+мая 02 01:49:22 strangecodder-laptop NetworkManager[465]: <info>  [1714603762.8855] device (wlp1s0): state change: need-auth -> prepare (reason 'none', sys-iface-state: 'managed')
+мая 02 01:49:22 strangecodder-laptop NetworkManager[465]: <info>  [1714603762.8858] device (wlp1s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+мая 02 01:49:22 strangecodder-laptop NetworkManager[465]: <info>  [1714603762.8861] device (wlp1s0): Activation: (wifi) connection 'Kv45_5G' has security, and secrets exist.  No new secrets needed.
+мая 02 01:49:22 strangecodder-laptop NetworkManager[465]: <info>  [1714603762.8862] Config: added 'auth_alg' value 'OPEN'
+мая 02 01:49:22 strangecodder-laptop NetworkManager[465]: <info>  [1714603762.8862] Config: added 'bgscan' value 'simple:30:-70:86400'
+мая 02 01:49:22 strangecodder-laptop NetworkManager[465]: <info>  [1714603762.8862] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK SAE FT-SAE'
+мая 02 01:49:22 strangecodder-laptop NetworkManager[465]: <info>  [1714603762.8862] Config: added 'psk' value '<hidden>'
+мая 02 01:49:22 strangecodder-laptop NetworkManager[465]: <info>  [1714603762.8862] Config: added 'scan_ssid' value '1'
+мая 02 01:49:22 strangecodder-laptop NetworkManager[465]: <info>  [1714603762.8862] Config: added 'ssid' value 'Kv45_5G'
+мая 02 01:49:22 strangecodder-laptop NetworkManager[465]: <info>  [1714603762.9271] device (p2p-dev-wlp1s0): supplicant management interface state: disconnected -> authenticating
+мая 02 01:49:22 strangecodder-laptop NetworkManager[465]: <info>  [1714603762.9271] device (wlp1s0): supplicant interface state: disconnected -> authenticating
+мая 02 01:49:22 strangecodder-laptop NetworkManager[465]: <info>  [1714603762.9291] device (p2p-dev-wlp1s0): supplicant management interface state: authenticating -> associating
+мая 02 01:49:22 strangecodder-laptop NetworkManager[465]: <info>  [1714603762.9291] device (wlp1s0): supplicant interface state: authenticating -> associating
+мая 02 01:49:22 strangecodder-laptop plasmashell[872]: kf.networkmanagerqt: void NetworkManager::ConnectionPrivate::onPropertiesChanged(const QVariantMap&) Unhandled property "VersionId"
+мая 02 01:49:22 strangecodder-laptop plasmashell[872]: "Object does not exist at path “/org/freedesktop/NetworkManager/ActiveConnection/7”"
+мая 02 01:49:22 strangecodder-laptop systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+мая 02 01:49:23 strangecodder-laptop NetworkManager[465]: <info>  [1714603763.0679] device (wlp1s0): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "Kv45_5G"
+мая 02 01:49:23 strangecodder-laptop NetworkManager[465]: <info>  [1714603763.0679] device (wlp1s0): supplicant interface state: associating -> completed
+мая 02 01:49:23 strangecodder-laptop NetworkManager[465]: <info>  [1714603763.0680] device (p2p-dev-wlp1s0): supplicant management interface state: associating -> completed
+мая 02 01:49:23 strangecodder-laptop NetworkManager[465]: <info>  [1714603763.0689] device (wlp1s0): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+мая 02 01:49:23 strangecodder-laptop NetworkManager[465]: <info>  [1714603763.0694] dhcp4 (wlp1s0): activation: beginning transaction (timeout in 45 seconds)
+мая 02 01:49:23 strangecodder-laptop NetworkManager[465]: <info>  [1714603763.0724] dhcp4 (wlp1s0): state changed new lease, address=192.168.1.66, acd pending
+мая 02 01:49:23 strangecodder-laptop NetworkManager[465]: <info>  [1714603763.2720] dhcp4 (wlp1s0): state changed new lease, address=192.168.1.66
+мая 02 01:49:23 strangecodder-laptop NetworkManager[465]: <info>  [1714603763.2727] policy: set 'Kv45_5G' (wlp1s0) as default for IPv4 routing and DNS
+мая 02 01:49:23 strangecodder-laptop NetworkManager[465]: <info>  [1714603763.3294] device (wlp1s0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+мая 02 01:49:23 strangecodder-laptop NetworkManager[465]: <info>  [1714603763.3766] device (wlp1s0): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+мая 02 01:49:23 strangecodder-laptop NetworkManager[465]: <info>  [1714603763.3768] device (wlp1s0): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+мая 02 01:49:23 strangecodder-laptop NetworkManager[465]: <info>  [1714603763.3772] manager: NetworkManager state is now CONNECTED_SITE
+мая 02 01:49:23 strangecodder-laptop NetworkManager[465]: <info>  [1714603763.3780] device (wlp1s0): Activation: successful, device activated.
+мая 02 01:49:23 strangecodder-laptop NetworkManager[465]: <info>  [1714603763.4644] manager: NetworkManager state is now CONNECTED_GLOBAL
+мая 02 01:49:23 strangecodder-laptop systemd[1]: Started Network Manager Script Dispatcher Service.
+мая 02 01:49:23 strangecodder-laptop systemd[1]: Starting Network Manager Script Dispatcher Service...
+мая 02 01:49:24 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@12.service: Deactivated successfully.
+мая 02 01:49:33 strangecodder-laptop systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+мая 02 01:50:19 strangecodder-laptop kded5[798]: org.kde.plasma.nm.kded: Unhandled active connection state change:  3
+мая 02 01:50:19 strangecodder-laptop kernel: wlp1s0: deauthenticating from 78:81:02:a0:e0:99 by local choice (Reason: 3=DEAUTH_LEAVING)
+мая 02 01:50:19 strangecodder-laptop NetworkManager[465]: <info>  [1714603819.2941] manager: sleep: sleep requested (sleeping: no  enabled: yes)
+мая 02 01:50:19 strangecodder-laptop NetworkManager[465]: <info>  [1714603819.2943] device (p2p-dev-wlp1s0): state change: disconnected -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+мая 02 01:50:19 strangecodder-laptop NetworkManager[465]: <info>  [1714603819.2946] manager: NetworkManager state is now ASLEEP
+мая 02 01:50:19 strangecodder-laptop NetworkManager[465]: <info>  [1714603819.2948] device (wlp1s0): state change: activated -> deactivating (reason 'sleeping', sys-iface-state: 'managed')
+мая 02 01:50:19 strangecodder-laptop NetworkManager[465]: <info>  [1714603819.5897] device (wlp1s0): state change: deactivating -> disconnected (reason 'sleeping', sys-iface-state: 'managed')
+мая 02 01:50:19 strangecodder-laptop NetworkManager[465]: <info>  [1714603819.5900] dhcp4 (wlp1s0): activation: beginning transaction (timeout in 45 seconds)
+мая 02 01:50:19 strangecodder-laptop NetworkManager[465]: <info>  [1714603819.5900] dhcp4 (wlp1s0): canceled DHCP transaction
+мая 02 01:50:19 strangecodder-laptop NetworkManager[465]: <info>  [1714603819.5901] dhcp4 (wlp1s0): state changed no lease
+мая 02 01:50:19 strangecodder-laptop NetworkManager[465]: <info>  [1714603819.6393] device (wlp1s0): set-hw-addr: set MAC address to 3E:25:7F:91:16:4E (scanning)
+мая 02 01:50:19 strangecodder-laptop NetworkManager[465]: <info>  [1714603819.7975] device (wlp1s0): supplicant interface state: completed -> disconnected
+мая 02 01:50:19 strangecodder-laptop NetworkManager[465]: <info>  [1714603819.7977] device (wlp1s0): supplicant interface state: disconnected -> interface_disabled
+мая 02 01:50:19 strangecodder-laptop NetworkManager[465]: <info>  [1714603819.7977] device (wlp1s0): supplicant interface state: interface_disabled -> disconnected
+мая 02 01:50:19 strangecodder-laptop NetworkManager[465]: <info>  [1714603819.7982] device (wlp1s0): state change: disconnected -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+мая 02 01:50:19 strangecodder-laptop NetworkManager[465]: <info>  [1714603819.9171] device (wlp1s0): set-hw-addr: reset MAC address to 74:4C:A1:7D:3A:3F (unmanage)
+мая 02 01:50:19 strangecodder-laptop plasmashell[11228]: [11223:11250:0502/015019.298066:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+мая 02 01:50:19 strangecodder-laptop systemd[1]: Reached target Sleep.
+мая 02 01:50:19 strangecodder-laptop systemd[1]: Started Network Manager Script Dispatcher Service.
+мая 02 01:50:19 strangecodder-laptop systemd[1]: Starting Network Manager Script Dispatcher Service...
+мая 02 01:50:19 strangecodder-laptop systemd[1]: Starting System Hibernate...
+мая 02 01:50:20 strangecodder-laptop kernel: PM: hibernation: hibernation entry
+мая 02 01:50:20 strangecodder-laptop systemd-sleep[18133]: Performing sleep operation 'hibernate'...
+мая 02 23:44:37 strangecodder-laptop bluetoothd[469]: Battery Provider Manager destroyed
+мая 02 23:44:37 strangecodder-laptop bluetoothd[469]: Endpoint unregistered: sender=:1.56 path=/MediaEndpoint/A2DPSink/aptx
+мая 02 23:44:37 strangecodder-laptop bluetoothd[469]: Endpoint unregistered: sender=:1.56 path=/MediaEndpoint/A2DPSink/aptx_hd
+мая 02 23:44:37 strangecodder-laptop bluetoothd[469]: Endpoint unregistered: sender=:1.56 path=/MediaEndpoint/A2DPSink/faststream
+мая 02 23:44:37 strangecodder-laptop bluetoothd[469]: Endpoint unregistered: sender=:1.56 path=/MediaEndpoint/A2DPSink/sbc
+мая 02 23:44:37 strangecodder-laptop bluetoothd[469]: Endpoint unregistered: sender=:1.56 path=/MediaEndpoint/A2DPSink/sbc_xq_453
+мая 02 23:44:37 strangecodder-laptop bluetoothd[469]: Endpoint unregistered: sender=:1.56 path=/MediaEndpoint/A2DPSink/sbc_xq_512
+мая 02 23:44:37 strangecodder-laptop bluetoothd[469]: Endpoint unregistered: sender=:1.56 path=/MediaEndpoint/A2DPSink/sbc_xq_552
+мая 02 23:44:37 strangecodder-laptop bluetoothd[469]: Endpoint unregistered: sender=:1.56 path=/MediaEndpoint/A2DPSource/aptx
+мая 02 23:44:37 strangecodder-laptop bluetoothd[469]: Endpoint unregistered: sender=:1.56 path=/MediaEndpoint/A2DPSource/aptx_hd
+мая 02 23:44:37 strangecodder-laptop bluetoothd[469]: Endpoint unregistered: sender=:1.56 path=/MediaEndpoint/A2DPSource/faststream
+мая 02 23:44:37 strangecodder-laptop bluetoothd[469]: Endpoint unregistered: sender=:1.56 path=/MediaEndpoint/A2DPSource/ldac_hq
+мая 02 23:44:37 strangecodder-laptop bluetoothd[469]: Endpoint unregistered: sender=:1.56 path=/MediaEndpoint/A2DPSource/ldac_mq
+мая 02 23:44:37 strangecodder-laptop bluetoothd[469]: Endpoint unregistered: sender=:1.56 path=/MediaEndpoint/A2DPSource/ldac_sq
+мая 02 23:44:37 strangecodder-laptop bluetoothd[469]: Endpoint unregistered: sender=:1.56 path=/MediaEndpoint/A2DPSource/sbc
+мая 02 23:44:37 strangecodder-laptop bluetoothd[469]: Endpoint unregistered: sender=:1.56 path=/MediaEndpoint/A2DPSource/sbc_xq_453
+мая 02 23:44:37 strangecodder-laptop bluetoothd[469]: Endpoint unregistered: sender=:1.56 path=/MediaEndpoint/A2DPSource/sbc_xq_512
+мая 02 23:44:37 strangecodder-laptop bluetoothd[469]: Endpoint unregistered: sender=:1.56 path=/MediaEndpoint/A2DPSource/sbc_xq_552
+мая 02 23:44:37 strangecodder-laptop kdeconnectd[1053]: Error sending UDP packet: QAbstractSocket::NetworkError
+мая 02 23:44:37 strangecodder-laptop kernel: ACPI: EC: EC started
+мая 02 23:44:37 strangecodder-laptop kernel: ACPI: EC: EC stopped
+мая 02 23:44:37 strangecodder-laptop kernel: ACPI: EC: event blocked
+мая 02 23:44:37 strangecodder-laptop kernel: ACPI: EC: event unblocked
+мая 02 23:44:37 strangecodder-laptop kernel: ACPI: EC: interrupt blocked
+мая 02 23:44:37 strangecodder-laptop kernel: ACPI: EC: interrupt unblocked
+мая 02 23:44:37 strangecodder-laptop kernel: ACPI: PM: Preparing to enter system sleep state S4
+мая 02 23:44:37 strangecodder-laptop kernel: ACPI: PM: Restoring platform NVS memory
+мая 02 23:44:37 strangecodder-laptop kernel: ACPI: PM: Saving platform NVS memory
+мая 02 23:44:37 strangecodder-laptop kernel: ACPI: PM: Waking up from system sleep state S4
+мая 02 23:44:37 strangecodder-laptop kernel: ACPI: \_SB_.PLTF.C001: Found 3 idle states
+мая 02 23:44:37 strangecodder-laptop kernel: ACPI: \_SB_.PLTF.C002: Found 3 idle states
+мая 02 23:44:37 strangecodder-laptop kernel: ACPI: \_SB_.PLTF.C003: Found 3 idle states
+мая 02 23:44:37 strangecodder-laptop kernel: ACPI: \_SB_.PLTF.C004: Found 3 idle states
+мая 02 23:44:37 strangecodder-laptop kernel: ACPI: \_SB_.PLTF.C005: Found 3 idle states
+мая 02 23:44:37 strangecodder-laptop kernel: ACPI: \_SB_.PLTF.C006: Found 3 idle states
+мая 02 23:44:37 strangecodder-laptop kernel: ACPI: \_SB_.PLTF.C007: Found 3 idle states
+мая 02 23:44:37 strangecodder-laptop kernel: ACPI: \_SB_.PLTF.C008: Found 3 idle states
+мая 02 23:44:37 strangecodder-laptop kernel: ACPI: \_SB_.PLTF.C009: Found 3 idle states
+мая 02 23:44:37 strangecodder-laptop kernel: ACPI: \_SB_.PLTF.C00A: Found 3 idle states
+мая 02 23:44:37 strangecodder-laptop kernel: ACPI: \_SB_.PLTF.C00B: Found 3 idle states
+мая 02 23:44:37 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: dpm has been disabled
+мая 02 23:44:37 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: MODE2 reset
+мая 02 23:44:37 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: RAP: optional rap ta ucode is not available
+мая 02 23:44:37 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: RAS: optional ras ta ucode is not available
+мая 02 23:44:37 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring comp_1.0.0 uses VM inv eng 5 on hub 0
+мая 02 23:44:37 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring comp_1.0.1 uses VM inv eng 9 on hub 0
+мая 02 23:44:37 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring comp_1.1.0 uses VM inv eng 6 on hub 0
+мая 02 23:44:37 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring comp_1.1.1 uses VM inv eng 10 on hub 0
+мая 02 23:44:37 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring comp_1.2.0 uses VM inv eng 7 on hub 0
+мая 02 23:44:37 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring comp_1.2.1 uses VM inv eng 11 on hub 0
+мая 02 23:44:37 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring comp_1.3.0 uses VM inv eng 8 on hub 0
+мая 02 23:44:37 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring comp_1.3.1 uses VM inv eng 12 on hub 0
+мая 02 23:44:37 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring gfx_high uses VM inv eng 4 on hub 0
+мая 02 23:44:37 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring gfx_low uses VM inv eng 1 on hub 0
+мая 02 23:44:37 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring gfx uses VM inv eng 0 on hub 0
+мая 02 23:44:37 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring jpeg_dec uses VM inv eng 6 on hub 8
+мая 02 23:44:37 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring kiq_0.2.1.0 uses VM inv eng 13 on hub 0
+мая 02 23:44:37 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring sdma0 uses VM inv eng 0 on hub 8
+мая 02 23:44:37 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring vcn_dec uses VM inv eng 1 on hub 8
+мая 02 23:44:37 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring vcn_enc0 uses VM inv eng 4 on hub 8
+мая 02 23:44:37 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: ring vcn_enc1 uses VM inv eng 5 on hub 8
+мая 02 23:44:37 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: SECUREDISPLAY: securedisplay ta ucode is not available
+мая 02 23:44:37 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: SMU is resumed successfully!
+мая 02 23:44:37 strangecodder-laptop kernel: amdgpu 0000:03:00.0: amdgpu: SMU is resuming...
+мая 02 23:44:37 strangecodder-laptop kernel: ata1: SATA link down (SStatus 0 SControl 300)
+мая 02 23:44:37 strangecodder-laptop kernel: ata2: SATA link down (SStatus 0 SControl 300)
+мая 02 23:44:37 strangecodder-laptop kernel: CPU10 is up
+мая 02 23:44:37 strangecodder-laptop kernel: CPU11 is up
+мая 02 23:44:37 strangecodder-laptop kernel: CPU1 is up
+мая 02 23:44:37 strangecodder-laptop kernel: CPU2 is up
+мая 02 23:44:37 strangecodder-laptop kernel: CPU3 is up
+мая 02 23:44:37 strangecodder-laptop kernel: CPU4 is up
+мая 02 23:44:37 strangecodder-laptop kernel: CPU5 is up
+мая 02 23:44:37 strangecodder-laptop kernel: CPU6 is up
+мая 02 23:44:37 strangecodder-laptop kernel: CPU7 is up
+мая 02 23:44:37 strangecodder-laptop kernel: CPU8 is up
+мая 02 23:44:37 strangecodder-laptop kernel: CPU9 is up
+мая 02 23:44:37 strangecodder-laptop kernel: Disabling non-boot CPUs ...
+мая 02 23:44:37 strangecodder-laptop kernel: done.
+мая 02 23:44:37 strangecodder-laptop kernel: [drm] Alt mode has timed out after 202 ms
+мая 02 23:44:37 strangecodder-laptop kernel: [drm] DMUB hardware initialized: version=0x01010028
+мая 02 23:44:37 strangecodder-laptop kernel: [drm] JPEG decode initialized successfully.
+мая 02 23:44:37 strangecodder-laptop kernel: [drm] kiq ring mec 2 pipe 1 q 0
+мая 02 23:44:37 strangecodder-laptop kernel: [drm] PCIE GART of 1024M enabled.
+мая 02 23:44:37 strangecodder-laptop kernel: [drm] psp gfx command UNLOAD_TA(0x2) failed and response status is (0x117)
+мая 02 23:44:37 strangecodder-laptop kernel: [drm] PSP is resuming...
+мая 02 23:44:37 strangecodder-laptop kernel: [drm] PTB located at 0x000000F41FC00000
+мая 02 23:44:37 strangecodder-laptop kernel: [drm] reserve 0x400000 from 0xf41f800000 for PSP TMR
+мая 02 23:44:37 strangecodder-laptop kernel: [drm] VCN decode and encode initialized successfully(under DPG Mode).
+мая 02 23:44:37 strangecodder-laptop kernel: Enabling non-boot CPUs ...
+мая 02 23:44:37 strangecodder-laptop kernel: Filesystems sync: 0.008 seconds
+мая 02 23:44:37 strangecodder-laptop kernel: Freezing remaining freezable tasks
+мая 02 23:44:37 strangecodder-laptop kernel: Freezing remaining freezable tasks completed (elapsed 0.001 seconds)
+мая 02 23:44:37 strangecodder-laptop kernel: Freezing user space processes
+мая 02 23:44:37 strangecodder-laptop kernel: Freezing user space processes completed (elapsed 0.002 seconds)
+мая 02 23:44:37 strangecodder-laptop kernel: LVT offset 0 assigned for vector 0x400
+мая 02 23:44:37 strangecodder-laptop kernel: mt7921e 0000:01:00.0: HW/SW Version: 0x8a108a10, Build Time: 20231109190918a
+мая 02 23:44:37 strangecodder-laptop kernel: mt7921e 0000:01:00.0: WM Firmware Version: ____010000, Build Time: 20231109190959
+мая 02 23:44:37 strangecodder-laptop kernel: nvme nvme0: 8/0/0 default/read/poll queues
+мая 02 23:44:37 strangecodder-laptop kernel: OOM killer disabled.
+мая 02 23:44:37 strangecodder-laptop kernel: OOM killer enabled.
+мая 02 23:44:37 strangecodder-laptop kernel: pci 0000:00:00.2: can't derive routing for PCI INT A
+мая 02 23:44:37 strangecodder-laptop kernel: pci 0000:00:00.2: PCI INT A: no GSI
+мая 02 23:44:37 strangecodder-laptop kernel: PM: hibernation: Allocated 2906000 kbytes in 13.61 seconds (213.51 MB/s)
+мая 02 23:44:37 strangecodder-laptop kernel: PM: hibernation: Allocated 726500 pages for snapshot
+мая 02 23:44:37 strangecodder-laptop kernel: PM: hibernation: Creating image:
+мая 02 23:44:37 strangecodder-laptop kernel: PM: hibernation: hibernation exit
+мая 02 23:44:37 strangecodder-laptop kernel: PM: hibernation: Need to copy 832879 pages
+мая 02 23:44:37 strangecodder-laptop kernel: PM: hibernation: Preallocating image memory
+мая 02 23:44:37 strangecodder-laptop kernel: printk: Suspending console(s) (use no_console_suspend to debug)
+мая 02 23:44:37 strangecodder-laptop kernel: queueing ieee80211 work while going to suspend
+мая 02 23:44:37 strangecodder-laptop kernel: Restarting tasks ... 
+мая 02 23:44:37 strangecodder-laptop kernel: smpboot: Booting Node 0 Processor 10 APIC 0xc
+мая 02 23:44:37 strangecodder-laptop kernel: smpboot: Booting Node 0 Processor 11 APIC 0xd
+мая 02 23:44:37 strangecodder-laptop kernel: smpboot: Booting Node 0 Processor 1 APIC 0x1
+мая 02 23:44:37 strangecodder-laptop kernel: smpboot: Booting Node 0 Processor 2 APIC 0x2
+мая 02 23:44:37 strangecodder-laptop kernel: smpboot: Booting Node 0 Processor 3 APIC 0x3
+мая 02 23:44:37 strangecodder-laptop kernel: smpboot: Booting Node 0 Processor 4 APIC 0x4
+мая 02 23:44:37 strangecodder-laptop kernel: smpboot: Booting Node 0 Processor 5 APIC 0x5
+мая 02 23:44:37 strangecodder-laptop kernel: smpboot: Booting Node 0 Processor 6 APIC 0x8
+мая 02 23:44:37 strangecodder-laptop kernel: smpboot: Booting Node 0 Processor 7 APIC 0x9
+мая 02 23:44:37 strangecodder-laptop kernel: smpboot: Booting Node 0 Processor 8 APIC 0xa
+мая 02 23:44:37 strangecodder-laptop kernel: smpboot: Booting Node 0 Processor 9 APIC 0xb
+мая 02 23:44:37 strangecodder-laptop kernel: smpboot: CPU 10 is now offline
+мая 02 23:44:37 strangecodder-laptop kernel: smpboot: CPU 11 is now offline
+мая 02 23:44:37 strangecodder-laptop kernel: smpboot: CPU 1 is now offline
+мая 02 23:44:37 strangecodder-laptop kernel: smpboot: CPU 2 is now offline
+мая 02 23:44:37 strangecodder-laptop kernel: smpboot: CPU 3 is now offline
+мая 02 23:44:37 strangecodder-laptop kernel: smpboot: CPU 4 is now offline
+мая 02 23:44:37 strangecodder-laptop kernel: smpboot: CPU 5 is now offline
+мая 02 23:44:37 strangecodder-laptop kernel: smpboot: CPU 6 is now offline
+мая 02 23:44:37 strangecodder-laptop kernel: smpboot: CPU 7 is now offline
+мая 02 23:44:37 strangecodder-laptop kernel: smpboot: CPU 8 is now offline
+мая 02 23:44:37 strangecodder-laptop kernel: smpboot: CPU 9 is now offline
+мая 02 23:44:37 strangecodder-laptop kernel: Spectre V2 : Update user space SMT mitigation: STIBP always-on
+мая 02 23:44:37 strangecodder-laptop kernel: Spectre V2 : Update user space SMT mitigation: STIBP off
+мая 02 23:44:37 strangecodder-laptop kernel: usb 1-3: reset high-speed USB device number 2 using xhci_hcd
+мая 02 23:44:37 strangecodder-laptop kernel: usb 1-4: reset high-speed USB device number 3 using xhci_hcd
+мая 02 23:44:37 strangecodder-laptop kernel: usb 3-4: Manufacturer: EgisTec
+мая 02 23:44:37 strangecodder-laptop kernel: usb 3-4: new high-speed USB device number 4 using xhci_hcd
+мая 02 23:44:37 strangecodder-laptop kernel: usb 3-4: New USB device found, idVendor=1c7a, idProduct=0575, bcdDevice=10.72
+мая 02 23:44:37 strangecodder-laptop kernel: usb 3-4: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+мая 02 23:44:37 strangecodder-laptop kernel: usb 3-4: Product: EgisTec EH575
+мая 02 23:44:37 strangecodder-laptop kernel: usb 3-4: SerialNumber: 0E710729
+мая 02 23:44:37 strangecodder-laptop kernel: usb 3-4: USB disconnect, device number 3
+мая 02 23:44:37 strangecodder-laptop kernel: wlp1s0: Driver requested disconnection from AP 00:00:00:00:00:00
+мая 02 23:44:37 strangecodder-laptop mtp-probe[18231]: bus: 3, device: 4 was not an MTP device
+мая 02 23:44:37 strangecodder-laptop mtp-probe[18231]: checking bus 3, device 4: "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-4"
+мая 02 23:44:37 strangecodder-laptop mtp-probe[18290]: bus: 3, device: 4 was not an MTP device
+мая 02 23:44:37 strangecodder-laptop mtp-probe[18290]: checking bus 3, device 4: "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-4"
+мая 02 23:44:37 strangecodder-laptop NetworkManager[465]: <info>  [1714682677.1609] manager: sleep: wake requested (sleeping: yes  enabled: yes)
+мая 02 23:44:37 strangecodder-laptop NetworkManager[465]: <info>  [1714682677.1610] device (wlp1s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+мая 02 23:44:37 strangecodder-laptop NetworkManager[465]: <info>  [1714682677.2188] device (wlp1s0): set-hw-addr: set MAC address to B6:B4:F1:35:76:FE (scanning)
+мая 02 23:44:37 strangecodder-laptop NetworkManager[465]: <info>  [1714682677.2647] device (p2p-dev-wlp1s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+мая 02 23:44:37 strangecodder-laptop NetworkManager[465]: <info>  [1714682677.2649] manager: NetworkManager state is now DISCONNECTED
+мая 02 23:44:37 strangecodder-laptop NetworkManager[465]: <info>  [1714682677.3010] device (wlp1s0): supplicant interface state: internal-starting -> disconnected
+мая 02 23:44:37 strangecodder-laptop NetworkManager[465]: <info>  [1714682677.3011] device (p2p-dev-wlp1s0): state change: unavailable -> unmanaged (reason 'removed', sys-iface-state: 'removed')
+мая 02 23:44:37 strangecodder-laptop NetworkManager[465]: <info>  [1714682677.3017] Wi-Fi P2P device controlled by interface wlp1s0 created
+мая 02 23:44:37 strangecodder-laptop NetworkManager[465]: <info>  [1714682677.3020] manager: (p2p-dev-wlp1s0): new 802.11 Wi-Fi P2P device (/org/freedesktop/NetworkManager/Devices/14)
+мая 02 23:44:37 strangecodder-laptop NetworkManager[465]: <info>  [1714682677.3021] device (p2p-dev-wlp1s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+мая 02 23:44:37 strangecodder-laptop NetworkManager[465]: <info>  [1714682677.3025] device (wlp1s0): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+мая 02 23:44:37 strangecodder-laptop NetworkManager[465]: <info>  [1714682677.3038] device (p2p-dev-wlp1s0): state change: unavailable -> disconnected (reason 'none', sys-iface-state: 'managed')
+мая 02 23:44:37 strangecodder-laptop plasmashell[872]: file:///usr/lib/qt/qml/org/kde/plasma/extras/PlaceholderMessage.qml:238:5: QML Heading: Binding loop detected for property "verticalAlignment"
+мая 02 23:44:37 strangecodder-laptop systemd[1]: Finished System Hibernate.
+мая 02 23:44:37 strangecodder-laptop systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+мая 02 23:44:37 strangecodder-laptop systemd[1]: Reached target System Hibernation.
+мая 02 23:44:37 strangecodder-laptop systemd[1]: Started dbus-:1.1-org.kde.powerdevil.backlighthelper@13.service.
+мая 02 23:44:37 strangecodder-laptop systemd[1]: Started Load/Save RF Kill Switch Status.
+мая 02 23:44:37 strangecodder-laptop systemd[1]: Starting Load/Save RF Kill Switch Status...
+мая 02 23:44:37 strangecodder-laptop systemd[1]: Stopped target Bluetooth Support.
+мая 02 23:44:37 strangecodder-laptop systemd[1]: Stopped target Sleep.
+мая 02 23:44:37 strangecodder-laptop systemd[1]: Stopped target System Hibernation.
+мая 02 23:44:37 strangecodder-laptop systemd[1]: systemd-hibernate.service: Consumed 13.817s CPU time.
+мая 02 23:44:37 strangecodder-laptop systemd[1]: systemd-hibernate.service: Deactivated successfully.
+мая 02 23:44:37 strangecodder-laptop systemd[690]: Reached target Bluetooth.
+мая 02 23:44:37 strangecodder-laptop systemd-logind[473]: Lid opened.
+мая 02 23:44:37 strangecodder-laptop systemd-logind[473]: Operation 'hibernate' finished.
+мая 02 23:44:37 strangecodder-laptop systemd-sleep[18133]: System returned from sleep operation 'hibernate'.
+мая 02 23:44:39 strangecodder-laptop bluetoothd[469]: Battery Provider Manager created
+мая 02 23:44:39 strangecodder-laptop bluetoothd[469]: Endpoint registered: sender=:1.56 path=/MediaEndpoint/A2DPSink/aptx
+мая 02 23:44:39 strangecodder-laptop bluetoothd[469]: Endpoint registered: sender=:1.56 path=/MediaEndpoint/A2DPSink/aptx_hd
+мая 02 23:44:39 strangecodder-laptop bluetoothd[469]: Endpoint registered: sender=:1.56 path=/MediaEndpoint/A2DPSink/faststream
+мая 02 23:44:39 strangecodder-laptop bluetoothd[469]: Endpoint registered: sender=:1.56 path=/MediaEndpoint/A2DPSink/sbc
+мая 02 23:44:39 strangecodder-laptop bluetoothd[469]: Endpoint registered: sender=:1.56 path=/MediaEndpoint/A2DPSink/sbc_xq_453
+мая 02 23:44:39 strangecodder-laptop bluetoothd[469]: Endpoint registered: sender=:1.56 path=/MediaEndpoint/A2DPSink/sbc_xq_512
+мая 02 23:44:39 strangecodder-laptop bluetoothd[469]: Endpoint registered: sender=:1.56 path=/MediaEndpoint/A2DPSink/sbc_xq_552
+мая 02 23:44:39 strangecodder-laptop bluetoothd[469]: Endpoint registered: sender=:1.56 path=/MediaEndpoint/A2DPSource/aptx
+мая 02 23:44:39 strangecodder-laptop bluetoothd[469]: Endpoint registered: sender=:1.56 path=/MediaEndpoint/A2DPSource/aptx_hd
+мая 02 23:44:39 strangecodder-laptop bluetoothd[469]: Endpoint registered: sender=:1.56 path=/MediaEndpoint/A2DPSource/faststream
+мая 02 23:44:39 strangecodder-laptop bluetoothd[469]: Endpoint registered: sender=:1.56 path=/MediaEndpoint/A2DPSource/ldac_hq
+мая 02 23:44:39 strangecodder-laptop bluetoothd[469]: Endpoint registered: sender=:1.56 path=/MediaEndpoint/A2DPSource/ldac_mq
+мая 02 23:44:39 strangecodder-laptop bluetoothd[469]: Endpoint registered: sender=:1.56 path=/MediaEndpoint/A2DPSource/ldac_sq
+мая 02 23:44:39 strangecodder-laptop bluetoothd[469]: Endpoint registered: sender=:1.56 path=/MediaEndpoint/A2DPSource/sbc
+мая 02 23:44:39 strangecodder-laptop bluetoothd[469]: Endpoint registered: sender=:1.56 path=/MediaEndpoint/A2DPSource/sbc_xq_453
+мая 02 23:44:39 strangecodder-laptop bluetoothd[469]: Endpoint registered: sender=:1.56 path=/MediaEndpoint/A2DPSource/sbc_xq_512
+мая 02 23:44:39 strangecodder-laptop bluetoothd[469]: Endpoint registered: sender=:1.56 path=/MediaEndpoint/A2DPSource/sbc_xq_552
+мая 02 23:44:39 strangecodder-laptop kdeconnectd[1053]: "Object does not exist at path “/org/freedesktop/NetworkManager/ActiveConnection/2”"
+мая 02 23:44:39 strangecodder-laptop kded5[798]: kf.networkmanagerqt: void NetworkManager::ConnectionPrivate::onPropertiesChanged(const QVariantMap&) Unhandled property "VersionId"
+мая 02 23:44:39 strangecodder-laptop kded5[798]: "Object does not exist at path “/org/freedesktop/NetworkManager/ActiveConnection/2”"
+мая 02 23:44:39 strangecodder-laptop kernel: Bluetooth: hci0: AOSP extensions version v1.00
+мая 02 23:44:39 strangecodder-laptop kernel: Bluetooth: hci0: AOSP quality report is supported
+мая 02 23:44:39 strangecodder-laptop kernel: Bluetooth: hci0: Device setup in 2383627 usecs
+мая 02 23:44:39 strangecodder-laptop kernel: Bluetooth: hci0: HCI Enhanced Setup Synchronous Connection command is advertised, but not supported.
+мая 02 23:44:39 strangecodder-laptop kernel: Bluetooth: MGMT ver 1.22
+мая 02 23:44:39 strangecodder-laptop kernel: wlp1s0: associated
+мая 02 23:44:39 strangecodder-laptop kernel: wlp1s0: associate with 50:ff:20:72:2c:8a (try 1/3)
+мая 02 23:44:39 strangecodder-laptop kernel: wlp1s0: authenticated
+мая 02 23:44:39 strangecodder-laptop kernel: wlp1s0: authenticate with 50:ff:20:72:2c:8a
+мая 02 23:44:39 strangecodder-laptop kernel: wlp1s0: RX AssocResp from 50:ff:20:72:2c:8a (capab=0xc11 status=0 aid=2)
+мая 02 23:44:39 strangecodder-laptop kernel: wlp1s0: send auth to 50:ff:20:72:2c:8a (try 1/3)
+мая 02 23:44:39 strangecodder-laptop NetworkManager[465]: <info>  [1714682679.4834] policy: auto-activating connection 'Keenetic-5897' (97f1bb75-1d83-4bcb-a1c4-8c451163e4c6)
+мая 02 23:44:39 strangecodder-laptop NetworkManager[465]: <info>  [1714682679.4842] device (wlp1s0): Activation: starting connection 'Keenetic-5897' (97f1bb75-1d83-4bcb-a1c4-8c451163e4c6)
+мая 02 23:44:39 strangecodder-laptop NetworkManager[465]: <info>  [1714682679.4843] device (wlp1s0): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+мая 02 23:44:39 strangecodder-laptop NetworkManager[465]: <info>  [1714682679.4845] manager: NetworkManager state is now CONNECTING
+мая 02 23:44:39 strangecodder-laptop NetworkManager[465]: <info>  [1714682679.5704] device (wlp1s0): set-hw-addr: reset MAC address to 74:4C:A1:7D:3A:3F (preserve)
+мая 02 23:44:39 strangecodder-laptop NetworkManager[465]: <info>  [1714682679.6231] device (wlp1s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+мая 02 23:44:39 strangecodder-laptop NetworkManager[465]: <info>  [1714682679.6235] device (wlp1s0): Activation: (wifi) access point 'Keenetic-5897' has security, but secrets are required.
+мая 02 23:44:39 strangecodder-laptop NetworkManager[465]: <info>  [1714682679.6236] device (wlp1s0): state change: config -> need-auth (reason 'none', sys-iface-state: 'managed')
+мая 02 23:44:39 strangecodder-laptop NetworkManager[465]: <info>  [1714682679.6242] sup-iface[51f13e5e75afeda0,12,wlp1s0]: wps: type pbc start...
+мая 02 23:44:39 strangecodder-laptop NetworkManager[465]: <info>  [1714682679.6248] device (wlp1s0): supplicant interface state: disconnected -> interface_disabled
+мая 02 23:44:39 strangecodder-laptop NetworkManager[465]: <info>  [1714682679.6249] device (p2p-dev-wlp1s0): supplicant management interface state: disconnected -> interface_disabled
+мая 02 23:44:39 strangecodder-laptop NetworkManager[465]: <info>  [1714682679.6250] device (p2p-dev-wlp1s0): supplicant management interface state: interface_disabled -> inactive
+мая 02 23:44:39 strangecodder-laptop NetworkManager[465]: <info>  [1714682679.6250] device (wlp1s0): supplicant interface state: interface_disabled -> inactive
+мая 02 23:44:39 strangecodder-laptop NetworkManager[465]: <info>  [1714682679.6321] device (p2p-dev-wlp1s0): supplicant management interface state: inactive -> scanning
+мая 02 23:44:39 strangecodder-laptop NetworkManager[465]: <info>  [1714682679.6321] device (wlp1s0): supplicant interface state: inactive -> scanning
+мая 02 23:44:39 strangecodder-laptop NetworkManager[465]: <info>  [1714682679.6482] device (wlp1s0): state change: need-auth -> prepare (reason 'none', sys-iface-state: 'managed')
+мая 02 23:44:39 strangecodder-laptop NetworkManager[465]: <info>  [1714682679.6486] device (wlp1s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+мая 02 23:44:39 strangecodder-laptop NetworkManager[465]: <info>  [1714682679.6489] Config: added 'ssid' value 'Keenetic-5897'
+мая 02 23:44:39 strangecodder-laptop NetworkManager[465]: <info>  [1714682679.6489] device (wlp1s0): Activation: (wifi) connection 'Keenetic-5897' has security, and secrets exist.  No new secrets needed.
+мая 02 23:44:39 strangecodder-laptop NetworkManager[465]: <info>  [1714682679.6490] Config: added 'auth_alg' value 'OPEN'
+мая 02 23:44:39 strangecodder-laptop NetworkManager[465]: <info>  [1714682679.6490] Config: added 'bgscan' value 'simple:30:-70:86400'
+мая 02 23:44:39 strangecodder-laptop NetworkManager[465]: <info>  [1714682679.6490] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK SAE FT-SAE'
+мая 02 23:44:39 strangecodder-laptop NetworkManager[465]: <info>  [1714682679.6490] Config: added 'psk' value '<hidden>'
+мая 02 23:44:39 strangecodder-laptop NetworkManager[465]: <info>  [1714682679.6490] Config: added 'scan_ssid' value '1'
+мая 02 23:44:39 strangecodder-laptop NetworkManager[465]: <info>  [1714682679.8127] device (wlp1s0): supplicant interface state: scanning -> authenticating
+мая 02 23:44:39 strangecodder-laptop NetworkManager[465]: <info>  [1714682679.8128] device (p2p-dev-wlp1s0): supplicant management interface state: scanning -> authenticating
+мая 02 23:44:39 strangecodder-laptop NetworkManager[465]: <info>  [1714682679.8155] device (p2p-dev-wlp1s0): supplicant management interface state: authenticating -> associating
+мая 02 23:44:39 strangecodder-laptop NetworkManager[465]: <info>  [1714682679.8155] device (wlp1s0): supplicant interface state: authenticating -> associating
+мая 02 23:44:39 strangecodder-laptop NetworkManager[465]: <info>  [1714682679.8700] device (p2p-dev-wlp1s0): supplicant management interface state: associating -> associated
+мая 02 23:44:39 strangecodder-laptop NetworkManager[465]: <info>  [1714682679.8700] device (wlp1s0): supplicant interface state: associating -> associated
+мая 02 23:44:39 strangecodder-laptop plasmashell[872]: kf.networkmanagerqt: void NetworkManager::ConnectionPrivate::onPropertiesChanged(const QVariantMap&) Unhandled property "VersionId"
+мая 02 23:44:39 strangecodder-laptop plasmashell[872]: "Object does not exist at path “/org/freedesktop/NetworkManager/ActiveConnection/7”"
+мая 02 23:44:40 strangecodder-laptop NetworkManager[465]: <info>  [1714682680.9500] device (wlp1s0): supplicant interface state: associated -> 4way_handshake
+мая 02 23:44:40 strangecodder-laptop NetworkManager[465]: <info>  [1714682680.9501] device (p2p-dev-wlp1s0): supplicant management interface state: associated -> 4way_handshake
+мая 02 23:44:41 strangecodder-laptop kernel: acpi AMDI0010:03: Already enumerated
+мая 02 23:44:41 strangecodder-laptop NetworkManager[465]: <info>  [1714682681.0069] device (wlp1s0): supplicant interface state: 4way_handshake -> completed
+мая 02 23:44:41 strangecodder-laptop NetworkManager[465]: <info>  [1714682681.0070] device (p2p-dev-wlp1s0): supplicant management interface state: 4way_handshake -> completed
+мая 02 23:44:41 strangecodder-laptop NetworkManager[465]: <info>  [1714682681.0070] device (wlp1s0): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "Keenetic-5897"
+мая 02 23:44:41 strangecodder-laptop NetworkManager[465]: <info>  [1714682681.0087] device (wlp1s0): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+мая 02 23:44:41 strangecodder-laptop NetworkManager[465]: <info>  [1714682681.0091] dhcp4 (wlp1s0): activation: beginning transaction (timeout in 45 seconds)
+мая 02 23:44:41 strangecodder-laptop NetworkManager[465]: <info>  [1714682681.0600] dhcp4 (wlp1s0): state changed new lease, address=192.168.1.65, acd pending
+мая 02 23:44:41 strangecodder-laptop NetworkManager[465]: <info>  [1714682681.2317] dhcp4 (wlp1s0): state changed new lease, address=192.168.1.65
+мая 02 23:44:41 strangecodder-laptop NetworkManager[465]: <info>  [1714682681.2324] policy: set 'Keenetic-5897' (wlp1s0) as default for IPv4 routing and DNS
+мая 02 23:44:41 strangecodder-laptop NetworkManager[465]: <info>  [1714682681.2578] device (wlp1s0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+мая 02 23:44:41 strangecodder-laptop NetworkManager[465]: <info>  [1714682681.2946] device (wlp1s0): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+мая 02 23:44:41 strangecodder-laptop NetworkManager[465]: <info>  [1714682681.2948] device (wlp1s0): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+мая 02 23:44:41 strangecodder-laptop NetworkManager[465]: <info>  [1714682681.2950] manager: NetworkManager state is now CONNECTED_SITE
+мая 02 23:44:41 strangecodder-laptop NetworkManager[465]: <info>  [1714682681.2953] device (wlp1s0): Activation: successful, device activated.
+мая 02 23:44:41 strangecodder-laptop NetworkManager[465]: <info>  [1714682681.3923] manager: NetworkManager state is now CONNECTED_GLOBAL
+мая 02 23:44:41 strangecodder-laptop systemd[1]: Started Network Manager Script Dispatcher Service.
+мая 02 23:44:41 strangecodder-laptop systemd[1]: Starting Network Manager Script Dispatcher Service...
+мая 02 23:44:42 strangecodder-laptop systemd[1]: systemd-rfkill.service: Deactivated successfully.
+мая 02 23:44:46 strangecodder-laptop plasmashell[11228]: [11223:11250:0502/234446.940560:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+мая 02 23:44:47 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@13.service: Deactivated successfully.
+мая 02 23:44:51 strangecodder-laptop systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+мая 02 23:44:59 strangecodder-laptop kernel: usb 1-2: new full-speed USB device number 5 using xhci_hcd
+мая 02 23:45:00 strangecodder-laptop kernel: hid-generic 0003:046D:C068.0004: input,hidraw1: USB HID v1.11 Mouse [Logitech G500] on usb-0000:03:00.3-2/input0
+мая 02 23:45:00 strangecodder-laptop kernel: hid-generic 0003:046D:C068.0005: input,hiddev96,hidraw2: USB HID v1.11 Keyboard [Logitech G500] on usb-0000:03:00.3-2/input1
+мая 02 23:45:00 strangecodder-laptop kernel: input: Logitech G500 as /devices/pci0000:00/0000:00:08.1/0000:03:00.3/usb1/1-2/1-2:1.0/0003:046D:C068.0004/input/input20
+мая 02 23:45:00 strangecodder-laptop kernel: input: Logitech G500 Keyboard as /devices/pci0000:00/0000:00:08.1/0000:03:00.3/usb1/1-2/1-2:1.1/0003:046D:C068.0005/input/input21
+мая 02 23:45:00 strangecodder-laptop kernel: usb 1-2: Manufacturer: Logitech
+мая 02 23:45:00 strangecodder-laptop kernel: usb 1-2: New USB device found, idVendor=046d, idProduct=c068, bcdDevice=58.02
+мая 02 23:45:00 strangecodder-laptop kernel: usb 1-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+мая 02 23:45:00 strangecodder-laptop kernel: usb 1-2: Product: G500
+мая 02 23:45:00 strangecodder-laptop kernel: usb 1-2: SerialNumber: 94C6F627EF0018
+мая 02 23:45:00 strangecodder-laptop mtp-probe[18493]: bus: 1, device: 5 was not an MTP device
+мая 02 23:45:00 strangecodder-laptop mtp-probe[18493]: checking bus 1, device 5: "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.3/usb1/1-2"
+мая 02 23:45:00 strangecodder-laptop mtp-probe[18509]: bus: 1, device: 5 was not an MTP device
+мая 02 23:45:00 strangecodder-laptop mtp-probe[18509]: checking bus 1, device 5: "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.3/usb1/1-2"
+мая 02 23:45:00 strangecodder-laptop systemd-logind[473]: Watching system buttons on /dev/input/event13 (Logitech G500 Keyboard)
+мая 02 23:45:04 strangecodder-laptop systemd[1]: Started dbus-:1.1-org.kde.powerdevil.backlighthelper@14.service.
+мая 02 23:45:09 strangecodder-laptop kernel: traps: CompositorTileW[12243] trap int3 ip:7ff4f5732d5d sp:7ff4ca5fb050 error:0 in libcef.so[7ff4f193c000+9b9a000]
+мая 02 23:45:09 strangecodder-laptop plasmashell[12140]: QXcbConnection: XCB error: 8 (BadMatch), sequence: 7623, resource id: 81789471, major code: 130 (Unknown), minor code: 3
+мая 02 23:45:09 strangecodder-laptop plasmashell[12140]: QXcbConnection: XCB error: 8 (BadMatch), sequence: 7650, resource id: 81789471, major code: 130 (Unknown), minor code: 3
+мая 02 23:45:09 strangecodder-laptop systemd[1]: Created slice Slice /system/systemd-coredump.
+мая 02 23:45:09 strangecodder-laptop systemd[1]: Started Process Core Dump (PID 18557/UID 0).
+мая 02 23:45:10 strangecodder-laptop systemd[1]: systemd-coredump@0-18557-0.service: Deactivated successfully.
+мая 02 23:45:10 strangecodder-laptop systemd-coredump[18560]: Process 12214 (editors_helper) of user 1000 dumped core.
+мая 02 23:45:11 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 02 23:45:12 strangecodder-laptop plasmashell[18588]: Opening in existing browser session.
+мая 02 23:45:12 strangecodder-laptop plasmashell[18605]: Opening in existing browser session.
+мая 02 23:45:12 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 02 23:45:15 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@14.service: Deactivated successfully.
+мая 02 23:46:31 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 52868, resource id: 4194371, major code: 129 (SHAPE), minor code: 6 (Input)
+мая 02 23:46:32 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 02 23:46:35 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55503, resource id: 16929870, major code: 143 (DAMAGE), minor code: 3 (Subtract)

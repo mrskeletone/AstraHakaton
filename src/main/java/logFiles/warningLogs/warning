@@ -1,0 +1,58 @@
+мая 02 01:44:03 strangecodder-laptop kdeconnectd[1053]: Error sending UDP packet: QAbstractSocket::NetworkError
+мая 02 01:44:03 strangecodder-laptop kernel: [drm] Alt mode has timed out after 202 ms
+мая 02 01:44:03 strangecodder-laptop kernel: pci 0000:00:00.2: can't derive routing for PCI INT A
+мая 02 01:44:03 strangecodder-laptop kernel: pci 0000:00:00.2: PCI INT A: no GSI
+мая 02 01:44:03 strangecodder-laptop kernel: queueing ieee80211 work while going to suspend
+мая 02 01:44:07 strangecodder-laptop kdeconnectd[1053]: Error sending UDP packet: QAbstractSocket::NetworkError
+мая 02 01:44:07 strangecodder-laptop kernel: [drm] Alt mode has timed out after 202 ms
+мая 02 01:44:07 strangecodder-laptop kernel: pci 0000:00:00.2: can't derive routing for PCI INT A
+мая 02 01:44:07 strangecodder-laptop kernel: pci 0000:00:00.2: PCI INT A: no GSI
+мая 02 01:44:09 strangecodder-laptop kdeconnectd[1053]: "Object does not exist at path “/org/freedesktop/NetworkManager/ActiveConnection/2”"
+мая 02 01:44:09 strangecodder-laptop kded5[798]: kf.networkmanagerqt: void NetworkManager::ConnectionPrivate::onPropertiesChanged(const QVariantMap&) Unhandled property "VersionId"
+мая 02 01:44:09 strangecodder-laptop kded5[798]: "Object does not exist at path “/org/freedesktop/NetworkManager/ActiveConnection/2”"
+мая 02 01:44:09 strangecodder-laptop plasmashell[872]: kf.networkmanagerqt: void NetworkManager::ConnectionPrivate::onPropertiesChanged(const QVariantMap&) Unhandled property "VersionId"
+мая 02 01:44:09 strangecodder-laptop plasmashell[872]: "Object does not exist at path “/org/freedesktop/NetworkManager/ActiveConnection/7”"
+мая 02 01:49:07 strangecodder-laptop kded5[798]: org.kde.plasma.nm.kded: Unhandled active connection state change:  3
+мая 02 01:49:11 strangecodder-laptop kdeconnectd[1053]: Error sending UDP packet: QAbstractSocket::NetworkError
+мая 02 01:49:11 strangecodder-laptop kernel: [drm] Alt mode has timed out after 202 ms
+мая 02 01:49:11 strangecodder-laptop kernel: pci 0000:00:00.2: can't derive routing for PCI INT A
+мая 02 01:49:11 strangecodder-laptop kernel: pci 0000:00:00.2: PCI INT A: no GSI
+мая 02 01:49:11 strangecodder-laptop kernel: queueing ieee80211 work while going to suspend
+мая 02 01:49:13 strangecodder-laptop kdeconnectd[1053]: "Object does not exist at path “/org/freedesktop/NetworkManager/ActiveConnection/2”"
+мая 02 01:49:13 strangecodder-laptop kded5[798]: kf.networkmanagerqt: void NetworkManager::ConnectionPrivate::onPropertiesChanged(const QVariantMap&) Unhandled property "VersionId"
+мая 02 01:49:13 strangecodder-laptop kded5[798]: "Object does not exist at path “/org/freedesktop/NetworkManager/ActiveConnection/2”"
+мая 02 01:49:13 strangecodder-laptop plasmashell[872]: kf.networkmanagerqt: void NetworkManager::ConnectionPrivate::onPropertiesChanged(const QVariantMap&) Unhandled property "VersionId"
+мая 02 01:49:13 strangecodder-laptop plasmashell[872]: "Object does not exist at path “/org/freedesktop/NetworkManager/ActiveConnection/7”"
+мая 02 01:49:16 strangecodder-laptop kded5[798]: org.kde.plasma.nm.kded: Unhandled active connection state change:  3
+мая 02 01:49:20 strangecodder-laptop kdeconnectd[1053]: Error sending UDP packet: QAbstractSocket::NetworkError
+мая 02 01:49:20 strangecodder-laptop kernel: [drm] Alt mode has timed out after 202 ms
+мая 02 01:49:20 strangecodder-laptop kernel: pci 0000:00:00.2: can't derive routing for PCI INT A
+мая 02 01:49:20 strangecodder-laptop kernel: pci 0000:00:00.2: PCI INT A: no GSI
+мая 02 01:49:20 strangecodder-laptop kernel: queueing ieee80211 work while going to suspend
+мая 02 01:49:22 strangecodder-laptop kdeconnectd[1053]: "Object does not exist at path “/org/freedesktop/NetworkManager/ActiveConnection/2”"
+мая 02 01:49:22 strangecodder-laptop kded5[798]: kf.networkmanagerqt: void NetworkManager::ConnectionPrivate::onPropertiesChanged(const QVariantMap&) Unhandled property "VersionId"
+мая 02 01:49:22 strangecodder-laptop kded5[798]: "Object does not exist at path “/org/freedesktop/NetworkManager/ActiveConnection/2”"
+мая 02 01:49:22 strangecodder-laptop plasmashell[872]: kf.networkmanagerqt: void NetworkManager::ConnectionPrivate::onPropertiesChanged(const QVariantMap&) Unhandled property "VersionId"
+мая 02 01:49:22 strangecodder-laptop plasmashell[872]: "Object does not exist at path “/org/freedesktop/NetworkManager/ActiveConnection/7”"
+мая 02 01:50:19 strangecodder-laptop kded5[798]: org.kde.plasma.nm.kded: Unhandled active connection state change:  3
+мая 02 23:44:37 strangecodder-laptop kdeconnectd[1053]: Error sending UDP packet: QAbstractSocket::NetworkError
+мая 02 23:44:37 strangecodder-laptop kernel: done.
+мая 02 23:44:37 strangecodder-laptop kernel: [drm] Alt mode has timed out after 202 ms
+мая 02 23:44:37 strangecodder-laptop kernel: [drm] psp gfx command UNLOAD_TA(0x2) failed and response status is (0x117)
+мая 02 23:44:37 strangecodder-laptop kernel: pci 0000:00:00.2: can't derive routing for PCI INT A
+мая 02 23:44:37 strangecodder-laptop kernel: pci 0000:00:00.2: PCI INT A: no GSI
+мая 02 23:44:37 strangecodder-laptop kernel: queueing ieee80211 work while going to suspend
+мая 02 23:44:37 strangecodder-laptop plasmashell[872]: file:///usr/lib/qt/qml/org/kde/plasma/extras/PlaceholderMessage.qml:238:5: QML Heading: Binding loop detected for property "verticalAlignment"
+мая 02 23:44:39 strangecodder-laptop kdeconnectd[1053]: "Object does not exist at path “/org/freedesktop/NetworkManager/ActiveConnection/2”"
+мая 02 23:44:39 strangecodder-laptop kded5[798]: kf.networkmanagerqt: void NetworkManager::ConnectionPrivate::onPropertiesChanged(const QVariantMap&) Unhandled property "VersionId"
+мая 02 23:44:39 strangecodder-laptop kded5[798]: "Object does not exist at path “/org/freedesktop/NetworkManager/ActiveConnection/2”"
+мая 02 23:44:39 strangecodder-laptop kernel: Bluetooth: hci0: HCI Enhanced Setup Synchronous Connection command is advertised, but not supported.
+мая 02 23:44:39 strangecodder-laptop plasmashell[872]: kf.networkmanagerqt: void NetworkManager::ConnectionPrivate::onPropertiesChanged(const QVariantMap&) Unhandled property "VersionId"
+мая 02 23:44:39 strangecodder-laptop plasmashell[872]: "Object does not exist at path “/org/freedesktop/NetworkManager/ActiveConnection/7”"
+мая 02 23:44:41 strangecodder-laptop kernel: acpi AMDI0010:03: Already enumerated
+мая 02 23:45:10 strangecodder-laptop systemd-coredump[18560]: Process 12214 (editors_helper) of user 1000 dumped core.
+мая 02 23:45:11 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 02 23:45:12 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 02 23:46:31 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 52868, resource id: 4194371, major code: 129 (SHAPE), minor code: 6 (Input)
+мая 02 23:46:32 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 02 23:46:35 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55503, resource id: 16929870, major code: 143 (DAMAGE), minor code: 3 (Subtract)

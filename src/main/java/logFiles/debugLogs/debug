@@ -1,0 +1,97 @@
+мая 02 01:44:03 strangecodder-laptop kernel: random: crng reseeded on system resumption
+мая 02 01:44:03 strangecodder-laptop ModemManager[515]: <msg> [sleep-monitor-systemd] system is about to suspend
+мая 02 01:44:03 strangecodder-laptop ModemManager[515]: <msg> [sleep-monitor-systemd] system is resuming
+мая 02 01:44:03 strangecodder-laptop systemd-logind[473]: The system will suspend now!
+мая 02 01:44:03 strangecodder-laptop wpa_supplicant[615]: wlp1s0: CTRL-EVENT-DSCP-POLICY clear_all
+мая 02 01:44:07 strangecodder-laptop kernel: random: crng reseeded on system resumption
+мая 02 01:44:07 strangecodder-laptop ModemManager[515]: <msg> [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:02.2/0000:01:00.0': Device support check task already available for device '/sys/devices/pci0000:00/0000:00:02.2/0000:01:00.0'
+мая 02 01:44:07 strangecodder-laptop ModemManager[515]: <msg> [sleep-monitor-systemd] system is resuming
+мая 02 01:44:07 strangecodder-laptop wpa_supplicant[615]: nl80211: deinit ifname=wlp1s0 disabled_11b_rates=0
+мая 02 01:44:07 strangecodder-laptop wpa_supplicant[615]: wlp1s0: CTRL-EVENT-DSCP-POLICY clear_all
+мая 02 01:44:09 strangecodder-laptop kernel: wlp1s0: Limiting TX power to 30 (30 - 0) dBm as advertised by 78:81:02:a0:e0:99
+мая 02 01:44:09 strangecodder-laptop wpa_supplicant[615]: bgscan simple: Failed to enable signal strength monitoring
+мая 02 01:44:09 strangecodder-laptop wpa_supplicant[615]: wlp1s0: Associated with 78:81:02:a0:e0:99
+мая 02 01:44:09 strangecodder-laptop wpa_supplicant[615]: wlp1s0: CTRL-EVENT-CONNECTED - Connection to 78:81:02:a0:e0:99 completed [id=0 id_str=]
+мая 02 01:44:09 strangecodder-laptop wpa_supplicant[615]: wlp1s0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+мая 02 01:44:09 strangecodder-laptop wpa_supplicant[615]: wlp1s0: SME: Trying to authenticate with 78:81:02:a0:e0:99 (SSID='Kv45_5G' freq=5220 MHz)
+мая 02 01:44:09 strangecodder-laptop wpa_supplicant[615]: wlp1s0: Trying to associate with 78:81:02:a0:e0:99 (SSID='Kv45_5G' freq=5220 MHz)
+мая 02 01:44:09 strangecodder-laptop wpa_supplicant[615]: wlp1s0: WPA: Key negotiation completed with 78:81:02:a0:e0:99 [PTK=CCMP GTK=TKIP]
+мая 02 01:44:10 strangecodder-laptop ModemManager[515]: <msg> [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:02.2/0000:01:00.0': not supported by any plugin
+мая 02 01:49:07 strangecodder-laptop ModemManager[515]: <msg> [sleep-monitor-systemd] system is about to suspend
+мая 02 01:49:07 strangecodder-laptop systemd-logind[473]: The system will suspend now!
+мая 02 01:49:07 strangecodder-laptop wpa_supplicant[615]: wlp1s0: CTRL-EVENT-DISCONNECTED bssid=78:81:02:a0:e0:99 reason=3 locally_generated=1
+мая 02 01:49:07 strangecodder-laptop wpa_supplicant[615]: wlp1s0: CTRL-EVENT-DSCP-POLICY clear_all
+мая 02 01:49:07 strangecodder-laptop wpa_supplicant[615]: wlp1s0: CTRL-EVENT-REGDOM-CHANGE init=CORE type=WORLD
+мая 02 01:49:08 strangecodder-laptop wpa_supplicant[615]: nl80211: deinit ifname=wlp1s0 disabled_11b_rates=0
+мая 02 01:49:11 strangecodder-laptop kernel: random: crng reseeded on system resumption
+мая 02 01:49:11 strangecodder-laptop ModemManager[515]: <msg> [sleep-monitor-systemd] system is resuming
+мая 02 01:49:13 strangecodder-laptop kernel: wlp1s0: Limiting TX power to 30 (30 - 0) dBm as advertised by 78:81:02:a0:e0:99
+мая 02 01:49:13 strangecodder-laptop wpa_supplicant[615]: bgscan simple: Failed to enable signal strength monitoring
+мая 02 01:49:13 strangecodder-laptop wpa_supplicant[615]: wlp1s0: Associated with 78:81:02:a0:e0:99
+мая 02 01:49:13 strangecodder-laptop wpa_supplicant[615]: wlp1s0: CTRL-EVENT-CONNECTED - Connection to 78:81:02:a0:e0:99 completed [id=0 id_str=]
+мая 02 01:49:13 strangecodder-laptop wpa_supplicant[615]: wlp1s0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+мая 02 01:49:13 strangecodder-laptop wpa_supplicant[615]: wlp1s0: SME: Trying to authenticate with 78:81:02:a0:e0:99 (SSID='Kv45_5G' freq=5220 MHz)
+мая 02 01:49:13 strangecodder-laptop wpa_supplicant[615]: wlp1s0: Trying to associate with 78:81:02:a0:e0:99 (SSID='Kv45_5G' freq=5220 MHz)
+мая 02 01:49:13 strangecodder-laptop wpa_supplicant[615]: wlp1s0: WPA: Key negotiation completed with 78:81:02:a0:e0:99 [PTK=CCMP GTK=TKIP]
+мая 02 01:49:15 strangecodder-laptop ModemManager[515]: <msg> [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:02.2/0000:01:00.0': not supported by any plugin
+мая 02 01:49:16 strangecodder-laptop ModemManager[515]: <msg> [sleep-monitor-systemd] system is about to suspend
+мая 02 01:49:16 strangecodder-laptop systemd-logind[473]: The system will suspend now!
+мая 02 01:49:16 strangecodder-laptop wpa_supplicant[615]: wlp1s0: CTRL-EVENT-DISCONNECTED bssid=78:81:02:a0:e0:99 reason=3 locally_generated=1
+мая 02 01:49:16 strangecodder-laptop wpa_supplicant[615]: wlp1s0: CTRL-EVENT-DSCP-POLICY clear_all
+мая 02 01:49:16 strangecodder-laptop wpa_supplicant[615]: wlp1s0: CTRL-EVENT-REGDOM-CHANGE init=CORE type=WORLD
+мая 02 01:49:17 strangecodder-laptop wpa_supplicant[615]: nl80211: deinit ifname=wlp1s0 disabled_11b_rates=0
+мая 02 01:49:20 strangecodder-laptop kernel: random: crng reseeded on system resumption
+мая 02 01:49:20 strangecodder-laptop ModemManager[515]: <msg> [sleep-monitor-systemd] system is resuming
+мая 02 01:49:22 strangecodder-laptop kernel: wlp1s0: Limiting TX power to 30 (30 - 0) dBm as advertised by 78:81:02:a0:e0:99
+мая 02 01:49:22 strangecodder-laptop wpa_supplicant[615]: wlp1s0: Associated with 78:81:02:a0:e0:99
+мая 02 01:49:22 strangecodder-laptop wpa_supplicant[615]: wlp1s0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+мая 02 01:49:22 strangecodder-laptop wpa_supplicant[615]: wlp1s0: SME: Trying to authenticate with 78:81:02:a0:e0:99 (SSID='Kv45_5G' freq=5220 MHz)
+мая 02 01:49:22 strangecodder-laptop wpa_supplicant[615]: wlp1s0: Trying to associate with 78:81:02:a0:e0:99 (SSID='Kv45_5G' freq=5220 MHz)
+мая 02 01:49:23 strangecodder-laptop wpa_supplicant[615]: bgscan simple: Failed to enable signal strength monitoring
+мая 02 01:49:23 strangecodder-laptop wpa_supplicant[615]: wlp1s0: CTRL-EVENT-CONNECTED - Connection to 78:81:02:a0:e0:99 completed [id=0 id_str=]
+мая 02 01:49:23 strangecodder-laptop wpa_supplicant[615]: wlp1s0: WPA: Key negotiation completed with 78:81:02:a0:e0:99 [PTK=CCMP GTK=TKIP]
+мая 02 01:49:24 strangecodder-laptop ModemManager[515]: <msg> [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:02.2/0000:01:00.0': not supported by any plugin
+мая 02 01:50:19 strangecodder-laptop ModemManager[515]: <msg> [sleep-monitor-systemd] system is about to suspend
+мая 02 01:50:19 strangecodder-laptop systemd-logind[473]: The system will hibernate now!
+мая 02 01:50:19 strangecodder-laptop wpa_supplicant[615]: wlp1s0: CTRL-EVENT-DISCONNECTED bssid=78:81:02:a0:e0:99 reason=3 locally_generated=1
+мая 02 01:50:19 strangecodder-laptop wpa_supplicant[615]: wlp1s0: CTRL-EVENT-DSCP-POLICY clear_all
+мая 02 01:50:19 strangecodder-laptop wpa_supplicant[615]: wlp1s0: CTRL-EVENT-REGDOM-CHANGE init=CORE type=WORLD
+мая 02 01:50:20 strangecodder-laptop wpa_supplicant[615]: nl80211: deinit ifname=wlp1s0 disabled_11b_rates=0
+мая 02 23:44:37 strangecodder-laptop kernel: mt7921e 0000:01:00.0: Message 00020007 (seq 5) timeout
+мая 02 23:44:37 strangecodder-laptop kernel: mt7921e 0000:01:00.0: PM: dpm_run_callback(): pci_pm_restore+0x0/0xe0 returns -110
+мая 02 23:44:37 strangecodder-laptop kernel: mt7921e 0000:01:00.0: PM: failed to restore async: error -110
+мая 02 23:44:37 strangecodder-laptop kernel: PM: hibernation: Basic memory bitmaps created
+мая 02 23:44:37 strangecodder-laptop kernel: PM: hibernation: Basic memory bitmaps freed
+мая 02 23:44:37 strangecodder-laptop kernel: PM: hibernation: Marking nosave pages: [mem 0x00000000-0x00000fff]
+мая 02 23:44:37 strangecodder-laptop kernel: PM: hibernation: Marking nosave pages: [mem 0x0009f000-0x000fffff]
+мая 02 23:44:37 strangecodder-laptop kernel: PM: hibernation: Marking nosave pages: [mem 0x09a00000-0x09dfffff]
+мая 02 23:44:37 strangecodder-laptop kernel: PM: hibernation: Marking nosave pages: [mem 0x09f00000-0x09f0efff]
+мая 02 23:44:37 strangecodder-laptop kernel: PM: hibernation: Marking nosave pages: [mem 0xb423d000-0xb4330fff]
+мая 02 23:44:37 strangecodder-laptop kernel: PM: hibernation: Marking nosave pages: [mem 0xb450b000-0xb450bfff]
+мая 02 23:44:37 strangecodder-laptop kernel: PM: hibernation: Marking nosave pages: [mem 0xb4518000-0xb4518fff]
+мая 02 23:44:37 strangecodder-laptop kernel: PM: hibernation: Marking nosave pages: [mem 0xb455e000-0xb455efff]
+мая 02 23:44:37 strangecodder-laptop kernel: PM: hibernation: Marking nosave pages: [mem 0xb99e9000-0xbabe8fff]
+мая 02 23:44:37 strangecodder-laptop kernel: PM: hibernation: Marking nosave pages: [mem 0xc8dff000-0xcdffefff]
+мая 02 23:44:37 strangecodder-laptop kernel: PM: hibernation: Marking nosave pages: [mem 0xce000000-0xffffffff]
+мая 02 23:44:37 strangecodder-laptop kernel: PM: hibernation: Normal pages needed: 832879 + 1024, available pages: 1094195
+мая 02 23:44:37 strangecodder-laptop kernel: usb usb1: root hub lost power or was reset
+мая 02 23:44:37 strangecodder-laptop kernel: usb usb2: root hub lost power or was reset
+мая 02 23:44:37 strangecodder-laptop kernel: usb usb3: root hub lost power or was reset
+мая 02 23:44:37 strangecodder-laptop kernel: usb usb4: root hub lost power or was reset
+мая 02 23:44:37 strangecodder-laptop ModemManager[515]: <msg> [sleep-monitor-systemd] system is resuming
+мая 02 23:44:37 strangecodder-laptop pulseaudio[1096]: org.bluez.BatteryProviderManager1.UnregisterBatteryProvider() Failed: org.freedesktop.DBus.Error.UnknownObject:Method "UnregisterBatteryProvider" with signature "o" on interface "org.bluez.BatteryProviderManager1" doesn't exist
+мая 02 23:44:39 strangecodder-laptop wpa_supplicant[615]: RRM: Ignoring radio measurement request: Not associated
+мая 02 23:44:39 strangecodder-laptop wpa_supplicant[615]: wlp1s0: Associated with 50:ff:20:72:2c:8a
+мая 02 23:44:39 strangecodder-laptop wpa_supplicant[615]: wlp1s0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+мая 02 23:44:39 strangecodder-laptop wpa_supplicant[615]: wlp1s0: SME: Trying to authenticate with 50:ff:20:72:2c:8a (SSID='Keenetic-5897' freq=2422 MHz)
+мая 02 23:44:39 strangecodder-laptop wpa_supplicant[615]: wlp1s0: Trying to associate with 50:ff:20:72:2c:8a (SSID='Keenetic-5897' freq=2422 MHz)
+мая 02 23:44:39 strangecodder-laptop wpa_supplicant[615]: wlp1s0: WPS-CANCEL
+мая 02 23:44:39 strangecodder-laptop wpa_supplicant[615]: wlp1s0: WPS-PBC-ACTIVE
+мая 02 23:44:40 strangecodder-laptop wpa_supplicant[615]: bgscan simple: Failed to enable signal strength monitoring
+мая 02 23:44:40 strangecodder-laptop wpa_supplicant[615]: wlp1s0: CTRL-EVENT-CONNECTED - Connection to 50:ff:20:72:2c:8a completed [id=0 id_str=]
+мая 02 23:44:40 strangecodder-laptop wpa_supplicant[615]: wlp1s0: WPA: Key negotiation completed with 50:ff:20:72:2c:8a [PTK=CCMP GTK=CCMP]
+мая 02 23:44:41 strangecodder-laptop ModemManager[515]: <msg> [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:02.2/0000:01:00.0': not supported by any plugin
+мая 02 23:45:01 strangecodder-laptop kcminit[18515]: Initializing  "/usr/lib/qt/plugins/plasma/kcms/systemsettings/kcm_mouse.so"
+мая 02 23:45:01 strangecodder-laptop kcminit[18515]: Initializing  "/usr/lib/qt/plugins/plasma/kcms/systemsettings/kcm_touchpad.so"
+мая 02 23:45:01 strangecodder-laptop kcminit[18515]: kcm_touchpad: Using X11 backend
+мая 02 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.

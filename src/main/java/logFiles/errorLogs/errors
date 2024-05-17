@@ -1,0 +1,8 @@
+мая 02 01:44:09 strangecodder-laptop wpa_supplicant[615]: bgscan simple: Failed to enable signal strength monitoring
+мая 02 01:49:13 strangecodder-laptop wpa_supplicant[615]: bgscan simple: Failed to enable signal strength monitoring
+мая 02 01:49:23 strangecodder-laptop wpa_supplicant[615]: bgscan simple: Failed to enable signal strength monitoring
+мая 02 23:44:37 strangecodder-laptop kernel: mt7921e 0000:01:00.0: Message 00020007 (seq 5) timeout
+мая 02 23:44:37 strangecodder-laptop kernel: mt7921e 0000:01:00.0: PM: dpm_run_callback(): pci_pm_restore+0x0/0xe0 returns -110
+мая 02 23:44:37 strangecodder-laptop kernel: mt7921e 0000:01:00.0: PM: failed to restore async: error -110
+мая 02 23:44:37 strangecodder-laptop pulseaudio[1096]: org.bluez.BatteryProviderManager1.UnregisterBatteryProvider() Failed: org.freedesktop.DBus.Error.UnknownObject:Method "UnregisterBatteryProvider" with signature "o" on interface "org.bluez.BatteryProviderManager1" doesn't exist
+мая 02 23:44:40 strangecodder-laptop wpa_supplicant[615]: bgscan simple: Failed to enable signal strength monitoring
