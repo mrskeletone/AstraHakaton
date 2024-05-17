@@ -1,20 +1,34 @@
 package com.example.astrahakaton;
 
 
+import javafx.collections.FXCollections;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.chart.PieChart;
 import javafx.scene.control.TextArea;
 import javafx.stage.Stage;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.Map;
 
 public class LogsController {
     @FXML
     private TextArea textArea;
-
+    @FXML
+    private PieChart allLogsPie;
+    public void setPieData(Map<String,Long> data){
+        PieChart.Data[] pie=new PieChart.Data[data.size()];
+        int i=0;
+        for (var entry :
+                data.entrySet()) {
+            pie[i]=new PieChart.Data(entry.getKey(),entry.getValue());
+            i++;
+        }
+        allLogsPie.setData(FXCollections.observableArrayList(pie));
+    }
 
     public void setTextArea(String textArea){
         this.textArea.setText(textArea);
@@ -49,7 +63,7 @@ public class LogsController {
     }
     @FXML
     protected void onClickMenuErrors()throws IOException{
-        onClickMenu("errorsLogs-view.fxml","src/main/java/logFiles/errorsLogs/errors");
+        onClickMenu("errorsLogs-view.fxml","src/main/java/logFiles/errorLogs/errors");
     }
     @FXML
     protected void onClickMenuInfo()throws IOException{
