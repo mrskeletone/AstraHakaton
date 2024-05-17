@@ -29,39 +29,39 @@ public class LogsController {
     }
     @FXML
     protected void onClickMenuAlerts()throws IOException{
-        onClickMenu("alertsLogs-view.fxml","src/main/java/logFiles/alerts");
+        onClickMenu("alertsLogs-view.fxml","src/main/java/logFiles/alertsLogs/alerts");
     }
     @FXML
     protected void onClickMenuAllLogs()throws IOException{
-       onClickMenu("allLogs-view.fxml","src/main/java/logFiles/all_types");
+       onClickMenu("allLogs-view.fxml","src/main/java/logFiles/allTypesLogs/all_types");
     }
     @FXML
     protected void onClickMenuCrit()throws IOException{
-        onClickMenu("critLogs-view.fxml","src/main/java/logFiles/critical");
+        onClickMenu("critLogs-view.fxml","src/main/java/logFiles/criticalLogs/critical");
     }
     @FXML
     protected void onClickMenuDebug()throws IOException{
-        onClickMenu("debugLogs-view.fxml","src/main/java/logFiles/debug");
+        onClickMenu("debugLogs-view.fxml","src/main/java/logFiles/debugLogs/debug");
     }
     @FXML
     protected void onClickMenuEmerg()throws IOException{
-        onClickMenu("emergLogs-view.fxml","src/main/java/logFiles/emergency");
+        onClickMenu("emergLogs-view.fxml","src/main/java/logFiles/emergencyLogs/emergency");
     }
     @FXML
     protected void onClickMenuErrors()throws IOException{
-        onClickMenu("errorsLogs-view.fxml","src/main/java/logFiles/errors");
+        onClickMenu("errorsLogs-view.fxml","src/main/java/logFiles/errorsLogs/errors");
     }
     @FXML
     protected void onClickMenuInfo()throws IOException{
-        onClickMenu("infoLogs-view.fxml","src/main/java/logFiles/info");
+        onClickMenu("infoLogs-view.fxml","src/main/java/logFiles/infoLogs/info");
     }
     @FXML
     protected void onClickMenuNotice()throws IOException{
-        onClickMenu("noticeLogs-view.fxml","src/main/java/logFiles/notice");
+        onClickMenu("noticeLogs-view.fxml","src/main/java/logFiles/noticeLogs/notice");
     }
     @FXML
     protected void onClickMenuWarning()throws IOException{
-        onClickMenu("warningLogs-view.fxml","src/main/java/logFiles/warning");
+        onClickMenu("warningLogs-view.fxml","src/main/java/logFiles/warningLogs/warning");
     }
     //метод для переключение между типами логов
     private void onClickMenu(String fxml,String path) throws IOException{

@@ -42,7 +42,7 @@ public class HelloController {
             stage.setScene(scene);
             StringBuilder s= new StringBuilder();
             int i=0;
-            try(BufferedReader bufferedReader=new BufferedReader(new FileReader( "src/main/java/logFiles/all_types"))){
+            try(BufferedReader bufferedReader=new BufferedReader(new FileReader( "src/main/java/logFiles/allTypesLogs/all_types"))){
                 while (bufferedReader.ready()){
                     s.append(bufferedReader.readLine()).append("\n");
                 }
