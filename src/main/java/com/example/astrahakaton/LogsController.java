@@ -6,10 +6,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.chart.PieChart;
-import javafx.scene.control.Menu;
-import javafx.scene.control.MenuBar;
-import javafx.scene.control.MenuItem;
-import javafx.scene.control.TextArea;
+import javafx.scene.control.*;
 import javafx.stage.Stage;
 
 import java.io.BufferedReader;
@@ -38,8 +35,13 @@ public class LogsController {
         allLogsPie.setData(FXCollections.observableArrayList(pie));
     }
 
-    public void setMenuBar(Menu menu) {
-        menuBar.getMenus().add(menu);
+    public void setMenuBar(Map<String,Long> data) {
+        for (var i :
+                data.keySet()) {
+            menuBar.getMenus().get(1).getItems().add(new CheckMenuItem(i));
+
+        }
+        menuBar.getMenus().get(1).getItems().add(new MenuItem("Сбросить фильтры"));
     }
 
     public void setTextArea(String textArea) {
@@ -135,12 +137,12 @@ public class LogsController {
         LogsController logsController = fxmlLoader.getController();
         logsController.setTextArea(String.valueOf(s));
         if (!fxml.equals("allLogs-view.fxml")) {
-            Menu menu=new Menu("Фильтровать по");
-            for (var key :
-                    data.keySet()) {
-                    menu.getItems().add(new MenuItem(key));
-            }
-            logsController.setMenuBar(menu);
+//            Menu menu=new Menu("Фильтровать по");
+//            for (var key :
+//                    data.keySet()) {
+//                    menu.getItems().add(new MenuItem(key));
+//            }
+            logsController.setMenuBar(data);
             logsController.setPieData(data);
         }else {
             logsController.setPieData(data);

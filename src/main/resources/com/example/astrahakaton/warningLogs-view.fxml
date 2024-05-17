@@ -16,6 +16,7 @@
       <ColumnConstraints />
       <ColumnConstraints />
       <ColumnConstraints />
+      <ColumnConstraints />
     </columnConstraints>
     <rowConstraints>
         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
@@ -47,8 +48,17 @@
                         <MenuItem disable="true" mnemonicParsing="false" onAction="#onClickMenuWarning" text="warning" />
                     </items>
                 </Menu>
+                <Menu mnemonicParsing="false" text="Фильтрация по" />
+                <Menu mnemonicParsing="false" text="конвертация">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="JSON" />
+                        <MenuItem mnemonicParsing="false" text="CSV" />
+                    </items>
+                </Menu>
+
             </menus>
+
         </MenuBar>
-        <PieChart fx:id="allLogsPie" title="Соотношение" GridPane.columnIndex="7" GridPane.columnSpan="2" GridPane.rowIndex="2" GridPane.rowSpan="2" />
+        <PieChart fx:id="allLogsPie" title="Соотношение" GridPane.columnIndex="8" GridPane.columnSpan="2" GridPane.rowIndex="1" GridPane.rowSpan="2" />
     </children>
 </GridPane>
