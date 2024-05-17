@@ -48,6 +48,7 @@
                         <MenuItem mnemonicParsing="false" onAction="#onClickMenuWarning" text="warning" />
                     </items>
                 </Menu>
+                <Menu mnemonicParsing="false" text="Фильтрация по" />
 
             </menus>
         </MenuBar>

@@ -48,6 +48,8 @@
                         <MenuItem disable="true" mnemonicParsing="false" onAction="#onClickMenuWarning" text="warning" />
                     </items>
                 </Menu>
+                <Menu mnemonicParsing="false" text="Фильтрация по" />
+
             </menus>
         </MenuBar>
         <PieChart fx:id="allLogsPie" title="Соотношение" GridPane.columnIndex="8" GridPane.columnSpan="2" GridPane.rowIndex="1" GridPane.rowSpan="2" />
