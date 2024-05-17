@@ -126,6 +126,8 @@ public class LogsController {
                         l++;
                         data.put(subString, l);
                     }
+                }else {
+                    data=Util.allTypesLogs();
                 }
             }
         }
@@ -139,6 +141,8 @@ public class LogsController {
                     menu.getItems().add(new MenuItem(key));
             }
             logsController.setMenuBar(menu);
+            logsController.setPieData(data);
+        }else {
             logsController.setPieData(data);
         }
     }
