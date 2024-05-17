@@ -32,8 +32,9 @@
             <menus>
                 <Menu mnemonicParsing="false" text="Типы логов">
                     <items>
-                        <MenuItem mnemonicParsing="false" onAction="#onClickMenuAllLogs" text="All logs" />
+                        <MenuItem  mnemonicParsing="false" onAction="#onClickMenuAllLogs" text="All logs" />
                         <MenuItem mnemonicParsing="false" onAction="#onClickMenuAlerts" text="Alerts" />
+                        <MenuItem disable="true" mnemonicParsing="false" onAction="#onClickMenuCrit" text="Critical" />
                         <MenuItem mnemonicParsing="false" onAction="#onClickMenuDebug" text="debug" />
                         <MenuItem mnemonicParsing="false" onAction="#onClickMenuEmerg" text="emergency" />
                         <MenuItem mnemonicParsing="false" onAction="#onClickMenuErrors" text="errors" />

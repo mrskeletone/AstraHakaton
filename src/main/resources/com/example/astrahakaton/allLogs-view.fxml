@@ -34,7 +34,8 @@
         <menus>
           <Menu mnemonicParsing="false" text="Типы логов">
             <items>
-              <MenuItem mnemonicParsing="false" onAction="#onClickMenuAlerts" text="Alerts" />
+                <MenuItem disable="true" mnemonicParsing="false" onAction="#onClickMenuAllLogs" text="All logs" />
+                <MenuItem mnemonicParsing="false" onAction="#onClickMenuAlerts" text="Alerts" />
                 <MenuItem mnemonicParsing="false" onAction="#onClickMenuCrit" text="Critical" />
                 <MenuItem mnemonicParsing="false" onAction="#onClickMenuDebug" text="debug" />
                 <MenuItem mnemonicParsing="false" onAction="#onClickMenuEmerg" text="emergency" />
@@ -42,7 +43,6 @@
                 <MenuItem mnemonicParsing="false" onAction="#onClickMenuInfo" text="info" />
                 <MenuItem mnemonicParsing="false" onAction="#onClickMenuNotice" text="notice" />
                 <MenuItem mnemonicParsing="false" onAction="#onClickMenuWarning" text="warning" />
-
             </items>
           </Menu>
         </menus>
