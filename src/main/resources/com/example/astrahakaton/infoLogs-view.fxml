@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.chart.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
@@ -12,6 +13,9 @@
         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
     </columnConstraints>
     <rowConstraints>
         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
@@ -26,13 +30,13 @@
 
         <TextFlow prefHeight="200.0" prefWidth="200.0" GridPane.columnSpan="4" GridPane.rowIndex="1" GridPane.rowSpan="4">
             <children>
-                <TextArea fx:id="textArea" editable="false" prefHeight="700.0" prefWidth="800.0" />
+                <TextArea fx:id="textArea" editable="false" prefHeight="700.0" prefWidth="584.0" />
             </children></TextFlow>
-        <MenuBar GridPane.columnSpan="6">
+        <MenuBar fx:id="menuBar" GridPane.columnSpan="6">
             <menus>
                 <Menu mnemonicParsing="false" text="Типы логов">
                     <items>
-                        <MenuItem  mnemonicParsing="false" onAction="#onClickMenuAllLogs" text="All logs" />
+                        <MenuItem mnemonicParsing="false" onAction="#onClickMenuAllLogs" text="All logs" />
                         <MenuItem mnemonicParsing="false" onAction="#onClickMenuAlerts" text="Alerts" />
                         <MenuItem mnemonicParsing="false" onAction="#onClickMenuCrit" text="Critical" />
                         <MenuItem mnemonicParsing="false" onAction="#onClickMenuDebug" text="debug" />
@@ -43,17 +47,8 @@
                         <MenuItem mnemonicParsing="false" onAction="#onClickMenuWarning" text="warning" />
                     </items>
                 </Menu>
-                <Menu mnemonicParsing="false" text="Edit">
-                    <items>
-                        <MenuItem mnemonicParsing="false" text="Delete" />
-                    </items>
-                </Menu>
-                <Menu mnemonicParsing="false" text="Help">
-                    <items>
-                        <MenuItem mnemonicParsing="false" text="About" />
-                    </items>
-                </Menu>
             </menus>
         </MenuBar>
+        <PieChart fx:id="allLogsPie" title="Соотношение" GridPane.columnIndex="7" GridPane.columnSpan="2" GridPane.rowIndex="2" GridPane.rowSpan="2" />
     </children>
 </GridPane>
