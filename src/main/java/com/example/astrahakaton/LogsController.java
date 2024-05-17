@@ -2,6 +2,9 @@ package com.example.astrahakaton;
 
 
 import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -13,7 +16,6 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 public class LogsController {
@@ -23,6 +25,10 @@ public class LogsController {
     private PieChart allLogsPie;
     @FXML
     private MenuBar menuBar;
+
+    private boolean flagBase = false;
+
+    private static String  currentPath;
 
     public void setPieData(Map<String, Long> data) {
         PieChart.Data[] pie = new PieChart.Data[data.size()];
@@ -35,13 +41,79 @@ public class LogsController {
         allLogsPie.setData(FXCollections.observableArrayList(pie));
     }
 
-    public void setMenuBar(Map<String,Long> data) {
+    public String getTextArea() {
+        return textArea.getText();
+    }
+    public ObservableList<Menu> getMenuBar(){
+        return menuBar.getMenus();
+    }
+    public void setMenuBar(Map<String, Long> data) {
+        EventHandler<ActionEvent> selectFilter = e -> {
+            System.out.println(currentPath);
+            if (!flagBase) {
+                setTextArea("");
+                flagBase = true;
+            }
+            StringBuilder s = new StringBuilder(getTextArea());
+            if (((CheckMenuItem) e.getSource()).isSelected()) {
+                try (BufferedReader bufferedReader = new BufferedReader(new FileReader(currentPath))) {
+                    while (bufferedReader.ready()) {
+                        String string = bufferedReader.readLine();
+                        if (string.contains(((CheckMenuItem) e.getSource()).getText()))
+                            s.append(string).append("\n");
+                    }
+                } catch (IOException exception) {
+
+                }
+                setTextArea(s.toString());
+            } else {
+                String test=s.toString();
+                try (BufferedReader bufferedReader = new BufferedReader(new FileReader(currentPath))) {
+                    while (bufferedReader.ready()) {
+                        String string = bufferedReader.readLine();
+                        if (string.contains(((CheckMenuItem) e.getSource()).getText()))
+                            test.replace(string+"\n","");
+                    }
+                } catch (IOException exception) {
+
+                }
+                setTextArea(test);
+            }
+        };
+        EventHandler<ActionEvent> reset = e -> {
+            StringBuilder s=new StringBuilder();
+            setTextArea("");
+            try (BufferedReader bufferedReader = new BufferedReader(new FileReader(currentPath))) {
+                while (bufferedReader.ready()) {
+                    String line = bufferedReader.readLine();
+                    s.append(line).append("\n");
+
+                }
+            }  catch (IOException exception){
+
+            }
+            setTextArea(s.toString());
+            flagBase=false;
+            var menu=getMenuBar();
+            Menu sel=menu.get(1);
+            for (var i :
+                    sel.getItems()) {
+                if (i instanceof CheckMenuItem) {
+                    ((CheckMenuItem) i).setSelected(false);
+                }
+                
+            }
+        };
         for (var i :
                 data.keySet()) {
-            menuBar.getMenus().get(1).getItems().add(new CheckMenuItem(i));
+            CheckMenuItem checkMenuItem = new CheckMenuItem(i);
+            checkMenuItem.setOnAction(selectFilter);
+            menuBar.getMenus().get(1).getItems().add(checkMenuItem);
 
         }
-        menuBar.getMenus().get(1).getItems().add(new MenuItem("Сбросить фильтры"));
+        MenuItem menuItem=new MenuItem("Сбросить фильтры");
+        menuItem.setOnAction(reset);
+        menuBar.getMenus().get(1).getItems().add(menuItem);
     }
 
     public void setTextArea(String textArea) {
@@ -104,6 +176,7 @@ public class LogsController {
     //метод для переключение между типами логов
     private void onClickMenu(String fxml, String path) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource(fxml));
+        currentPath = path;
         Scene scene = new Scene(fxmlLoader.load());
         Stage stage = new HelloApplication().getPrimaryStage();
         stage.setScene(scene);
@@ -128,8 +201,8 @@ public class LogsController {
                         l++;
                         data.put(subString, l);
                     }
-                }else {
-                    data=Util.allTypesLogs();
+                } else {
+                    data = Util.allTypesLogs();
                 }
             }
         }
@@ -137,14 +210,9 @@ public class LogsController {
         LogsController logsController = fxmlLoader.getController();
         logsController.setTextArea(String.valueOf(s));
         if (!fxml.equals("allLogs-view.fxml")) {
-//            Menu menu=new Menu("Фильтровать по");
-//            for (var key :
-//                    data.keySet()) {
-//                    menu.getItems().add(new MenuItem(key));
-//            }
             logsController.setMenuBar(data);
             logsController.setPieData(data);
-        }else {
+        } else {
             logsController.setPieData(data);
         }
     }
