@@ -1,11 +1,11 @@
 #!/bin/bash
 
-echo -n > ../logFiles/emergency
-echo -n > ../logFiles/alerts
-echo -n > ../logFiles/critical
-echo -n > ../logFiles/errors
-echo -n > ../logFiles/warning
-echo -n > ../logFiles/notice
-echo -n > ../logFiles/info
-echo -n > ../logFiles/debug
-echo -n > ../logFiles/allTypes
+echo -n > src/main/java/logFiles/emergencyLogs/emergency
+echo -n > src/main/java/logFiles/alertsLogs/alerts
+echo -n > src/main/java/logFiles/criticalLogs/critical
+echo -n > src/main/java/logFiles/errorLogs/errors
+echo -n > src/main/java/logFiles/warningLogs/warning
+echo -n > src/main/java/logFiles/noticeLogs/notice
+echo -n > src/main/java/logFiles/infoLogs/info
+echo -n > src/main/java/logFiles/debugLogs/debug
+echo -n > src/main/java/logFiles/allTypesLogs/all_types
