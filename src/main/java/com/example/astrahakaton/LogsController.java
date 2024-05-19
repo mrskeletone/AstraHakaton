@@ -15,7 +15,9 @@ import javafx.stage.Stage;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class LogsController {
@@ -28,7 +30,9 @@ public class LogsController {
 
     private boolean flagBase = false;
 
-    private static String  currentPath;
+    private static String currentPath;
+
+    private static List<String> listFilter = new ArrayList<>();
 
     public void setPieData(Map<String, Long> data) {
         PieChart.Data[] pie = new PieChart.Data[data.size()];
@@ -44,64 +48,73 @@ public class LogsController {
     public String getTextArea() {
         return textArea.getText();
     }
-    public ObservableList<Menu> getMenuBar(){
+
+    public ObservableList<Menu> getMenuBar() {
         return menuBar.getMenus();
     }
+
     public void setMenuBar(Map<String, Long> data) {
         EventHandler<ActionEvent> selectFilter = e -> {
             System.out.println(currentPath);
-            if (!flagBase) {
-                setTextArea("");
-                flagBase = true;
-            }
-            StringBuilder s = new StringBuilder(getTextArea());
+            setTextArea("");
+            StringBuilder s = new StringBuilder();
             if (((CheckMenuItem) e.getSource()).isSelected()) {
-                try (BufferedReader bufferedReader = new BufferedReader(new FileReader(currentPath))) {
-                    while (bufferedReader.ready()) {
-                        String string = bufferedReader.readLine();
-                        if (string.contains(((CheckMenuItem) e.getSource()).getText()))
-                            s.append(string).append("\n");
-                    }
-                } catch (IOException exception) {
-
-                }
-                setTextArea(s.toString());
+                listFilter.add(((CheckMenuItem) e.getSource()).getText());
             } else {
-                String test=s.toString();
+                listFilter.remove(((CheckMenuItem) e.getSource()).getText());
+            }
+            if (listFilter.isEmpty()) {
                 try (BufferedReader bufferedReader = new BufferedReader(new FileReader(currentPath))) {
                     while (bufferedReader.ready()) {
                         String string = bufferedReader.readLine();
-                        if (string.contains(((CheckMenuItem) e.getSource()).getText()))
-                            test.replace(string+"\n","");
+                        s.append(string).append("\n");
                     }
-                } catch (IOException exception) {
+                } catch (IOException ignored) {
 
                 }
-                setTextArea(test);
+            } else {
+                try (BufferedReader bufferedReader = new BufferedReader(new FileReader(currentPath))) {
+                    while (bufferedReader.ready()) {
+                        String string = bufferedReader.readLine();
+                        String[] arrLine=string.split(" ");
+                        int flag = arrLine[4].indexOf("[");
+                        if (flag < 0) {
+                            flag = arrLine[4].indexOf(":");
+                        }
+                        String subString = arrLine[4].substring(0, flag);
+                        if (listFilter.contains(subString)) {
+                            s.append(string).append("\n");
+                        }
+                    }
+                } catch (IOException ignored) {
+
+                }
             }
+            setTextArea(s.toString());
         };
         EventHandler<ActionEvent> reset = e -> {
-            StringBuilder s=new StringBuilder();
+            StringBuilder s = new StringBuilder();
             setTextArea("");
+            listFilter.clear();
             try (BufferedReader bufferedReader = new BufferedReader(new FileReader(currentPath))) {
                 while (bufferedReader.ready()) {
                     String line = bufferedReader.readLine();
                     s.append(line).append("\n");
 
                 }
-            }  catch (IOException exception){
+            } catch (IOException exception) {
 
             }
             setTextArea(s.toString());
-            flagBase=false;
-            var menu=getMenuBar();
-            Menu sel=menu.get(1);
+            flagBase = false;
+            var menu = getMenuBar();
+            Menu sel = menu.get(1);
             for (var i :
                     sel.getItems()) {
                 if (i instanceof CheckMenuItem) {
                     ((CheckMenuItem) i).setSelected(false);
                 }
-                
+
             }
         };
         for (var i :
@@ -111,7 +124,7 @@ public class LogsController {
             menuBar.getMenus().get(1).getItems().add(checkMenuItem);
 
         }
-        MenuItem menuItem=new MenuItem("Сбросить фильтры");
+        MenuItem menuItem = new MenuItem("Сбросить фильтры");
         menuItem.setOnAction(reset);
         menuBar.getMenus().get(1).getItems().add(menuItem);
     }
