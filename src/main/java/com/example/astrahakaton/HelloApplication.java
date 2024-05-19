@@ -10,19 +10,20 @@ import java.io.IOException;
 
 public class HelloApplication extends Application {
     private static Stage primaryStage;
+
     public Stage getPrimaryStage(){
         return primaryStage;
     }
+
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("start-view.fxml"));
         primaryStage=stage;
         Scene scene = new Scene(fxmlLoader.load(), 320, 240);
-        primaryStage.setTitle("superAnalizator3000");
-        primaryStage.getIcons().add(new Image("путь к картинке"));
+        primaryStage.getIcons().add(new Image(getClass().getResourceAsStream("logo/Logo.png")));
+        primaryStage.setTitle("AnLogger");
         primaryStage.setScene(scene);
         primaryStage.show();
-
     }
 
     public static void main(String[] args) {
