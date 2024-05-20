@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="998.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.astrahakaton.LogsController">
+<GridPane fx:id="view" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1000.0" prefWidth="1500" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.astrahakaton.LogsController">
   <columnConstraints>
     <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
     <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -25,11 +25,7 @@
       <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
   </rowConstraints>
    <children>
-      <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClickBackButton" prefHeight="36.0" prefWidth="1016.0" text="Назад" GridPane.columnSpan="6" GridPane.rowIndex="5" />
-      <TextFlow prefHeight="200.0" prefWidth="200.0" GridPane.columnSpan="4" GridPane.rowIndex="1" GridPane.rowSpan="4">
-         <children>
-            <TextArea fx:id="textArea" editable="false" prefHeight="700.0" prefWidth="568.0" />
-         </children></TextFlow>
+      <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClickBackButton" prefHeight="30.0" prefWidth="607.0" text="Назад" GridPane.columnSpan="5" GridPane.rowIndex="5" />
       <MenuBar prefHeight="25.0" prefWidth="600.0" GridPane.columnSpan="5">
         <menus>
           <Menu mnemonicParsing="false" text="Типы логов">
@@ -53,6 +49,6 @@
             </Menu>
         </menus>
       </MenuBar>
-      <PieChart fx:id="allLogsPie" minHeight="400.0" minWidth="500.0" prefHeight="1500.0" prefWidth="1000.0" startAngle="1.0" title="Соотношение" GridPane.columnIndex="5" GridPane.columnSpan="2" GridPane.rowIndex="1" GridPane.rowSpan="2" />
+      <PieChart fx:id="allLogsPie" minHeight="384.0" minWidth="500.0" prefHeight="852.0" prefWidth="566.0" startAngle="1.0" title="Соотношение" GridPane.columnIndex="5" GridPane.columnSpan="2" GridPane.rowIndex="1" GridPane.rowSpan="2" />
    </children>
 </GridPane>

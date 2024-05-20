@@ -10,6 +10,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.chart.PieChart;
 import javafx.scene.control.*;
+import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
 import java.io.BufferedReader;
@@ -21,18 +22,24 @@ import java.util.List;
 import java.util.Map;
 
 public class LogsController {
-    @FXML
-    private TextArea textArea;
+
     @FXML
     private PieChart allLogsPie;
     @FXML
     private MenuBar menuBar;
+    @FXML
+    private GridPane view;
 
-    private boolean flagBase = false;
+    private static TableView<Logs> table;
 
     private static String currentPath;
 
     private static List<String> listFilter = new ArrayList<>();
+
+
+    public void getAllLogsView(TableView<Logs> logsTableView) {
+        view.add(logsTableView, 0, 1, 5, 4);
+    }
 
     public void setPieData(Map<String, Long> data) {
         PieChart.Data[] pie = new PieChart.Data[data.size()];
@@ -45,8 +52,13 @@ public class LogsController {
         allLogsPie.setData(FXCollections.observableArrayList(pie));
     }
 
-    public String getTextArea() {
-        return textArea.getText();
+    public void setTable(ObservableList<Logs> s) {
+        if (s == null) {
+            table.getItems().clear();
+        } else {
+            table.getItems().addAll(s);
+
+        }
     }
 
     public ObservableList<Menu> getMenuBar() {
@@ -56,8 +68,8 @@ public class LogsController {
     public void setMenuBar(Map<String, Long> data) {
         EventHandler<ActionEvent> selectFilter = e -> {
             System.out.println(currentPath);
-            setTextArea("");
-            StringBuilder s = new StringBuilder();
+            setTable(null);
+            ObservableList<Logs> logs = FXCollections.observableArrayList();
             if (((CheckMenuItem) e.getSource()).isSelected()) {
                 listFilter.add(((CheckMenuItem) e.getSource()).getText());
             } else {
@@ -66,8 +78,8 @@ public class LogsController {
             if (listFilter.isEmpty()) {
                 try (BufferedReader bufferedReader = new BufferedReader(new FileReader(currentPath))) {
                     while (bufferedReader.ready()) {
-                        String string = bufferedReader.readLine();
-                        s.append(string).append("\n");
+                        String line = bufferedReader.readLine();
+                        logs.add(Util.stringToLogs(line));
                     }
                 } catch (IOException ignored) {
 
@@ -75,38 +87,38 @@ public class LogsController {
             } else {
                 try (BufferedReader bufferedReader = new BufferedReader(new FileReader(currentPath))) {
                     while (bufferedReader.ready()) {
+                        StringBuilder s = new StringBuilder();
                         String string = bufferedReader.readLine();
-                        String[] arrLine=string.split(" ");
-                        int flag = arrLine[4].indexOf("[");
-                        if (flag < 0) {
-                            flag = arrLine[4].indexOf(":");
-                        }
-                        String subString = arrLine[4].substring(0, flag);
+                        String[] arrLine = string.split(" ");
+                        String subString = Util.getType(arrLine[4]);
                         if (listFilter.contains(subString)) {
-                            s.append(string).append("\n");
+                            for (int j = 5; j < arrLine.length; j++) {
+                                s.append(" ").append(arrLine[j]);
+                            }
+
+                            logs.add(new Logs(arrLine[0] + " " + arrLine[1] + " " + arrLine[2], arrLine[3], subString, s.toString()));
                         }
                     }
                 } catch (IOException ignored) {
 
                 }
             }
-            setTextArea(s.toString());
+            setTable(logs);
         };
         EventHandler<ActionEvent> reset = e -> {
             StringBuilder s = new StringBuilder();
-            setTextArea("");
+            setTable(null);
             listFilter.clear();
+            ObservableList<Logs> logs = FXCollections.observableArrayList();
             try (BufferedReader bufferedReader = new BufferedReader(new FileReader(currentPath))) {
                 while (bufferedReader.ready()) {
                     String line = bufferedReader.readLine();
-                    s.append(line).append("\n");
-
+                    logs.add(Util.stringToLogs(line));
                 }
             } catch (IOException exception) {
 
             }
-            setTextArea(s.toString());
-            flagBase = false;
+            setTable(logs);
             var menu = getMenuBar();
             Menu sel = menu.get(1);
             for (var i :
@@ -129,9 +141,6 @@ public class LogsController {
         menuBar.getMenus().get(1).getItems().add(menuItem);
     }
 
-    public void setTextArea(String textArea) {
-        this.textArea.setText(textArea);
-    }
 
     @FXML
     protected void onClickBackButton() throws IOException {
@@ -188,25 +197,21 @@ public class LogsController {
 
     //метод для переключение между типами логов
     private void onClickMenu(String fxml, String path) throws IOException {
+        listFilter.clear();
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource(fxml));
         currentPath = path;
         Scene scene = new Scene(fxmlLoader.load());
         Stage stage = new HelloApplication().getPrimaryStage();
         stage.setScene(scene);
-        StringBuilder s = new StringBuilder();
         int i = 0;
+        ObservableList<Logs> logs = FXCollections.observableArrayList();
         Map<String, Long> data = new HashMap<>();
         try (BufferedReader bufferedReader = new BufferedReader(new FileReader(path))) {
             while (bufferedReader.ready()) {
                 String line = bufferedReader.readLine();
-                s.append(line).append("\n");
+                String subString = Util.getType(line.split(" ")[4]);
+                logs.add(Util.stringToLogs(line));
                 if (!fxml.equals("allLogs-view.fxml")) {
-                    String[] arrLine = line.split(" ");
-                    int flag = arrLine[4].indexOf("[");
-                    if (flag < 0) {
-                        flag = arrLine[4].indexOf(":");
-                    }
-                    String subString = arrLine[4].substring(0, flag);
                     if (!data.containsKey(subString)) {
                         data.put(subString, 0L);
                     } else {
@@ -219,14 +224,13 @@ public class LogsController {
                 }
             }
         }
-
+        table=(Util.createLogsTable(logs));
+        table.setId("table");
         LogsController logsController = fxmlLoader.getController();
-        logsController.setTextArea(String.valueOf(s));
+        logsController.getAllLogsView(table);
         if (!fxml.equals("allLogs-view.fxml")) {
             logsController.setMenuBar(data);
-            logsController.setPieData(data);
-        } else {
-            logsController.setPieData(data);
         }
+        logsController.setPieData(data);
     }
 }
