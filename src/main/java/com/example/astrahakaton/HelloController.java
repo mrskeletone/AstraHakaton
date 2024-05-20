@@ -1,5 +1,6 @@
 package com.example.astrahakaton;
 
+import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -19,6 +20,7 @@ public class HelloController {
     @FXML
     private DatePicker datePicker2;
 
+    private static FXMLLoader fxmlLoader;
 
     @FXML
     protected void onHelloButtonClick() throws IOException, InterruptedException {
@@ -37,7 +39,7 @@ public class HelloController {
 //            process.getErrorStream().transferTo(System.out);
 
             //
-            FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("allLogs-view.fxml"));
+             fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("allLogs-view.fxml"));
             Scene scene = new Scene(fxmlLoader.load());
             Stage stage = new HelloApplication().getPrimaryStage();
             stage.setScene(scene);
@@ -49,11 +51,18 @@ public class HelloController {
                 }
             }
             Map<String, Long> data = Util.allTypesLogs();
+            Platform.runLater(() -> {
+                //Сюда вписать добавление скрипта
 
+                //
+                LogsController logsController = fxmlLoader.getController();
+                logsController.setPieData(data);
+
+            });
 
             LogsController logsController = fxmlLoader.getController();
             logsController.setTextArea(String.valueOf(s));
-            logsController.setPieData(data);
+            // logsController.setPieData(data);
         }
     }
 
