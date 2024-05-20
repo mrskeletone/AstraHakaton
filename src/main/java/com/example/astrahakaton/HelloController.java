@@ -50,7 +50,7 @@ public class HelloController {
                     s.append(bufferedReader.readLine()).append("\n");
                 }
             }
-            Platform.runLater(() -> {
+         Thread thread=new Thread(() ->   Platform.runLater(() -> {
                 //Сюда вписать добавление скрипта
 
                 //
@@ -59,8 +59,8 @@ public class HelloController {
 
                 logsController.setPieData(data);
 
-            });
-
+            }));
+            thread.start();
             LogsController logsController = fxmlLoader.getController();
             logsController.setTextArea(String.valueOf(s));
             // logsController.setPieData(data);
