@@ -10,10 +10,11 @@ import java.io.*;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
+//Класс предназначен методов ускоряющих написание программы
 public class Util {
     private Util(){
     }
+    // Возвращает тип лога без лишних символов
     public static String getType(String s){
         int flag = s.indexOf("[");
         if (flag < 0) {
@@ -21,6 +22,7 @@ public class Util {
         }
         return s.substring(0, flag);
     }
+    //Переводит string  в класс Logs
     public static Logs stringToLogs(String line){
         StringBuilder s = new StringBuilder();
         String[] split = line.split(" ");
@@ -31,6 +33,7 @@ public class Util {
         String subString = Util.getType(arrLine[4]);
         return  new Logs(split[0] + " " + split[1] + " " + split[2], split[3], subString, s.toString());
     }
+    //Создает таблицу с колонками под логи и нужными размерами
   public static TableView<Logs> createLogsTable(ObservableList<Logs> logs){
       TableView<Logs> table=new TableView<>(logs);
       TableColumn<Logs, String> dateColumn = new TableColumn<>("Date");
@@ -50,6 +53,7 @@ public class Util {
       return table;
 
   }
+    //Выводит кол-во строк в файле
    static long lineNumber(String path){
        long noOfLines = -1;
 
@@ -63,6 +67,7 @@ public class Util {
         }
         return noOfLines;
     }
+    //Возвращает Map с ключом лог и значением кол-во
     static Map<String,Long> allTypesLogs(){
         Map<String, Long> data = new HashMap<>();
         long alert = Util.lineNumber("src/main/java/logFiles/alertsLogs/alerts");
@@ -80,4 +85,6 @@ public class Util {
         data.put("info " + String.format("%.2f", (double) info / (double) sum * 100) + "%", info);
         return data;
     }
+
 }
+

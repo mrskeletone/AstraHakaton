@@ -28,7 +28,10 @@ public class HelloController {
 
 
     private static FXMLLoader fxmlLoader;
-
+    // При нажатие на кнопку ,берет значение из полей для дат и передает их в  скрипт для создание файла с всеми типами логов
+    //Создает другой поток в котором создает файле под определенные логи
+    //Создает таблицу для вывода логов
+    //Создает График по логам
     @FXML
     protected void onHelloButtonClick() throws IOException, InterruptedException {
         LocalDate begin = datePicker1.getValue();
