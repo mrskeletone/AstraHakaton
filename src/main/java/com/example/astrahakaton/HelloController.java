@@ -50,12 +50,13 @@ public class HelloController {
                     s.append(bufferedReader.readLine()).append("\n");
                 }
             }
-            Map<String, Long> data = Util.allTypesLogs();
             Platform.runLater(() -> {
                 //Сюда вписать добавление скрипта
 
                 //
                 LogsController logsController = fxmlLoader.getController();
+                Map<String, Long> data = Util.allTypesLogs();
+
                 logsController.setPieData(data);
 
             });
