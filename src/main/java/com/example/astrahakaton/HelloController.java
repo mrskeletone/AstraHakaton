@@ -9,7 +9,6 @@ import javafx.stage.Stage;
 
 import java.io.*;
 import java.time.LocalDate;
-import java.util.HashMap;
 import java.util.Map;
 
 
@@ -26,17 +25,15 @@ public class HelloController {
     protected void onHelloButtonClick() throws IOException, InterruptedException {
         LocalDate begin = datePicker1.getValue();
         LocalDate end = datePicker2.getValue();
-        if (end == null)
-            end = LocalDate.now();
         if (begin != null) {
             // активация скрипта
-//            String [] command = {"bash","src/main/java/scrypt/writer/log_writer_by_date.sh",
-//            begin.toString(),end.toString()};
-//
-//            Process process = Runtime.getRuntime().exec(command);
-//
-//            process.getInputStream().transferTo(System.out);
-//            process.getErrorStream().transferTo(System.out);
+            String [] command = {"bash","src/main/java/scrypt/writer/log_writer_by_date.sh",
+            begin.toString(),end.toString()};
+
+            Process process = Runtime.getRuntime().exec(command);
+
+            process.getInputStream().transferTo(System.out);
+            process.getErrorStream().transferTo(System.out);
 
             //
              fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("allLogs-view.fxml"));
@@ -50,20 +47,36 @@ public class HelloController {
                     s.append(bufferedReader.readLine()).append("\n");
                 }
             }
-         Thread thread=new Thread(() ->   Platform.runLater(() -> {
-                //Сюда вписать добавление скрипта
+            Thread thread = new Thread(()-> {
 
-                //
-                LogsController logsController = fxmlLoader.getController();
+                String[] command1 = {"bash", "src/main/java/scrypt/writer/writer_zero-six.sh",
+                        begin.toString(), end.toString()};
+                System.out.println("вошёл в thread");
+                try {
+                    System.out.println("Вошёл в try");
+                    Process process2 = Runtime.getRuntime().exec(command1);
+
+                    process2.getInputStream().transferTo(System.out);
+                    process2.getErrorStream().transferTo(System.out);
+                }catch (IOException e){
+                    e.printStackTrace();
+                }
+
+
                 Map<String, Long> data = Util.allTypesLogs();
+                Platform.runLater(() -> {
+                    LogsController logsController = fxmlLoader.getController();
 
-                logsController.setPieData(data);
 
-            }));
+                    logsController.setPieData(data);
+
+                });
+            });
+
             thread.start();
+
             LogsController logsController = fxmlLoader.getController();
             logsController.setTextArea(String.valueOf(s));
-            // logsController.setPieData(data);
         }
     }
 
