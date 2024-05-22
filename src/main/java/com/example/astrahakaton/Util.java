@@ -19,6 +19,8 @@ import java.util.*;
 
 //Класс предназначен методов ускоряющих написание программы
 public class Util {
+    private static LocalDate endDate;
+    private static String time;
     public static LocalDate getEndDate() {
         return endDate;
     }
@@ -116,8 +118,7 @@ public class Util {
          return sb.toString();
     }
 
-    private static LocalDate endDate;
-    private static String time;
+
 
     private Util(){
     }

@@ -46,4 +46,9 @@ public class Logs {
         this.type = new SimpleStringProperty(type);
         this.comment = new SimpleStringProperty(comment);
     }
+
+    @Override
+    public String toString() {
+        return getDate()+" "+getUser()+" "+getType()+":"+getComment();
+    }
 }

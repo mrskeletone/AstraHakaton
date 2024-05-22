@@ -42,11 +42,14 @@
           </Menu>
             <Menu mnemonicParsing="false" text="Конвертация">
               <items>
-                <MenuItem mnemonicParsing="false" text="JSON" />
+                <MenuItem mnemonicParsing="false" onAction="#onClickJSON" text="JSON" />
                   <MenuItem mnemonicParsing="false" text="CSV" />
               </items>
             </Menu>
-            <Menu mnemonicParsing="false" onAction="#onClickUpdate" text="Обновить" />
+            <Menu mnemonicParsing="false" text="Обновление">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#onClickUpdate" text="Обновить" />
+               </items></Menu>
             <Menu mnemonicParsing="false" text="Анализ">
                <items>
                   <MenuItem mnemonicParsing="false" onAction="#onClickAnalysis" text="Графики" />
