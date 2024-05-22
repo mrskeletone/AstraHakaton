@@ -17,12 +17,12 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.time.LocalDate;
+import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
 import java.util.stream.Collectors;
 
 public class LogsController {
-
     @FXML
     private PieChart allLogsPie;
     @FXML
@@ -251,7 +251,16 @@ public class LogsController {
     //метод для кнопки обновления
     @FXML
     protected void onClickUpdate() throws IOException {
+        String date = Util.getEndDate().toString() + " " + Util.getTime();
+        String [] command = {"bash","src/main/java/scrypt/writer/log_updater.sh",
+                date + " " + Util.getTime(),date};
 
+        Util.saveTime(Util.processTime(LocalTime.now()));
+
+        Process process = Runtime.getRuntime().exec(command);
+
+        process.getInputStream().transferTo(System.out);
+        process.getErrorStream().transferTo(System.out);
     }
 
     //метод для кнопки обновления
