@@ -266,7 +266,7 @@ public class LogsController {
         process.getErrorStream().transferTo(System.out);
     }
 
-    //метод для кнопки обновления
+    //метод для кнопки графики
     @FXML
     protected void onClickAnalysis() throws IOException {
         System.out.println("сработало");
@@ -286,14 +286,16 @@ public class LogsController {
 
     @FXML
     protected void onClickJSON() throws IOException {
-        try (BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("src/main/java/jsonFiles/JSON"))) {
-            LogsController logsController=currentFXMLLoader.getController();
-            ObservableList<Logs> logs=logsController.getDataFromTable();
-            for (var log :
-                    logs) {
-                bufferedWriter.write(log.toString()+"\n");
-            }
-        }
+        Util.createFileForConvertor("src/main/java/jsonFiles/JSON");
+
         //Активация скрипта конвертации
+    }
+    @FXML
+    protected void onClickCSV() throws IOException {
+        Util.createFileForConvertor("src/main/java/csvFiles/CSV");
+        //Активация скрипта конвертации
+    }
+    public static FXMLLoader getCurrentFXMLLoader(){
+        return currentFXMLLoader;
     }
 }
