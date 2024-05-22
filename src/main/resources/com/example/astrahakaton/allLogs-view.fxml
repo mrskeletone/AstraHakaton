@@ -47,7 +47,10 @@
               </items>
             </Menu>
             <Menu mnemonicParsing="false" onAction="#onClickUpdate" text="Обновить" />
-            <Menu mnemonicParsing="false" onAction="#onClickAnalysis" text="Анализ" />
+            <Menu mnemonicParsing="false" text="Анализ">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#onClickAnalysis" text="Графики" />
+               </items></Menu>
         </menus>
       </MenuBar>
       <PieChart fx:id="allLogsPie" minHeight="384.0" minWidth="500.0" prefHeight="852.0" prefWidth="566.0" startAngle="1.0" title="Соотношение" GridPane.columnIndex="5" GridPane.columnSpan="2" GridPane.rowIndex="1" GridPane.rowSpan="2" />

@@ -8,7 +8,7 @@ import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
-import javafx.scene.chart.PieChart;
+import javafx.scene.chart.*;
 import javafx.scene.control.*;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
@@ -16,10 +16,10 @@ import javafx.stage.Stage;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class LogsController {
 
@@ -34,12 +34,17 @@ public class LogsController {
 
     private static String currentPath;
 
-    private static List<String> listFilter = new ArrayList<>();
+    private static final List<String> listFilter = new ArrayList<>();
 
     //Создает таблицу в ячейках с (0,1) до (5,4)
     public void getAllLogsView(TableView<Logs> logsTableView) {
         view.add(logsTableView, 0, 1, 5, 4);
     }
+
+    public void getCharts(BarChart barChart, int i, int i1, int i2, int i3) {
+        view.add(barChart, i, i1,i2,i3);
+    }
+
 
     //Заполняет график полученными данными
     public void setPieData(Map<String, Long> data) {
@@ -155,41 +160,49 @@ public class LogsController {
     protected void onClickMenuAlerts() throws IOException {
         onClickMenu("alertsLogs-view.fxml", "src/main/java/logFiles/alertsLogs/alerts");
     }
+
     //Действие при выборе в меню allLogs
     @FXML
     protected void onClickMenuAllLogs() throws IOException {
         onClickMenu("allLogs-view.fxml", "src/main/java/logFiles/allTypesLogs/all_types");
     }
+
     //Действие при выборе в меню Critical
     @FXML
     protected void onClickMenuCrit() throws IOException {
         onClickMenu("critLogs-view.fxml", "src/main/java/logFiles/criticalLogs/critical");
     }
+
     //Действие при выборе в меню Debug
     @FXML
     protected void onClickMenuDebug() throws IOException {
         onClickMenu("debugLogs-view.fxml", "src/main/java/logFiles/debugLogs/debug");
     }
+
     //Действие при выборе в меню Emergency
     @FXML
     protected void onClickMenuEmerg() throws IOException {
         onClickMenu("emergLogs-view.fxml", "src/main/java/logFiles/emergencyLogs/emergency");
     }
+
     //Действие при выборе в меню Errors
     @FXML
     protected void onClickMenuErrors() throws IOException {
         onClickMenu("errorsLogs-view.fxml", "src/main/java/logFiles/errorLogs/errors");
     }
+
     //Действие при выборе в меню Info
     @FXML
     protected void onClickMenuInfo() throws IOException {
         onClickMenu("infoLogs-view.fxml", "src/main/java/logFiles/infoLogs/info");
     }
+
     //Действие при выборе в меню Notice
     @FXML
     protected void onClickMenuNotice() throws IOException {
         onClickMenu("noticeLogs-view.fxml", "src/main/java/logFiles/noticeLogs/notice");
     }
+
     //Действие при выборе в меню Warning
     @FXML
     protected void onClickMenuWarning() throws IOException {
@@ -234,9 +247,28 @@ public class LogsController {
         }
         logsController.setPieData(data);
     }
+
     //метод для кнопки обновления
     @FXML
-    protected void onClickUpdate() throws IOException{
+    protected void onClickUpdate() throws IOException {
 
+    }
+
+    //метод для кнопки обновления
+    @FXML
+    protected void onClickAnalysis() throws IOException {
+        System.out.println("сработало");
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("analysis-view.fxml"));
+        Scene scene = new Scene(fxmlLoader.load());
+        Stage stage = new HelloApplication().getPrimaryStage();
+        stage.setScene(scene);
+        Util.createCharts("src/main/java/logFiles/allTypesLogs/all_types",fxmlLoader,0,1,1,2,"all_types");
+        Util.createCharts("src/main/java/logFiles/alertsLogs/alerts",fxmlLoader,2,1,3,2,"alerts");
+        Util.createCharts("src/main/java/logFiles/debugLogs/debug",fxmlLoader,5,1,6,2,"debug");
+        Util.createCharts("src/main/java/logFiles/emergencyLogs/emergency",fxmlLoader,11,1,12,2,"emergency");
+        Util.createCharts("src/main/java/logFiles/errorLogs/errors",fxmlLoader,0,6,1,6,"errors");
+        Util.createCharts("src/main/java/logFiles/infoLogs/info",fxmlLoader,2,6,3,6,"info");
+        Util.createCharts("src/main/java/logFiles/noticeLogs/notice",fxmlLoader,5,6,6,6,"notice");
+        Util.createCharts("src/main/java/logFiles/warningLogs/warning",fxmlLoader,11,6,12,6,"warning");
     }
 }

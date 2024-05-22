@@ -2,6 +2,11 @@ package com.example.astrahakaton;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.chart.BarChart;
+import javafx.scene.chart.CategoryAxis;
+import javafx.scene.chart.NumberAxis;
+import javafx.scene.chart.XYChart;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
@@ -9,6 +14,7 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import java.io.*;
 import java.time.LocalDate;
 import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
 import java.util.*;
 
 //Класс предназначен методов ускоряющих написание программы
@@ -27,6 +33,64 @@ public class Util {
 
     public static void saveTime(String time) {
         Util.time = time;
+    }
+    public static void createCharts(String path, FXMLLoader fxmlLoader,int i,int i1,int i2,int i3,String type) throws FileNotFoundException {
+        Map<LocalDate, Long> data = new HashMap<>();
+        try (BufferedReader bufferedReader = new BufferedReader(new FileReader(path))) {
+            while (bufferedReader.ready()) {
+                String s = bufferedReader.readLine();
+                String parseString = getParseString(s);
+                DateTimeFormatter formatter=DateTimeFormatter.ofPattern("dd-MM-yyyy");
+                LocalDate localDate = LocalDate.parse(parseString,formatter);
+
+                if (!data.containsKey(localDate)) {
+                    data.put(localDate, 0L);
+                } else {
+                    long l = data.get(localDate);
+                    l++;
+                    data.put(localDate, l);
+                }
+            }
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        CategoryAxis newxaxis = new CategoryAxis();
+        NumberAxis yaxis = new NumberAxis();
+        newxaxis.setLabel("Date");
+        yaxis.setLabel("Count");
+        BarChart<String, Long> newbar = new BarChart(newxaxis, yaxis);
+        newbar.setTitle(type);
+        XYChart.Series<String , Long> series = new XYChart.Series<>();
+
+
+        for (var t :
+                data.entrySet()) {
+            series.getData().add(new XYChart.Data<>(t.getKey().toString(), t.getValue()));
+
+        }
+        series.getData().sort((o1, o2) -> o1.getXValue().compareTo(o2.getXValue()));
+        newbar.getData().add(series);
+        LogsController logsController = fxmlLoader.getController();
+        logsController.getCharts(newbar, i, i1, i2, i3);
+    }
+
+    private static String getParseString(String s) {
+        String time = s.substring(0, 6);
+        return switch (time.substring(0, 3)) {
+            case "мая" -> time.substring(4, 6) + "-05-" + "2024";
+            case "янв" -> time.substring(4, 6) + "-01-" + "2024";
+            case "фев" -> time.substring(4, 6) + "-02-" + "2024";
+            case "мар" -> time.substring(4, 6) + "-03-" + "2024";
+            case "апр" -> time.substring(4, 6) + "-04-" + "2024";
+            case "июн" -> time.substring(4, 6) + "-06-" + "2024";
+            case "июл" -> time.substring(4, 6) + "-07-" + "2024";
+            case "авг" -> time.substring(4, 6) + "-08-" + "2024";
+            case "сен" -> time.substring(4, 6) + "-09-" + "2024";
+            case "окт" -> time.substring(4, 6) + "-10-" + "2024";
+            case "ноя" -> time.substring(4, 6) + "-11-" + "2024";
+            case "дек" -> time.substring(4, 6) + "-12-" + "2024";
+            default -> "";
+        };
     }
 
     /* Метод processTime обрабатывает время, обрезая миллисекунды
