@@ -8,6 +8,7 @@ import javafx.scene.control.cell.PropertyValueFactory;
 
 import java.io.*;
 import java.time.LocalDate;
+import java.time.LocalTime;
 import java.util.*;
 
 //Класс предназначен методов ускоряющих написание программы
@@ -20,7 +21,40 @@ public class Util {
         Util.endDate = endDate;
     }
 
+    public static String getTime() {
+        return time;
+    }
+
+    public static void saveTime(String time) {
+        Util.time = time;
+    }
+
+    /* Метод processTime обрабатывает время, обрезая миллисекунды
+    *  Используется для форматирования времени, которое в последствии
+    *   используется для обновления логов
+    *
+    * @param1: curTime - объект класса LocalTime, который показывает время
+    *   в формате hh:mm:ss.ms
+    *
+    * на выходе получаем строковое значение времени, в формате hh:mm:ss
+    * */
+    public static String processTime(LocalTime curTime){
+         StringBuilder sb = new StringBuilder(curTime.toString());
+         int i = sb.length()-1;
+         for(;true;){
+             if(sb.toString().charAt(i)=='.'){
+                 sb.deleteCharAt(i);
+                 break;
+             }
+             sb.deleteCharAt(i);
+             i--;
+         }
+         return sb.toString();
+    }
+
     private static LocalDate endDate;
+    private static String time;
+
     private Util(){
     }
     // Возвращает тип лога без лишних символов
