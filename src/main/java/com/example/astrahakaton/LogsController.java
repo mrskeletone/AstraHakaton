@@ -34,6 +34,12 @@ public class LogsController {
     private static FXMLLoader currentFXMLLoader;
 
     private static final List<String> listFilter = new ArrayList<>();
+    public  static void setNewTable (TableView<Logs> tables){
+        table=tables;
+    }
+    public static void setCurrentFXMLLoader(FXMLLoader fxmlLoader){
+        currentFXMLLoader=fxmlLoader;
+    }
 
     //Создает таблицу в ячейках с (0,1) до (5,4)
     public void getAllLogsView(TableView<Logs> logsTableView) {
@@ -264,6 +270,7 @@ public class LogsController {
 
         process.getInputStream().transferTo(System.out);
         process.getErrorStream().transferTo(System.out);
+
     }
 
     //метод для кнопки графики
