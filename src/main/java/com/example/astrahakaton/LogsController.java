@@ -13,9 +13,7 @@ import javafx.scene.control.*;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
@@ -33,6 +31,7 @@ public class LogsController {
     private static TableView<Logs> table;
 
     private static String currentPath;
+    private static FXMLLoader currentFXMLLoader;
 
     private static final List<String> listFilter = new ArrayList<>();
 
@@ -42,9 +41,12 @@ public class LogsController {
     }
 
     public void getCharts(BarChart barChart, int i, int i1, int i2, int i3) {
-        view.add(barChart, i, i1,i2,i3);
+        view.add(barChart, i, i1, i2, i3);
     }
 
+    public ObservableList<Logs> getDataFromTable() {
+        return table.getItems();
+    }
 
     //Заполняет график полученными данными
     public void setPieData(Map<String, Long> data) {
@@ -214,6 +216,7 @@ public class LogsController {
         listFilter.clear();
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource(fxml));
         currentPath = path;
+        currentFXMLLoader = fxmlLoader;
         Scene scene = new Scene(fxmlLoader.load());
         Stage stage = new HelloApplication().getPrimaryStage();
         stage.setScene(scene);
@@ -271,13 +274,26 @@ public class LogsController {
         Scene scene = new Scene(fxmlLoader.load());
         Stage stage = new HelloApplication().getPrimaryStage();
         stage.setScene(scene);
-        Util.createCharts("src/main/java/logFiles/allTypesLogs/all_types",fxmlLoader,0,1,1,2,"all_types");
-        Util.createCharts("src/main/java/logFiles/alertsLogs/alerts",fxmlLoader,2,1,3,2,"alerts");
-        Util.createCharts("src/main/java/logFiles/debugLogs/debug",fxmlLoader,5,1,6,2,"debug");
-        Util.createCharts("src/main/java/logFiles/emergencyLogs/emergency",fxmlLoader,11,1,12,2,"emergency");
-        Util.createCharts("src/main/java/logFiles/errorLogs/errors",fxmlLoader,0,6,1,6,"errors");
-        Util.createCharts("src/main/java/logFiles/infoLogs/info",fxmlLoader,2,6,3,6,"info");
-        Util.createCharts("src/main/java/logFiles/noticeLogs/notice",fxmlLoader,5,6,6,6,"notice");
-        Util.createCharts("src/main/java/logFiles/warningLogs/warning",fxmlLoader,11,6,12,6,"warning");
+        Util.createCharts("src/main/java/logFiles/allTypesLogs/all_types", fxmlLoader, 0, 1, 1, 2, "all_types");
+        Util.createCharts("src/main/java/logFiles/alertsLogs/alerts", fxmlLoader, 2, 1, 3, 2, "alerts");
+        Util.createCharts("src/main/java/logFiles/debugLogs/debug", fxmlLoader, 5, 1, 6, 2, "debug");
+        Util.createCharts("src/main/java/logFiles/emergencyLogs/emergency", fxmlLoader, 11, 1, 12, 2, "emergency");
+        Util.createCharts("src/main/java/logFiles/errorLogs/errors", fxmlLoader, 0, 6, 1, 6, "errors");
+        Util.createCharts("src/main/java/logFiles/infoLogs/info", fxmlLoader, 2, 6, 3, 6, "info");
+        Util.createCharts("src/main/java/logFiles/noticeLogs/notice", fxmlLoader, 5, 6, 6, 6, "notice");
+        Util.createCharts("src/main/java/logFiles/warningLogs/warning", fxmlLoader, 11, 6, 12, 6, "warning");
+    }
+
+    @FXML
+    protected void onClickJSON() throws IOException {
+        try (BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("src/main/java/jsonFiles/JSON"))) {
+            LogsController logsController=currentFXMLLoader.getController();
+            ObservableList<Logs> logs=logsController.getDataFromTable();
+            for (var log :
+                    logs) {
+                bufferedWriter.write(log.toString()+"\n");
+            }
+        }
+        //Активация скрипта конвертации
     }
 }
