@@ -24,7 +24,18 @@ public class Util {
     public static LocalDate getEndDate() {
         return endDate;
     }
-
+    public static void createFileForConvertor(String path){
+        try (BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(path))) {
+            LogsController logsController=LogsController.getCurrentFXMLLoader().getController();
+            ObservableList<Logs> logs=logsController.getDataFromTable();
+            for (var log :
+                    logs) {
+                bufferedWriter.write(log.toString()+"\n");
+            }
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
     public static void saveEndDate(LocalDate endDate) {
         Util.endDate = endDate;
     }
