@@ -234,4 +234,9 @@ public class LogsController {
         }
         logsController.setPieData(data);
     }
+    //метод для кнопки обновления
+    @FXML
+    protected void onClickUpdate() throws IOException{
+
+    }
 }
