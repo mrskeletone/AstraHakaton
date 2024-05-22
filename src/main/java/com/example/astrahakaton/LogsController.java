@@ -295,12 +295,28 @@ public class LogsController {
     protected void onClickJSON() throws IOException {
         Util.createFileForConvertor("src/main/java/jsonFiles/JSON");
 
+        String [] command = {"bash","src/main/java/scrypt/conventor/json_convertor.sh",
+                "src/main/java/jsonFiles/JSON", "src/main/java/jsonFiles/file.json"};
+
+        Process process = Runtime.getRuntime().exec(command);
+
+        process.getInputStream().transferTo(System.out);
+        process.getErrorStream().transferTo(System.out);
         //Активация скрипта конвертации
     }
     @FXML
     protected void onClickCSV() throws IOException {
         Util.createFileForConvertor("src/main/java/csvFiles/CSV");
         //Активация скрипта конвертации
+        String [] command = {"bash","src/main/java/scrypt/conventor/csv_convertor.sh",
+                "src/main/java/csvFiles/CSV", "src/main/java/csvFiles/file.csv"};
+
+        Process process = Runtime.getRuntime().exec(command);
+
+        process.getInputStream().transferTo(System.out);
+        process.getErrorStream().transferTo(System.out);
+        //
+
     }
     public static FXMLLoader getCurrentFXMLLoader(){
         return currentFXMLLoader;
