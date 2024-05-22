@@ -46,7 +46,7 @@
                 <Menu mnemonicParsing="false" text="конвертация">
                     <items>
                         <MenuItem mnemonicParsing="false" onAction="#onClickJSON" text="JSON" />
-                        <MenuItem mnemonicParsing="false" text="CSV" />
+                        <MenuItem mnemonicParsing="false" onAction="#onClickCSV" text="CSV" />
                     </items>
                 </Menu>
                 <Menu mnemonicParsing="false" text="Анализ">
