@@ -13,7 +13,9 @@ import javafx.stage.Stage;
 import java.io.*;
 import java.time.LocalDate;
 import java.time.LocalTime;
+import java.util.HashSet;
 import java.util.Map;
+import java.util.Set;
 
 
 public class HelloController {
@@ -54,9 +56,12 @@ public class HelloController {
             stage.setScene(scene);
             ObservableList<Logs> logs = FXCollections.observableArrayList();
             int i = 0;
+            Set<String> name=new HashSet<>();
+
             try (BufferedReader bufferedReader = new BufferedReader(new FileReader("src/main/java/logFiles/allTypesLogs/all_types"))) {
                 while (bufferedReader.ready()) {
                     String string = bufferedReader.readLine();
+                    name.add(string.split(" ")[3]);
                     logs.add(Util.stringToLogs(string));
                 }
             }
@@ -91,6 +96,7 @@ public class HelloController {
             logsController.getAllLogsView(table);
             LogsController.setCurrentFXMLLoader(fxmlLoader);
             LogsController.setNewTable(table);
+          //  logsController.setUser(name,1);
         }
     }
 

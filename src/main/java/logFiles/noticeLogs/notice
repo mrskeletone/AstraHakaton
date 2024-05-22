@@ -75,3 +75,36 @@
 мая 02 23:44:40 strangecodder-laptop wpa_supplicant[615]: wlp1s0: WPA: Key negotiation completed with 50:ff:20:72:2c:8a [PTK=CCMP GTK=CCMP]
 мая 02 23:44:41 strangecodder-laptop ModemManager[515]: <msg> [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:02.2/0000:01:00.0': not supported by any plugin
 мая 02 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 03 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 03 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 03 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 03 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 05 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 05 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 05 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 05 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 05 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 05 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 05 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 05 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 05 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 05 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 05 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 05 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 05 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 05 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 05 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 05 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 05 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 05 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 05 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 05 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 05 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 05 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 05 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 05 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 05 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 05 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 05 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 05 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 05 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.

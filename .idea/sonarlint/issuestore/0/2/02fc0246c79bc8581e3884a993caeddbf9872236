@@ -1,17 +1,14 @@
 
+¡
+java:S1450"YRemove the "fxmlLoader" field and declare it as a local variable in the relevant methods.(†óëäıÿÿÿÿ8İ´Ì‹ú1J$c728b2b4-883c-4e99-bd74-2d17770ee1f9
 ¿
-java:S1130"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(Š¾ºîùÿÿÿÿ8‚®ì÷1J$b6af083d-86ee-4b67-b384-a3db8d7434f0
-m	java:S106 "+Replace this use of System.out by a logger.(³ŸÎ¤8ã’ÿë÷1J$daa83aa6-ff10-4877-a50e-51526bcbe011
-l	java:S106!"+Replace this use of System.out by a logger.(‘˜ìj8ä’ÿë÷1J$6be50926-d4ac-428b-922b-b79ddcd9d789
-n
-java:S1481+"&Remove this unused "i" local variable.(ùó›Ìøÿÿÿÿ8ö’ÿë÷1J$79134d5c-6598-4785-a37b-cfdb2f8b830f
-
-java:S1128"7Remove this unused import 'javafx.scene.control.Label'.(ö²­ÿÿÿÿÿ8 ‚®ì÷1J$c753aec4-3215-481d-91d7-bec3cd289da7
-}
-java:S1128":Remove this unused import 'javafx.scene.control.TextArea'.(ö ¸8 ‚®ì÷1J$2c0f1dc3-a393-4af6-ad3f-51d3d90a7aa0
+java:S1130#"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(Š¾ºîùÿÿÿÿ8ÌôğŒú1J$369a4574-1b14-4807-acf2-68899971e9a6
 ~
-java:S1128	";Remove this unused import 'javafx.scene.control.TextField'.(¨¢¤¶8 ‚®ì÷1J$5cfeee1a-fcb2-4980-821f-08aa42ba2413
-ƒ
-java:S1128";Remove this unused import 'java.util.concurrent.Executors'.(äåÒÛÿÿÿÿÿ8¡‚®ì÷1J$6850833a-c8e5-497f-b157-364444776fda
-€
-java:S1128"8Remove this unused import 'java.util.function.Consumer'.(Ì†ƒÔùÿÿÿÿ8¡‚®ì÷1J$12e0f51e-2388-486f-8a44-47200564d95a
+java:S26965"6Make the enclosing method "static" or remove this set.(ã…õàÿÿÿÿÿ8ã´Ì‹ú1J$bc9abadc-fecf-4500-bb02-cf40b1e3c198
+ƒ	java:S125+"<This block of commented-out lines of code should be removed.(‘Û¸Œşÿÿÿÿ8ä´Ì‹ú1J$ea7497a7-f23b-4387-a34e-64bf99a31ed3
+n
+java:S1481:"&Remove this unused "i" local variable.(ùó›Ìøÿÿÿÿ8õ´Ì‹ú1J$95103779-95dc-45a9-888a-6f1f3c212a35
+ƒ	java:S125I"<This block of commented-out lines of code should be removed.(‘Û¸Œşÿÿÿÿ8ù´Ì‹ú1J$1c8affb5-1cf2-497b-80a3-77dd017650ce
+~	java:S125c"<This block of commented-out lines of code should be removed.(ñäóñ8ÚôğŒú1J$3a65d3dd-0293-4182-97c1-28098fe9548e
+x
+java:S1128"0Remove this unused import 'java.time.LocalTime'.(à®øÃùÿÿÿÿ8ÛôğŒú1J$bc089037-427d-487e-9be2-d87b3d9ee03f

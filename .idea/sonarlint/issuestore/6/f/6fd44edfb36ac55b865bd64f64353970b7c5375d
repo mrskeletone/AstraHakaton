@@ -1,3 +1,45 @@
 
-H
-java:S1481I"&Remove this unused "i" local variable.(ùó›Ìøÿÿÿÿ8é®œë÷1
+r
+java:S37405"/Provide the parametrized type for this generic.(¹ïçÙ8Ç­Šú1J$0531db38-ae63-473f-b189-bae2220082d8
+–
+java:S1192ù"RDefine a constant instead of duplicating this literal "allLogs-view.fxml" 3 times.(Ë´†¸8É­Šú1J$1e4f4fb1-2b55-437f-9dd2-2f9acd5fbfa4
+•
+java:S3776["RRefactor this method to reduce its Cognitive Complexity from 35 to the 15 allowed.(¿ØÓ´8ö­Šú1J$cde61a9b-a726-41ea-9e11-7fa3667d3907
+j	java:S108y")Either remove or fill this block of code.(”ã‰G8û­Šú1J$e886fbeb-2fad-470f-ad37-ff6367a6703b
+i
+java:S1481~"&Remove this unused "s" local variable.(˜êŞ‰8û­Šú1J$8d441d13-0bc5-4163-bb98-e7ced49a52bb
+l	java:S108‡")Either remove or fill this block of code.(×¬œÓ8ü­Šú1J$b256c0a8-0281-42e2-8db1-b330f617b255
+
+java:S6201"TReplace this instanceof check and cast with 'instanceof CheckMenuItem checkmenuitem'(¹åÕ¶üÿÿÿÿ8ı­Šú1J$49cdbe6b-9698-42f7-a4a1-f2e0cda3f603
+–
+java:S3776£"RRefactor this method to reduce its Cognitive Complexity from 33 to the 15 allowed.(‘—ô«8ş­Šú1J$e7797227-d60a-49cb-8362-4424c8feda7a
+k	java:S108Á")Either remove or fill this block of code.(”ã‰G8®Šú1J$cf0a1e26-7544-4688-9d43-24c103c515a0
+j
+java:S1481Æ"&Remove this unused "s" local variable.(˜êŞ‰8®Šú1J$f098a57d-bd8f-4064-8191-2a268fa4b2c4
+l	java:S108Ï")Either remove or fill this block of code.(×¬œÓ8‚®Šú1J$7d2458a0-cbd9-45c0-a96f-c33c1fb15d81
+
+java:S6201×"TReplace this instanceof check and cast with 'instanceof CheckMenuItem checkmenuitem'(¹åÕ¶üÿÿÿÿ8‚®Šú1J$b545cef9-1cef-4c3c-80e1-101a1b46d82d
+
+java:S2696ª"6Make the enclosing method "static" or remove this set.(ŸŒÙâøÿÿÿÿ8Œ®Šú1J$f1f05f73-0fcb-4db9-8791-21a042a2471f
+z
+java:S2696«"6Make the enclosing method "static" or remove this set.(±«÷8Œ®Šú1J$a0caf414-5033-4b3b-be6c-edf67e5351e4
+o
+java:S1481°"&Remove this unused "i" local variable.(ùó›Ìøÿÿÿÿ8®Šú1J$7bd44bde-c7da-4484-80ff-e017c02767fd
+
+java:S2696Æ"6Make the enclosing method "static" or remove this set.(õÀñøÿÿÿÿ8®Šú1J$0d365e34-8d79-480c-a181-8be032820457
+	java:S125Î"<This block of commented-out lines of code should be removed.(ñäóñ8®Šú1J$7567cd37-aa79-4437-8220-f87480882a5c
+s	java:S106Ş"+Replace this use of System.out by a logger.(º­²‡üÿÿÿÿ8’®Šú1J$aaf8bafd-d05a-41cc-b980-f9106f84215b
+n	java:S106ß"+Replace this use of System.out by a logger.(Ú¼’8’®Šú1J$ef5b7074-c9c1-49c6-a82f-62c7ea38cc80
+s	java:S106æ"+Replace this use of System.out by a logger.(¢£·’ıÿÿÿÿ8“®Šú1J$b726ff1b-7ebb-402c-ba78-d92ef2a1d5ac
+z
+java:S2696ı"6Make the enclosing method "static" or remove this set.(©¦ÑÇ8–®Šú1J$2db93665-c771-4d34-845c-464a1815fefb
+„	java:S125€"<This block of commented-out lines of code should be removed.(«Ã¡Èøÿÿÿÿ8•®Šú1J$7b13464a-8d17-44ce-805d-0cd078311e96
+
+java:S2696’"6Make the enclosing method "static" or remove this set.(‰áÔüÿÿÿÿ8¡±ú1J$0c11dbef-c125-4e64-bd6c-e8614b9412c2
+„	java:S125”"<This block of commented-out lines of code should be removed.( ò±‘ıÿÿÿÿ8–®Šú1J$6a22fbb0-2ef6-490a-a249-15758016d00c
+R
+java:S1128"0Remove this unused import 'java.time.LocalDate'.(›‘¬èıÿÿÿÿ8Õï¶ú1
+\
+java:S1128"?Remove this unused import 'java.time.format.DateTimeFormatter'.(‰÷÷ª8Õï¶ú1
+Z
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ8Öï¶ú1

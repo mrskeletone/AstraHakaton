@@ -905,14 +905,487 @@
 мая 02 23:45:09 strangecodder-laptop systemd[1]: Started Process Core Dump (PID 18557/UID 0).
 мая 02 23:45:10 strangecodder-laptop systemd-coredump[18560]: Process 12214 (editors_helper) of user 1000 dumped core.
 мая 02 23:45:10 strangecodder-laptop systemd[1]: systemd-coredump@0-18557-0.service: Deactivated successfully.
-мая 02 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
-мая 02 23:45:11 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
-мая 02 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
-мая 02 23:45:12 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
-мая 02 23:45:12 strangecodder-laptop plasmashell[18588]: Opening in existing browser session.
-мая 02 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
-мая 02 23:45:12 strangecodder-laptop plasmashell[18605]: Opening in existing browser session.
-мая 02 23:45:15 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@14.service: Deactivated successfully.
-мая 02 23:46:31 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 52868, resource id: 4194371, major code: 129 (SHAPE), minor code: 6 (Input)
-мая 02 23:46:32 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
-мая 02 23:46:35 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55503, resource id: 16929870, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 03 23:45:11 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop plasmashell[18588]: Opening in existing browser session.
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[18605]: Opening in existing browser session.
+мая 03 23:45:15 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@14.service: Deactivated successfully.
+мая 03 23:46:31 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 52868, resource id: 4194371, major code: 129 (SHAPE), minor code: 6 (Input)
+мая 03 23:46:32 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 03 23:46:35 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55503, resource id: 16929870, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 03 23:45:11 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop plasmashell[18588]: Opening in existing browser session.
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[18605]: Opening in existing browser session.
+мая 03 23:45:15 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@14.service: Deactivated successfully.
+мая 03 23:46:31 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 52868, resource id: 4194371, major code: 129 (SHAPE), minor code: 6 (Input)
+мая 03 23:46:32 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 03 23:46:35 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55503, resource id: 16929870, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 03 23:45:11 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop plasmashell[18588]: Opening in existing browser session.
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[18605]: Opening in existing browser session.
+мая 03 23:45:15 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@14.service: Deactivated successfully.
+мая 03 23:46:31 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 52868, resource id: 4194371, major code: 129 (SHAPE), minor code: 6 (Input)
+мая 03 23:46:32 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 03 23:46:35 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55503, resource id: 16929870, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 03 23:45:11 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop plasmashell[18588]: Opening in existing browser session.
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[18605]: Opening in existing browser session.
+мая 03 23:45:15 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@14.service: Deactivated successfully.
+мая 03 23:46:31 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 52868, resource id: 4194371, major code: 129 (SHAPE), minor code: 6 (Input)
+мая 03 23:46:32 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 03 23:46:35 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55503, resource id: 16929870, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 03 23:45:11 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop plasmashell[18588]: Opening in existing browser session.
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[18605]: Opening in existing browser session.
+мая 03 23:45:15 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@14.service: Deactivated successfully.
+мая 03 23:46:31 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 52868, resource id: 4194371, major code: 129 (SHAPE), minor code: 6 (Input)
+мая 03 23:46:32 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 03 23:46:35 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55503, resource id: 16929870, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 03 23:45:11 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop plasmashell[18588]: Opening in existing browser session.
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[18605]: Opening in existing browser session.
+мая 03 23:45:15 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@14.service: Deactivated successfully.
+мая 03 23:46:31 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 52868, resource id: 4194371, major code: 129 (SHAPE), minor code: 6 (Input)
+мая 03 23:46:32 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 03 23:46:35 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55503, resource id: 16929870, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 03 23:45:11 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop plasmashell[18588]: Opening in existing browser session.
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[18605]: Opening in existing browser session.
+мая 03 23:45:15 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@14.service: Deactivated successfully.
+мая 03 23:46:31 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 52868, resource id: 4194371, major code: 129 (SHAPE), minor code: 6 (Input)
+мая 03 23:46:32 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 03 23:46:35 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55503, resource id: 16929870, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 03 23:45:11 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop plasmashell[18588]: Opening in existing browser session.
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[18605]: Opening in existing browser session.
+мая 03 23:45:15 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@14.service: Deactivated successfully.
+мая 03 23:46:31 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 52868, resource id: 4194371, major code: 129 (SHAPE), minor code: 6 (Input)
+мая 03 23:46:32 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 03 23:46:35 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55503, resource id: 16929870, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 03 23:45:11 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop plasmashell[18588]: Opening in existing browser session.
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[18605]: Opening in existing browser session.
+мая 03 23:45:15 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@14.service: Deactivated successfully.
+мая 03 23:46:31 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 52868, resource id: 4194371, major code: 129 (SHAPE), minor code: 6 (Input)
+мая 03 23:46:32 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 03 23:46:35 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55503, resource id: 16929870, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 03 23:45:11 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop plasmashell[18588]: Opening in existing browser session.
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[18605]: Opening in existing browser session.
+мая 03 23:45:15 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@14.service: Deactivated successfully.
+мая 03 23:46:31 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 52868, resource id: 4194371, major code: 129 (SHAPE), minor code: 6 (Input)
+мая 03 23:46:32 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 03 23:46:35 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55503, resource id: 16929870, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 03 23:45:11 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop plasmashell[18588]: Opening in existing browser session.
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[18605]: Opening in existing browser session.
+мая 03 23:45:15 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@14.service: Deactivated successfully.
+мая 03 23:46:31 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 52868, resource id: 4194371, major code: 129 (SHAPE), minor code: 6 (Input)
+мая 03 23:46:32 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 03 23:46:35 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55503, resource id: 16929870, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 03 23:45:11 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop plasmashell[18588]: Opening in existing browser session.
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[18605]: Opening in existing browser session.
+мая 03 23:45:15 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@14.service: Deactivated successfully.
+мая 03 23:46:31 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 52868, resource id: 4194371, major code: 129 (SHAPE), minor code: 6 (Input)
+мая 03 23:46:32 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 03 23:46:35 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55503, resource id: 16929870, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 03 23:45:11 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop plasmashell[18588]: Opening in existing browser session.
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[18605]: Opening in existing browser session.
+мая 03 23:45:15 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@14.service: Deactivated successfully.
+мая 03 23:46:31 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 52868, resource id: 4194371, major code: 129 (SHAPE), minor code: 6 (Input)
+мая 03 23:46:32 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 03 23:46:35 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55503, resource id: 16929870, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 03 23:45:11 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop plasmashell[18588]: Opening in existing browser session.
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[18605]: Opening in existing browser session.
+мая 03 23:45:15 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@14.service: Deactivated successfully.
+мая 03 23:46:31 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 52868, resource id: 4194371, major code: 129 (SHAPE), minor code: 6 (Input)
+мая 03 23:46:32 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 03 23:46:35 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55503, resource id: 16929870, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 03 23:45:11 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop plasmashell[18588]: Opening in existing browser session.
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[18605]: Opening in existing browser session.
+мая 03 23:45:15 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@14.service: Deactivated successfully.
+мая 03 23:46:31 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 52868, resource id: 4194371, major code: 129 (SHAPE), minor code: 6 (Input)
+мая 03 23:46:32 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 03 23:46:35 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55503, resource id: 16929870, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 03 23:45:11 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop plasmashell[18588]: Opening in existing browser session.
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[18605]: Opening in existing browser session.
+мая 03 23:45:15 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@14.service: Deactivated successfully.
+мая 03 23:46:31 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 52868, resource id: 4194371, major code: 129 (SHAPE), minor code: 6 (Input)
+мая 03 23:46:32 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 03 23:46:35 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55503, resource id: 16929870, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 03 23:45:11 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop plasmashell[18588]: Opening in existing browser session.
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[18605]: Opening in existing browser session.
+мая 03 23:45:15 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@14.service: Deactivated successfully.
+мая 03 23:46:31 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 52868, resource id: 4194371, major code: 129 (SHAPE), minor code: 6 (Input)
+мая 03 23:46:32 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 03 23:46:35 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55503, resource id: 16929870, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 03 23:45:11 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop plasmashell[18588]: Opening in existing browser session.
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[18605]: Opening in existing browser session.
+мая 03 23:45:15 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@14.service: Deactivated successfully.
+мая 03 23:46:31 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 52868, resource id: 4194371, major code: 129 (SHAPE), minor code: 6 (Input)
+мая 03 23:46:32 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 03 23:46:35 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55503, resource id: 16929870, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 03 23:45:11 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop plasmashell[18588]: Opening in existing browser session.
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[18605]: Opening in existing browser session.
+мая 03 23:45:15 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@14.service: Deactivated successfully.
+мая 03 23:46:31 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 52868, resource id: 4194371, major code: 129 (SHAPE), minor code: 6 (Input)
+мая 03 23:46:32 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 03 23:46:35 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55503, resource id: 16929870, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 03 23:45:11 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop plasmashell[18588]: Opening in existing browser session.
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[18605]: Opening in existing browser session.
+мая 03 23:45:15 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@14.service: Deactivated successfully.
+мая 03 23:46:31 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 52868, resource id: 4194371, major code: 129 (SHAPE), minor code: 6 (Input)
+мая 03 23:46:32 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 03 23:46:35 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55503, resource id: 16929870, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 03 23:45:11 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop plasmashell[18588]: Opening in existing browser session.
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[18605]: Opening in existing browser session.
+мая 03 23:45:15 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@14.service: Deactivated successfully.
+мая 03 23:46:31 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 52868, resource id: 4194371, major code: 129 (SHAPE), minor code: 6 (Input)
+мая 03 23:46:32 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 03 23:46:35 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55503, resource id: 16929870, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 03 23:45:11 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop plasmashell[18588]: Opening in existing browser session.
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[18605]: Opening in existing browser session.
+мая 03 23:45:15 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@14.service: Deactivated successfully.
+мая 03 23:46:31 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 52868, resource id: 4194371, major code: 129 (SHAPE), minor code: 6 (Input)
+мая 03 23:46:32 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 03 23:46:35 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55503, resource id: 16929870, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 03 23:45:11 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop plasmashell[18588]: Opening in existing browser session.
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[18605]: Opening in existing browser session.
+мая 03 23:45:15 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@14.service: Deactivated successfully.
+мая 03 23:46:31 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 52868, resource id: 4194371, major code: 129 (SHAPE), minor code: 6 (Input)
+мая 03 23:46:32 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 03 23:46:35 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55503, resource id: 16929870, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 03 23:45:11 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop plasmashell[18588]: Opening in existing browser session.
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[18605]: Opening in existing browser session.
+мая 03 23:45:15 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@14.service: Deactivated successfully.
+мая 03 23:46:31 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 52868, resource id: 4194371, major code: 129 (SHAPE), minor code: 6 (Input)
+мая 03 23:46:32 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 03 23:46:35 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55503, resource id: 16929870, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 03 23:45:11 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop plasmashell[18588]: Opening in existing browser session.
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[18605]: Opening in existing browser session.
+мая 03 23:45:15 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@14.service: Deactivated successfully.
+мая 03 23:46:31 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 52868, resource id: 4194371, major code: 129 (SHAPE), minor code: 6 (Input)
+мая 03 23:46:32 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 03 23:46:35 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55503, resource id: 16929870, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 03 23:45:11 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop plasmashell[18588]: Opening in existing browser session.
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[18605]: Opening in existing browser session.
+мая 03 23:45:15 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@14.service: Deactivated successfully.
+мая 03 23:46:31 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 52868, resource id: 4194371, major code: 129 (SHAPE), minor code: 6 (Input)
+мая 03 23:46:32 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 03 23:46:35 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55503, resource id: 16929870, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 03 23:45:11 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop plasmashell[18588]: Opening in existing browser session.
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[18605]: Opening in existing browser session.
+мая 03 23:45:15 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@14.service: Deactivated successfully.
+мая 03 23:46:31 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 52868, resource id: 4194371, major code: 129 (SHAPE), minor code: 6 (Input)
+мая 03 23:46:32 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 03 23:46:35 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55503, resource id: 16929870, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 03 23:45:11 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop plasmashell[18588]: Opening in existing browser session.
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[18605]: Opening in existing browser session.
+мая 03 23:45:15 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@14.service: Deactivated successfully.
+мая 03 23:46:31 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 52868, resource id: 4194371, major code: 129 (SHAPE), minor code: 6 (Input)
+мая 03 23:46:32 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 03 23:46:35 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55503, resource id: 16929870, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 03 23:45:11 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop plasmashell[18588]: Opening in existing browser session.
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[18605]: Opening in existing browser session.
+мая 03 23:45:15 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@14.service: Deactivated successfully.
+мая 03 23:46:31 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 52868, resource id: 4194371, major code: 129 (SHAPE), minor code: 6 (Input)
+мая 03 23:46:32 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 03 23:46:35 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55503, resource id: 16929870, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 03 23:45:11 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop plasmashell[18588]: Opening in existing browser session.
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[18605]: Opening in existing browser session.
+мая 03 23:45:15 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@14.service: Deactivated successfully.
+мая 03 23:46:31 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 52868, resource id: 4194371, major code: 129 (SHAPE), minor code: 6 (Input)
+мая 03 23:46:32 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 03 23:46:35 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55503, resource id: 16929870, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 03 23:45:11 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop plasmashell[18588]: Opening in existing browser session.
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[18605]: Opening in existing browser session.
+мая 03 23:45:15 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@14.service: Deactivated successfully.
+мая 03 23:46:31 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 52868, resource id: 4194371, major code: 129 (SHAPE), minor code: 6 (Input)
+мая 03 23:46:32 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 03 23:46:35 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55503, resource id: 16929870, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 03 23:45:11 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop plasmashell[18588]: Opening in existing browser session.
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[18605]: Opening in existing browser session.
+мая 03 23:45:15 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@14.service: Deactivated successfully.
+мая 03 23:46:31 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 52868, resource id: 4194371, major code: 129 (SHAPE), minor code: 6 (Input)
+мая 03 23:46:32 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 03 23:46:35 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55503, resource id: 16929870, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 03 23:45:11 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop plasmashell[18588]: Opening in existing browser session.
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[18605]: Opening in existing browser session.
+мая 03 23:45:15 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@14.service: Deactivated successfully.
+мая 03 23:46:31 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 52868, resource id: 4194371, major code: 129 (SHAPE), minor code: 6 (Input)
+мая 03 23:46:32 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 03 23:46:35 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55503, resource id: 16929870, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 03 23:45:11 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop plasmashell[18588]: Opening in existing browser session.
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[18605]: Opening in existing browser session.
+мая 03 23:45:15 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@14.service: Deactivated successfully.
+мая 03 23:46:31 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 52868, resource id: 4194371, major code: 129 (SHAPE), minor code: 6 (Input)
+мая 03 23:46:32 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 03 23:46:35 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55503, resource id: 16929870, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 03 23:45:11 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop plasmashell[18588]: Opening in existing browser session.
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[18605]: Opening in existing browser session.
+мая 03 23:45:15 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@14.service: Deactivated successfully.
+мая 03 23:46:31 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 52868, resource id: 4194371, major code: 129 (SHAPE), minor code: 6 (Input)
+мая 03 23:46:32 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 03 23:46:35 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55503, resource id: 16929870, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 03 23:45:11 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop plasmashell[18588]: Opening in existing browser session.
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[18605]: Opening in existing browser session.
+мая 03 23:45:15 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@14.service: Deactivated successfully.
+мая 03 23:46:31 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 52868, resource id: 4194371, major code: 129 (SHAPE), minor code: 6 (Input)
+мая 03 23:46:32 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 03 23:46:35 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55503, resource id: 16929870, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 03 23:45:11 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop plasmashell[18588]: Opening in existing browser session.
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[18605]: Opening in existing browser session.
+мая 03 23:45:15 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@14.service: Deactivated successfully.
+мая 03 23:46:31 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 52868, resource id: 4194371, major code: 129 (SHAPE), minor code: 6 (Input)
+мая 03 23:46:32 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 03 23:46:35 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55503, resource id: 16929870, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 03 23:45:11 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop plasmashell[18588]: Opening in existing browser session.
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[18605]: Opening in existing browser session.
+мая 03 23:45:15 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@14.service: Deactivated successfully.
+мая 03 23:46:31 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 52868, resource id: 4194371, major code: 129 (SHAPE), minor code: 6 (Input)
+мая 03 23:46:32 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 03 23:46:35 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55503, resource id: 16929870, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 03 23:45:11 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop plasmashell[18588]: Opening in existing browser session.
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[18605]: Opening in existing browser session.
+мая 03 23:45:15 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@14.service: Deactivated successfully.
+мая 03 23:46:31 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 52868, resource id: 4194371, major code: 129 (SHAPE), minor code: 6 (Input)
+мая 03 23:46:32 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 03 23:46:35 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55503, resource id: 16929870, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 03 23:45:11 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop plasmashell[18588]: Opening in existing browser session.
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[18605]: Opening in existing browser session.
+мая 03 23:45:15 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@14.service: Deactivated successfully.
+мая 03 23:46:31 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 52868, resource id: 4194371, major code: 129 (SHAPE), minor code: 6 (Input)
+мая 03 23:46:32 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 03 23:46:35 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55503, resource id: 16929870, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 03 23:45:11 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop plasmashell[18588]: Opening in existing browser session.
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[18605]: Opening in existing browser session.
+мая 03 23:45:15 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@14.service: Deactivated successfully.
+мая 03 23:46:31 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 52868, resource id: 4194371, major code: 129 (SHAPE), minor code: 6 (Input)
+мая 03 23:46:32 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 03 23:46:35 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55503, resource id: 16929870, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 03 23:45:11 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop plasmashell[18588]: Opening in existing browser session.
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[18605]: Opening in existing browser session.
+мая 03 23:45:15 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@14.service: Deactivated successfully.
+мая 03 23:46:31 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 52868, resource id: 4194371, major code: 129 (SHAPE), minor code: 6 (Input)
+мая 03 23:46:32 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 03 23:46:35 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55503, resource id: 16929870, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 03 23:45:11 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop plasmashell[18588]: Opening in existing browser session.
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[18605]: Opening in existing browser session.
+мая 03 23:45:15 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@14.service: Deactivated successfully.
+мая 03 23:46:31 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 52868, resource id: 4194371, major code: 129 (SHAPE), minor code: 6 (Input)
+мая 03 23:46:32 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 03 23:46:35 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55503, resource id: 16929870, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 23:45:10 strangecodder-laptop systemd[690]: app-org.onlyoffice.desktopeditors-ac1c33302829461c9454ae6e975899bd.scope: Consumed 11min 23.642s CPU time.
+мая 03 23:45:11 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[872]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 23:45:12 strangecodder-laptop plasmashell[18588]: Opening in existing browser session.
+мая 03 23:45:12 strangecodder-laptop systemd[690]: Started Google Chrome - Web Browser.
+мая 03 23:45:12 strangecodder-laptop plasmashell[18605]: Opening in existing browser session.
+мая 03 23:45:15 strangecodder-laptop systemd[1]: dbus-:1.1-org.kde.powerdevil.backlighthelper@14.service: Deactivated successfully.
+мая 03 23:46:31 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 52868, resource id: 4194371, major code: 129 (SHAPE), minor code: 6 (Input)
+мая 03 23:46:32 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+янв 03 23:46:35 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55503, resource id: 16929870, major code: 143 (DAMAGE), minor code: 3 (Subtract)
