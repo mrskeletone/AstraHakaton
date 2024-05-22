@@ -33,7 +33,7 @@
         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
     </rowConstraints>
     <children>
-        <MenuBar prefHeight="25.0" prefWidth="600.0" GridPane.columnSpan="8">
+        <MenuBar prefHeight="25.0" prefWidth="600.0" GridPane.columnSpan="12">
             <menus>
                 <Menu mnemonicParsing="false" text="Типы логов">
                     <items>
