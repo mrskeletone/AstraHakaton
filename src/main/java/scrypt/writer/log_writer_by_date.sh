@@ -19,21 +19,27 @@ startDate=$1
 endDate=$2
 # '5-16-2024 23:49:59'
 #
-time="23:59:59"
+
+alsoDate=$(date +'%m-%e-%Y')
+# shellcheck disable=SC1073
+time=$(date | awk '{print $5}')
+
+if [ "$endDate" -ne "$asloDate" ]
+then
+  time="23:59:59"
+fi
 
 # Прибавляем переменной endDate максимальное время в дне
 # для того чтобы охватывать записи по всему крайнему дню
 endDate+="$time"
 
-# Создаём буффер для логов и выводим сообщение о его создании
-touch src/main/java/logFiles/buffer
+echo $endDate
 
 # Очищение файлов
 sh src/main/java/scrypt/clear.sh
 
 # Запись всех типов
-journalctl -p 7 --since=$startDate --until=$endDate | grep -E '^[а-я]{3,4}\ [0-9]{1,2}\ [0-9]{2}:[0-9]{2}:[0-9]{2}'> src/main/java/logFiles/allTypesLogs/all_types
+journalctl -p 7 --since=$startDate --until=$endDate | grep -E '^[а-я]{3,4} [0-9]{1,2} [0-9]{2}:[0-9]{2}:[0-9]{2}'> src/main/java/logFiles/allTypesLogs/all_types
 
-rm src/main/java/logFiles/buffer
 
 

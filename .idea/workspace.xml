@@ -5,30 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e1b6a8c-a3bd-434f-b03d-8d1355c56343" name="Changes" comment="fix: Исправил многопоточное добавление файлов логов">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/astrahakaton/Logs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/2/02fc0246c79bc8581e3884a993caeddbf9872236" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/2/02fc0246c79bc8581e3884a993caeddbf9872236" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3cfe53688d14d9ff20cbe0500d99dd60404b7614" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6fd44edfb36ac55b865bd64f64353970b7c5375d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6fd44edfb36ac55b865bd64f64353970b7c5375d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/97dd93c1f8237689931316d80bd9bea6f31b327b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/97dd93c1f8237689931316d80bd9bea6f31b327b" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/c/3cfe53688d14d9ff20cbe0500d99dd60404b7614" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/astrahakaton/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/astrahakaton/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/astrahakaton/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/astrahakaton/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/astrahakaton/LogsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/astrahakaton/LogsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/astrahakaton/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/astrahakaton/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/astrahakaton/alertsLogs-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/astrahakaton/alertsLogs-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/astrahakaton/allLogs-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/astrahakaton/allLogs-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/astrahakaton/critLogs-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/astrahakaton/critLogs-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/astrahakaton/debugLogs-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/astrahakaton/debugLogs-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/astrahakaton/emergLogs-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/astrahakaton/emergLogs-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/astrahakaton/errorsLogs-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/astrahakaton/errorsLogs-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/astrahakaton/infoLogs-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/astrahakaton/infoLogs-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/astrahakaton/noticeLogs-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/astrahakaton/noticeLogs-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/astrahakaton/warningLogs-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/astrahakaton/warningLogs-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrypt/conventor/csv_conventor.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scrypt/conventor/csv_conventor.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrypt/conventor/json_convertor.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scrypt/conventor/json_convertor.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

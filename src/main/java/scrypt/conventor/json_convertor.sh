@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# TODO: check existing file
 
 # function creating json-object of single log
 function createJsonFromLine() {
