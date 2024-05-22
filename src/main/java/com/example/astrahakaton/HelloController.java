@@ -36,6 +36,7 @@ public class HelloController {
     protected void onHelloButtonClick() throws IOException, InterruptedException {
         LocalDate begin = datePicker1.getValue();
         LocalDate end = datePicker2.getValue();
+        Util.saveEndDate(end);
         if (begin != null) {
             // активация скрипта
 //            String [] command = {"bash","src/main/java/scrypt/writer/log_writer_by_date.sh",

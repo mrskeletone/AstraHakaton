@@ -7,11 +7,20 @@ import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 
 import java.io.*;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.time.LocalDate;
+import java.util.*;
+
 //Класс предназначен методов ускоряющих написание программы
 public class Util {
+    public static LocalDate getEndDate() {
+        return endDate;
+    }
+
+    public static void saveEndDate(LocalDate endDate) {
+        Util.endDate = endDate;
+    }
+
+    private static LocalDate endDate;
     private Util(){
     }
     // Возвращает тип лога без лишних символов
