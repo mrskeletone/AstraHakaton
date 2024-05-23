@@ -48,6 +48,7 @@
                     </items>
                 </Menu>
                 <Menu mnemonicParsing="false" text="Фильтрация по"/>
+                <Menu mnemonicParsing="false" text="Выбор пользователя" />
 
             </menus>
             <Menu mnemonicParsing="false" text="конвертация">

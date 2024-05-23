@@ -4,15 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e1b6a8c-a3bd-434f-b03d-8d1355c56343" name="Changes" comment="feat: последняя версия">
+    <list default="true" id="3e1b6a8c-a3bd-434f-b03d-8d1355c56343" name="Changes" comment="feat: закончен фильтр пользователей">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/2/02fc0246c79bc8581e3884a993caeddbf9872236" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/2/02fc0246c79bc8581e3884a993caeddbf9872236" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6fd44edfb36ac55b865bd64f64353970b7c5375d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6fd44edfb36ac55b865bd64f64353970b7c5375d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/97dd93c1f8237689931316d80bd9bea6f31b327b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/97dd93c1f8237689931316d80bd9bea6f31b327b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/2/a2f8f27a93f1854e70e1b56eb46469c0079bba1f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/2/a2f8f27a93f1854e70e1b56eb46469c0079bba1f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/logFiles/allTypesLogs/all_types" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logFiles/allTypesLogs/all_types" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logFiles/debugLogs/debug" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logFiles/debugLogs/debug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/logFiles/errorLogs/errors" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logFiles/errorLogs/errors" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logFiles/infoLogs/info" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logFiles/infoLogs/info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logFiles/noticeLogs/notice" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logFiles/noticeLogs/notice" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logFiles/warningLogs/warning" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logFiles/warningLogs/warning" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,29 +45,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.HelloApplication.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Develop",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/Users/dever/IdeaProjects/AstraHakaton/src/main/java/com/example/astrahakaton",
-    "last_opened_file_path": "/Users/ekaterinacebykina/Desktop/AstraHakaton",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Develop&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/dever/IdeaProjects/AstraHakaton/src/main/java/com/example/astrahakaton&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ekaterinacebykina/Desktop/AstraHakaton&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.astrahakaton" />
@@ -351,7 +352,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716469298906</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="feat: закончен фильтр пользователей">
+      <option name="closed" value="true" />
+      <created>1716472666798</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1716472666798</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,7 +378,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1" />
     <MESSAGE value="test" />
     <MESSAGE value="change" />
     <MESSAGE value="Переключение между типами логов" />
@@ -394,6 +402,7 @@
     <MESSAGE value="feat: добавил описание к методу start" />
     <MESSAGE value="feat: почистил код" />
     <MESSAGE value="feat: последняя версия" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: последняя версия" />
+    <MESSAGE value="feat: закончен фильтр пользователей" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: закончен фильтр пользователей" />
   </component>
 </project>
