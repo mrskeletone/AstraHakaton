@@ -360,7 +360,6 @@ public class LogsController {
     //метод для кнопки графики
     @FXML
     protected void onClickAnalysis() throws IOException {
-        System.out.println("сработало");
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("analysis-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         Stage stage = new HelloApplication().getPrimaryStage();
