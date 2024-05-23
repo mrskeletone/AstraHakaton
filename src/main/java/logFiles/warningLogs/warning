@@ -56,3 +56,133 @@
 мая 02 23:46:31 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 52868, resource id: 4194371, major code: 129 (SHAPE), minor code: 6 (Input)
 мая 02 23:46:32 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
 мая 02 23:46:35 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55503, resource id: 16929870, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 00:37:21 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 03 00:37:36 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 57320, resource id: 16974442, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 00:40:44 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 03 00:40:47 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 26905, resource id: 16976973, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 00:40:50 strangecodder-laptop xdg-desktop-portal-kde[914]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 03 00:40:57 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 32049, resource id: 16977255, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 00:41:17 strangecodder-laptop kded5[798]: org.kde.plasma.nm.kded: Unhandled active connection state change:  3
+мая 03 00:41:17 strangecodder-laptop kscreenlocker_greet[19763]: Qt: Session management error: networkIdsList argument is NULL
+мая 03 00:41:18 strangecodder-laptop kscreenlocker_greet[19763]: kf.kirigami: Failed to find a Kirigami platform plugin
+мая 03 00:41:18 strangecodder-laptop kscreenlocker_greet[19763]: qt.virtualkeyboard.hunspell: Hunspell dictionary is missing for "en_US" . Search paths ("/usr/share/qt/qtvirtualkeyboard/hunspell", "/usr/share/hunspell", "/usr/share/myspell/dicts")
+мая 03 00:43:09 strangecodder-laptop kdeconnectd[1053]: Error sending UDP packet: QAbstractSocket::NetworkError
+мая 03 00:43:09 strangecodder-laptop kernel: done.
+мая 03 00:43:09 strangecodder-laptop kernel: [drm] Alt mode has timed out after 215 ms
+мая 03 00:43:09 strangecodder-laptop kernel: pci 0000:00:00.2: can't derive routing for PCI INT A
+мая 03 00:43:09 strangecodder-laptop kernel: pci 0000:00:00.2: PCI INT A: no GSI
+мая 03 00:43:09 strangecodder-laptop kernel: queueing ieee80211 work while going to suspend
+мая 03 00:43:11 strangecodder-laptop kdeconnectd[1053]: "Object does not exist at path “/org/freedesktop/NetworkManager/ActiveConnection/2”"
+мая 03 00:43:11 strangecodder-laptop kded5[798]: kf.networkmanagerqt: void NetworkManager::ConnectionPrivate::onPropertiesChanged(const QVariantMap&) Unhandled property "VersionId"
+мая 03 00:43:11 strangecodder-laptop kded5[798]: "Object does not exist at path “/org/freedesktop/NetworkManager/ActiveConnection/2”"
+мая 03 00:43:11 strangecodder-laptop plasmashell[872]: kf.networkmanagerqt: void NetworkManager::ConnectionPrivate::onPropertiesChanged(const QVariantMap&) Unhandled property "VersionId"
+мая 03 00:43:11 strangecodder-laptop plasmashell[872]: "Object does not exist at path “/org/freedesktop/NetworkManager/ActiveConnection/7”"
+мая 03 00:43:20 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 3 (BadWindow), sequence: 35268, resource id: 14680117, major code: 129 (SHAPE), minor code: 6 (Input)
+мая 03 00:43:46 strangecodder-laptop kde-open5[20216]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 00:44:17 strangecodder-laptop kwin_x11[799]: kwin_core: XCB error: 152 (BadDamage), sequence: 55690, resource id: 16979591, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 00:45:21 strangecodder-laptop kernel: acer_wmi: Unknown function number - 8 - 0
+мая 03 00:45:21 strangecodder-laptop plasmashell[872]: file:///usr/lib/qt/qml/org/kde/plasma/extras/PlaceholderMessage.qml:238:5: QML Heading: Binding loop detected for property "verticalAlignment"
+мая 03 00:45:27 strangecodder-laptop systemd[690]: dbus-:1.2-org.kde.LogoutPrompt@2.service: Failed with result 'exit-code'.
+мая 03 00:45:28 strangecodder-laptop sddm[549]: Auth: sddm-helper exited with 1
+мая 03 00:45:28 strangecodder-laptop sddm[549]: Auth: sddm-helper (--socket /tmp/sddm-auth-4e9f321c-372a-45b1-a0d9-fc0f0d2d4d72 --id 1 --start /usr/bin/startplasma-x11 --user strangecodder) crashed (exit code 1)
+мая 03 00:45:28 strangecodder-laptop sddm[549]: Signal received: SIGTERM
+мая 03 00:45:28 strangecodder-laptop systemd[690]: dbus-:1.57-org.a11y.atspi.Registry@0.service: Failed with result 'exit-code'.
+мая 03 00:45:29 strangecodder-laptop systemd[690]: pulseaudio.service: Failed with result 'core-dump'.
+мая 03 00:45:29 strangecodder-laptop systemd[690]: pulseaudio.service: Main process exited, code=dumped, status=6/ABRT
+мая 03 09:28:12 strangecodder-laptop kernel: i8042: PNP: PS/2 appears to have AUX port disabled, if this is incorrect please boot with i8042.nopnp
+мая 03 09:28:12 strangecodder-laptop kernel: nvme nvme0: missing or invalid SUBNQN field.
+мая 03 09:28:12 strangecodder-laptop kernel: pci 0000:00:00.2: can't derive routing for PCI INT A
+мая 03 09:28:12 strangecodder-laptop kernel: pci 0000:00:00.2: PCI INT A: not connected
+мая 03 09:28:12 strangecodder-laptop kernel: tpm tpm0: tpm_read_log_acpi: Failed to map ACPI memory
+мая 03 09:28:12 strangecodder-laptop systemd-vconsole-setup[280]: Fonts will not be copied to remaining consoles
+мая 03 09:28:12 strangecodder-laptop systemd-vconsole-setup[280]: KD_FONT_OP_GET failed while trying to get the font metadata: Invalid argument
+мая 03 09:28:13 strangecodder-laptop systemd-vconsole-setup[429]: Fonts will not be copied to remaining consoles
+мая 03 09:28:13 strangecodder-laptop systemd-vconsole-setup[429]: KD_FONT_OP_GET failed while trying to get the font metadata: Invalid argument
+мая 03 09:28:15 strangecodder-laptop bluetoothd[476]: profiles/audio/micp.c:micp_init() D-Bus experimental not enabled
+мая 03 09:28:15 strangecodder-laptop bluetoothd[476]: src/plugin.c:plugin_init() System does not support bap plugin
+мая 03 09:28:15 strangecodder-laptop bluetoothd[476]: src/plugin.c:plugin_init() System does not support bass plugin
+мая 03 09:28:15 strangecodder-laptop bluetoothd[476]: src/plugin.c:plugin_init() System does not support csip plugin
+мая 03 09:28:15 strangecodder-laptop bluetoothd[476]: src/plugin.c:plugin_init() System does not support mcp plugin
+мая 03 09:28:15 strangecodder-laptop bluetoothd[476]: src/plugin.c:plugin_init() System does not support micp plugin
+мая 03 09:28:15 strangecodder-laptop bluetoothd[476]: src/plugin.c:plugin_init() System does not support vcp plugin
+мая 03 09:28:16 strangecodder-laptop kernel: [drm] psp gfx command INVOKE_CMD(0x3) failed and response status is (0x4)
+мая 03 09:28:16 strangecodder-laptop kernel: [drm] psp gfx command LOAD_TA(0x1) failed and response status is (0x7)
+мая 03 09:28:17 strangecodder-laptop kernel: Bluetooth: hci0: HCI Enhanced Setup Synchronous Connection command is advertised, but not supported.
+мая 03 09:28:17 strangecodder-laptop kernel: [drm] Alt mode has timed out after 202 ms
+мая 03 09:28:26 strangecodder-laptop kernel: acpi AMDI0010:03: Already enumerated
+мая 03 09:28:36 strangecodder-laptop systemd[1]: plymouth-quit.service: Failed with result 'timeout'.
+мая 03 09:28:36 strangecodder-laptop systemd[1]: plymouth-quit.service: start operation timed out. Terminating.
+мая 03 09:28:37 strangecodder-laptop dbus-broker-launch[468]: Activation request for 'org.freedesktop.home1' failed: The systemd unit 'dbus-org.freedesktop.home1.service' could not be found.
+мая 03 09:28:38 strangecodder-laptop dbus-broker-launch[623]: Service file '/usr/share//dbus-1/services/org.kde.dolphin.FileManager1.service' is not named after the D-Bus name 'org.freedesktop.FileManager1'.
+мая 03 09:28:38 strangecodder-laptop dbus-broker-launch[623]: Service file '/usr/share//dbus-1/services/org.kde.kscreen.service' is not named after the D-Bus name 'org.kde.KScreen'.
+мая 03 09:28:38 strangecodder-laptop dbus-broker-launch[623]: Service file '/usr/share//dbus-1/services/org.kde.plasma.Notifications.service' is not named after the D-Bus name 'org.freedesktop.Notifications'.
+мая 03 09:28:38 strangecodder-laptop kernel: sddm-greeter[619]: memfd_create() called without MFD_EXEC or MFD_NOEXEC_SEAL set
+мая 03 09:28:38 strangecodder-laptop sddm-greeter[619]: QObject::installEventFilter(): Cannot filter events for objects in a different thread.
+мая 03 09:28:39 strangecodder-laptop sddm-greeter[619]: file:///usr/share/sddm/themes/breath/components/VirtualKeyboard.qml:11:1: Type InputPanel unavailable
+мая 03 09:28:39 strangecodder-laptop sddm-greeter[619]: QDBusConnection: name 'org.freedesktop.UDisks2' had owner '' but we thought it was ':1.19'
+мая 03 09:28:39 strangecodder-laptop sddm-greeter[619]: QDBusConnection: name 'org.freedesktop.UPower' had owner '' but we thought it was ':1.20'
+мая 03 09:28:39 strangecodder-laptop sddm-greeter[619]: qrc:/QtQuick/VirtualKeyboard/content/components/Keyboard.qml:38:1: module "QtQuick.VirtualKeyboard.Plugins" is not installed
+мая 03 09:28:39 strangecodder-laptop sddm-greeter[619]: qrc:/QtQuick/VirtualKeyboard/content/InputPanel.qml:138:5: Type Keyboard unavailable
+мая 03 09:28:46 strangecodder-laptop dbus-broker-launch[701]: Service file '/usr/share//dbus-1/services/org.kde.dolphin.FileManager1.service' is not named after the D-Bus name 'org.freedesktop.FileManager1'.
+мая 03 09:28:46 strangecodder-laptop dbus-broker-launch[701]: Service file '/usr/share//dbus-1/services/org.kde.kscreen.service' is not named after the D-Bus name 'org.kde.KScreen'.
+мая 03 09:28:46 strangecodder-laptop dbus-broker-launch[701]: Service file '/usr/share//dbus-1/services/org.kde.plasma.Notifications.service' is not named after the D-Bus name 'org.freedesktop.Notifications'.
+мая 03 09:28:46 strangecodder-laptop ksmserver[780]: Qt: Session management error: networkIdsList argument is NULL
+мая 03 09:28:46 strangecodder-laptop ksplashqml[708]: file:///usr/share/plasma/look-and-feel/org.manjaro.breath.desktop/contents/splash/Splash.qml:49: ReferenceError: maxWidth is not defined
+мая 03 09:28:46 strangecodder-laptop ksplashqml[708]: file:///usr/share/plasma/look-and-feel/org.manjaro.breath.desktop/contents/splash/Splash.qml:81:29: Unable to assign int to QEasingCurve
+мая 03 09:28:46 strangecodder-laptop kwalletd5[687]: kf.wallet.kwalletd: Wallet failed to get opened by PAM, error code is -9
+мая 03 09:28:47 strangecodder-laptop dbus-broker-launch[468]: Activation request for 'org.freedesktop.resolve1' failed: The systemd unit 'dbus-org.freedesktop.resolve1.service' could not be found.
+мая 03 09:28:47 strangecodder-laptop kded5[782]: kf.bluezqt: PendingCall Error: "The name is not activatable"
+мая 03 09:28:47 strangecodder-laptop kded5[782]: kscreen.kded: PowerDevil SuspendSession action not available!
+мая 03 09:28:47 strangecodder-laptop kded5[782]: org.kde.libkbolt: Failed to connect to Bolt manager DBus interface:
+мая 03 09:28:47 strangecodder-laptop kded5[782]: QDBusAbstractAdaptor: Cannot relay signal KDEDModule::moduleDeleted(KDEDModule*): Pointers are not supported: KDEDModule*
+мая 03 09:28:47 strangecodder-laptop kernel: warning: `kded5' uses wireless extensions which will stop working for Wi-Fi 7 hardware; use nl80211
+мая 03 09:28:47 strangecodder-laptop ksmserver[780]: QDBusConnection: name 'org.kde.kglobalaccel' had owner '' but we thought it was ':1.16'
+мая 03 09:28:47 strangecodder-laptop org_kde_powerdevil[896]: org.kde.powerdevil: Handle button events action could not check for screen configuration
+мая 03 09:28:47 strangecodder-laptop org_kde_powerdevil[896]: org.kde.powerdevil: org.kde.powerdevil.chargethresholdhelper.getthreshold failed "Charge thresholds are not supported by the kernel for this hardware"
+мая 03 09:28:48 strangecodder-laptop kdeconnectd[1040]: Error sending UDP packet: QAbstractSocket::NetworkError
+мая 03 09:28:48 strangecodder-laptop kioslave5[1156]: QObject::connect: No such slot DesktopProtocol::_k_slotRedirection(KIO::Job *, QUrl)
+мая 03 09:28:48 strangecodder-laptop org_kde_powerdevil[896]: org.kde.powerdevil: org.kde.powerdevil.chargethresholdhelper.getthreshold failed "Charge thresholds are not supported by the kernel for this hardware"
+мая 03 09:28:48 strangecodder-laptop plasmashell[858]: file:///usr/lib/qt/qml/org/kde/kirigami.2/templates/InlineMessage.qml:265:13: QML SelectableLabel: Binding loop detected for property "implicitWidth"
+мая 03 09:28:48 strangecodder-laptop plasmashell[858]: org.kde.plasma.kicker: Entry is not valid "ktp-contactlist.desktop" QSharedPointer(0x557319ceb390)
+мая 03 09:28:48 strangecodder-laptop plasmashell[858]: org.kde.plasma.kicker: Entry is not valid "ktp-contactlist.desktop" QSharedPointer(0x557319cec0c0)
+мая 03 09:28:48 strangecodder-laptop plasmashell[858]: org.kde.plasma.kicker: Entry is not valid "org.kde.discover.desktop" QSharedPointer(0x557319ceb430)
+мая 03 09:28:48 strangecodder-laptop plasmashell[858]: org.kde.plasma.kicker: Entry is not valid "org.kde.discover.desktop" QSharedPointer(0x557319cec3c0)
+мая 03 09:28:48 strangecodder-laptop plasmashell[858]: org.kde.plasma.kicker: Entry is not valid "org.kde.kontact.desktop" QSharedPointer(0x557319ceb480)
+мая 03 09:28:48 strangecodder-laptop plasmashell[858]: org.kde.plasma.kicker: Entry is not valid "org.kde.kontact.desktop" QSharedPointer(0x557319ceb770)
+мая 03 09:28:48 strangecodder-laptop plasmashell[858]: Trying to use rootObject before initialization is completed, whilst using setInitializationDelayed. Forcing completion
+мая 03 09:28:48 strangecodder-laptop pulseaudio[1084]: Path Capture is not a volume or mute control
+мая 03 09:28:49 strangecodder-laptop kwin_x11[783]: kwin_core: XCB error: 152 (BadDamage), sequence: 2364, resource id: 16777254, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 09:28:49 strangecodder-laptop plasmashell[858]: Cyclic dependency detected between "file:///usr/share/plasma/plasmoids/org.kde.plasma.notifications/contents/ui/global/Globals.qml" and "file:///usr/share/plasma/plasmoids/org.kde.plasma.notifications/contents/ui/NotificationHeader.qml"
+мая 03 09:28:49 strangecodder-laptop plasmashell[858]: Cyclic dependency detected between "file:///usr/share/plasma/plasmoids/org.kde.plasma.notifications/contents/ui/global/Globals.qml" and "file:///usr/share/plasma/plasmoids/org.kde.plasma.notifications/contents/ui/ThumbnailStrip.qml"
+мая 03 09:28:49 strangecodder-laptop plasmashell[858]: file:///usr/lib/qt/qml/org/kde/plasma/extras/PlaceholderMessage.qml:238:5: QML Heading: Binding loop detected for property "verticalAlignment"
+мая 03 09:28:49 strangecodder-laptop plasmashell[858]: file:///usr/share/plasma/plasmoids/org.kde.plasma.networkmanagement/contents/ui/main.qml:95: TypeError: Cannot read property 'airplaneModeAvailable' of null
+мая 03 09:28:50 strangecodder-laptop plasmashell[858]: file:///usr/lib/qt/qml/org/kde/plasma/extras/PlaceholderMessage.qml:238:5: QML Heading: Binding loop detected for property "verticalAlignment"
+мая 03 09:28:53 strangecodder-laptop plasmashell[858]: trying to show an empty dialog
+мая 03 09:28:54 strangecodder-laptop plasmashell[858]: file:///usr/lib/qt/qml/org/kde/plasma/extras/PlaceholderMessage.qml:238:5: QML Heading: Binding loop detected for property "verticalAlignment"
+мая 03 09:28:57 strangecodder-laptop plasmashell[858]: file:///usr/lib/qt/qml/org/kde/plasma/extras/PlaceholderMessage.qml:238:5: QML Heading: Binding loop detected for property "verticalAlignment"
+мая 03 09:29:01 strangecodder-laptop plasmashell[858]: kf.service.services: KApplicationTrader: mimeType "x-scheme-handler/file" not found
+мая 03 09:29:01 strangecodder-laptop plasmashell[858]: trying to show an empty dialog
+мая 03 09:29:02 strangecodder-laptop kwalletd5[687]: Application ' "Google Chrome" ' using kwallet without parent window!
+мая 03 09:29:04 strangecodder-laptop kwin_x11[783]: kwin_core: XCB error: 152 (BadDamage), sequence: 14471, resource id: 16777978, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 09:32:19 strangecodder-laptop xdg-desktop-portal-kde[897]: kf.kio.widgets.kdirmodel: No node found for item that was just removed: QUrl("file:///home/strangecodder/Documents/IndInt/Hardware")
+мая 03 09:32:28 strangecodder-laptop kwin_x11[783]: kwin_core: XCB error: 152 (BadDamage), sequence: 54544, resource id: 16782798, major code: 143 (DAMAGE), minor code: 3 (Subtract)
+мая 03 09:32:55 strangecodder-laptop plasmashell[858]: Connecting to deprecated signal QDBusConnectionInterface::serviceOwnerChanged(QString,QString,QString)
+мая 03 09:32:55 strangecodder-laptop plasmashell[858]: file:///usr/lib/qt/qml/org/kde/plasma/extras/PlaceholderMessage.qml:238:5: QML Heading: Binding loop detected for property "verticalAlignment"
+мая 03 09:32:55 strangecodder-laptop plasmashell[858]: kf.sonnet.core: No language dictionaries for the language: "en_US"
+мая 03 09:32:56 strangecodder-laptop xdg-desktop-por[742]: A backend call failed: No such method 'CreateMonitor' in interface 'org.freedesktop.impl.portal.Inhibit' at object path '/org/freedesktop/portal/desktop' (signature 'ooss')
+мая 03 09:32:56 strangecodder-laptop xdg-desktop-por[742]: Failed to close session implementation: GDBus.Error:org.freedesktop.DBus.Error.UnknownObject: No such object path '/org/freedesktop/portal/desktop/session/1_75/tdesktop943904712'
+мая 03 09:32:57 strangecodder-laptop plasmashell[858]: QFont::setPointSizeF: Point size <= 0 (0.000000), must be greater than 0
+мая 03 09:32:57 strangecodder-laptop telegram-desktop[2575]: QPainter::begin: Paint device returned engine == 0, type: 2
+мая 03 09:32:57 strangecodder-laptop telegram-desktop[2575]: qt.dbus.integration: Could not connect "org.freedesktop.NetworkManager" to "connectivityChanged" : Type not registered with QtDBus in parameter list: QNetworkManagerInterface::NMConnectivityState
+мая 03 09:32:57 strangecodder-laptop telegram-desktop[2575]: qt.dbus.integration: Could not connect "org.freedesktop.NetworkManager" to "deviceTypeChanged" : Type not registered with QtDBus in parameter list: QNetworkManagerInterface::NMDeviceType
+мая 03 09:32:57 strangecodder-laptop telegram-desktop[2575]: qt.dbus.integration: Could not connect "org.freedesktop.NetworkManager" to "meteredChanged" : Type not registered with QtDBus in parameter list: QNetworkManagerInterface::NMMetered
+мая 03 09:32:57 strangecodder-laptop telegram-desktop[2575]: qt.dbus.integration: Could not connect "org.freedesktop.NetworkManager" to "stateChanged" : Type not registered with QtDBus in parameter list: QNetworkManagerInterface::NMState
+мая 03 09:32:57 strangecodder-laptop telegram-desktop[2575]: QWidget::render: Cannot render with an inactive painter
+мая 03 09:32:57 strangecodder-laptop xdg-desktop-portal-kde[897]: xdp-kde-settings: Namespace  "org.gnome.desktop.wm.preferences"  is not supported
+мая 03 09:33:00 strangecodder-laptop telegram-desktop[2575]: qt.gui.imageio.jpeg: Corrupt JPEG data: premature end of data segment
+мая 03 09:33:34 strangecodder-laptop plasmashell[858]: file:///usr/lib/qt/qml/org/kde/plasma/extras/PlaceholderMessage.qml:238:5: QML Heading: Binding loop detected for property "verticalAlignment"
+мая 03 09:33:38 strangecodder-laptop sddm[585]: Auth: sddm-helper exited with 1
+мая 03 09:33:38 strangecodder-laptop sddm[585]: Auth: sddm-helper (--socket /tmp/sddm-auth-f3fa3183-84dd-437b-8b7f-fa26150dfed6 --id 1 --start /usr/bin/startplasma-x11 --user strangecodder) crashed (exit code 1)
+мая 03 09:33:38 strangecodder-laptop sddm[585]: Signal received: SIGTERM
+мая 03 09:33:38 strangecodder-laptop systemd[673]: dbus-:1.2-org.kde.LogoutPrompt@0.service: Failed with result 'exit-code'.
+мая 03 09:33:38 strangecodder-laptop systemd[673]: dbus-:1.59-org.a11y.atspi.Registry@0.service: Failed with result 'exit-code'.

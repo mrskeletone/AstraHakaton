@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# TODO: check existing file
+# TODO: check existing file.csv
 
 # function creating json-object of single log
 function createJsonFromLine() {
@@ -19,10 +19,10 @@ function createJsonFromLine() {
 	'{($key): {$date, $type, $message}}'
 }
 
-
-# main function (read logs from file and create json file)
-# parameter ${1} - from what file get data
+# main function (read logs from file.csv and create json file.csv)
+# parameter ${1} - from what file.csv get data
 # parameter ${2} - where write json
+
 function main() {
   ind=1
 
