@@ -24,7 +24,7 @@ alsoDate=$(date +'%m-%e-%Y')
 # shellcheck disable=SC1073
 time=$(date | awk '{print $5}')
 
-if [ "$endDate" -ne "$asloDate" ]
+if [[ "$endDate" -ne "$alsoDate" ]]
 then
   time="23:59:59"
 fi
@@ -32,8 +32,6 @@ fi
 # Прибавляем переменной endDate максимальное время в дне
 # для того чтобы охватывать записи по всему крайнему дню
 endDate+="$time"
-
-echo $endDate
 
 # Очищение файлов
 sh src/main/java/scrypt/clear.sh

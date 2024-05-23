@@ -12,7 +12,7 @@ alsoDate=$(date +'%m-%e-%Y')
 # shellcheck disable=SC1073
 time=$(date | awk '{print $5}')
 
-if [ "$endDate" -ne "$asloDate" ]
+if [[ "$endDate" -ne "$asloDate" ]]
 then
   time="23:59:59"
 fi
