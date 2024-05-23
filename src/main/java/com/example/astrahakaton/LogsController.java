@@ -35,12 +35,15 @@ public class LogsController {
 
     private static final List<String> listFilter = new ArrayList<>();
     private static final List<String> listUsers = new ArrayList<>();
+
     public static boolean getFlagFiles(){
         return flagFiles;
     }
+
     public  static void setNewTable (TableView<Logs> tables){
         table=tables;
     }
+
     public static void setCurrentFXMLLoader(FXMLLoader fxmlLoader){
         currentFXMLLoader=fxmlLoader;
     }
@@ -160,6 +163,7 @@ public class LogsController {
         }
 
     }
+
     public void setUser(Set<String> name,int q){
         EventHandler<ActionEvent> selectFilter = e -> {
             try (BufferedReader bufferedReader = new BufferedReader(new FileReader(currentPath))) {
@@ -228,6 +232,7 @@ public class LogsController {
         menuItem.setOnAction(reset);
         menuBar.getMenus().get(q).getItems().add(menuItem);
     }
+
     //Действие при нажатие кнопки назад
     @FXML
     protected void onClickBackButton() throws IOException {
@@ -380,39 +385,20 @@ public class LogsController {
         PathController.setStage(stage);
         flagFiles=true;
         stage.show();
-
-//        Util.createFileForConvertor("src/main/java/jsonFiles/JSON");
-//
-//        String [] command = {"bash","src/main/java/scrypt/conventor/json_convertor.sh",
-//                "src/main/java/jsonFiles/JSON", "src/main/java/jsonFiles/file.json"};
-//
-//        Process process = Runtime.getRuntime().exec(command);
-//
-//        process.getInputStream().transferTo(System.out);
-//        process.getErrorStream().transferTo(System.out);
-        //Активация скрипта конвертации
     }
+
     @FXML
     protected void onClickCSV() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("path-view.fxml"));
+        PathController.setFxmlLoader(fxmlLoader);
         Scene scene = new Scene(fxmlLoader.load());
         Stage stage = new Stage();
         stage.setScene(scene);
         PathController.setStage(stage);
         flagFiles=false;
         stage.show();
-//        Util.createFileForConvertor("src/main/java/csvFiles/CSV");
-//        //Активация скрипта конвертации
-//        String [] command = {"bash","src/main/java/scrypt/conventor/csv_convertor.sh",
-//                "src/main/java/csvFiles/CSV", "src/main/java/csvFiles/file.csv"};
-//
-//        Process process = Runtime.getRuntime().exec(command);
-//
-//        process.getInputStream().transferTo(System.out);
-//        process.getErrorStream().transferTo(System.out);
-        //
-
     }
+
     public static FXMLLoader getCurrentFXMLLoader(){
         return currentFXMLLoader;
     }
