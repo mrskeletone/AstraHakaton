@@ -4,131 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e1b6a8c-a3bd-434f-b03d-8d1355c56343" name="Changes" comment="feat: ввод пути контроллера">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1be5ba6a5549ddd4e7446ed42d3f52b93a45916c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/d/1d6f137ed1f3d2f0a99dd6a0a153e6f9abc39407" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/0/2096e97f0d40e945ba910a5151f84a4a9a7995dc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/2/22884170f55f078862582c43d1fb4c29c680b3ea" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/6/265c88f03c18ca7266140b6acb2784c53dbccafa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/7/270a6049472f2db01e6fdf0784fc723f23c6a730" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/c/2cabb939da04d3de3a200bf2b575690e1a16316d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/d/2d8a341dfc4e2a9567144d183315c2d3610f49cf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/0/30205a209c6ce77c4cfc19a09e6f57c588b7fb88" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/441e6168af36afe9568996929caf6842abd87b08" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/483a3bbbd187bd3b1e3658a6b38eb31f55fdd7c7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/9/496a238a6afa168dbaf6efd37bb459331589579c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/b/4bfdd25fda17506e438d742d0d715572e7e933ae" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/6/56822cec86c31a848ee466e1163c272ec0b02589" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/7/673b6e09f91b632b5c3e6ad13b021f78d847d70d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/b/6b4ef915f4a69a7cc0c7a804006c73cbbc2c5b7b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/b/6b524468624729df5f3ed888391767a929f6163c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/c/6c12c046619028da98e2502918e6e119bd2491c2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/3/733bfba9fd6ef1ec40633661eb0916a45f0a40db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/3/7369cfb9b3d442f53f7dd599e0552f616c0a8953" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7e7a034d0f814f7a535a58975a0b261cb44c7a5e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/4/84e47ea35f445eb5238128908f068928322bf283" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/5/85b0e0d2aec787f208dfd32764a82349f4f231cb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/863e0292fd7e9b3e74dafd6cc01f73ba76346482" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/86f1697e29965052e56e0c561f754164d7eeb864" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/8/88a9255124c95bdc913197c120a8d560edc59c8e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8e4efdcb2bcf1139851dfacf0a1ed273b870c15f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/f/8f8c833f874e1813b478c7d939adf56c3bc3d713" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/1/91c4b3f63e341693a52886aaecdd56ff0316dc9a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/3/9327340b8caa95a02a717ba749f419bbc8b795c0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/3/93bf03a0478b420c7553b7458d8422f8eb016bb2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/5/95259d1a8358e002b4b7684af65c26eaa3bc3fff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9f44b6b1e9341861ab2538123d0940ad00df3a8e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/1/a1c452c67e5ff22be14986adf921f31705ffa8ac" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/2/a23fecf281bfe300797f845cbd9ec9025ab4ec47" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/2/a2f8f27a93f1854e70e1b56eb46469c0079bba1f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/7/a79c5e70c7126eb47f484ac09fa63780cb24388f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/9/a92ebd0234735fcf9a5188062b8fde0cd8e4e1aa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/d/ade56feb3bb017c7b6fe08b20c4ff290ff8025cb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/ba5327b22312085721456bb2bf5989fc7fc37410" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/2/c2437e724aa27222699db92db4d42f9f5982f806" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/7/c778de89c62749ccd2e41717955c279cf77022c6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/0/d0398967d7b3c15df3d7e96dce6407c682cb91b6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/4/d4036e15dfb276ec6a8f4dd7b2cc202dcffca65f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/f/df047b29e4ab0218a747356b6a08025a2233969b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/0/e0d057a765d4b6368b9325eb414b19b3d650aa41" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/5/e5359c46d57d9ef1dce3642a90b2c735d4d9f738" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/8/e8fcfc04783ebb77140c188e7b434af763510920" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/d/ed67eb178d523a4b3f117dcbe0eda5196367ceec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/3/f34eb77695a8fdea2522966277bc150a08d39ae9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/d/fd3a93982b1eac8ddc901ad24b74949d1ae40501" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/7/0726df3722deb0557a391a886f553de77a487a75" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/f/0f4370ea00c502e3c692e44fef02c1d65c424881" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/b/1be5ba6a5549ddd4e7446ed42d3f52b93a45916c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/d/1d6f137ed1f3d2f0a99dd6a0a153e6f9abc39407" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/0/2096e97f0d40e945ba910a5151f84a4a9a7995dc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/2/22884170f55f078862582c43d1fb4c29c680b3ea" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/6/265c88f03c18ca7266140b6acb2784c53dbccafa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/7/270a6049472f2db01e6fdf0784fc723f23c6a730" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/c/2cabb939da04d3de3a200bf2b575690e1a16316d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/d/2d8a341dfc4e2a9567144d183315c2d3610f49cf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/0/30205a209c6ce77c4cfc19a09e6f57c588b7fb88" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/4/441e6168af36afe9568996929caf6842abd87b08" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/8/483a3bbbd187bd3b1e3658a6b38eb31f55fdd7c7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/9/496a238a6afa168dbaf6efd37bb459331589579c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/b/4bfdd25fda17506e438d742d0d715572e7e933ae" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/6/56822cec86c31a848ee466e1163c272ec0b02589" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/7/673b6e09f91b632b5c3e6ad13b021f78d847d70d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/b/6b4ef915f4a69a7cc0c7a804006c73cbbc2c5b7b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/b/6b524468624729df5f3ed888391767a929f6163c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/c/6c12c046619028da98e2502918e6e119bd2491c2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/3/733bfba9fd6ef1ec40633661eb0916a45f0a40db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/3/7369cfb9b3d442f53f7dd599e0552f616c0a8953" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/e/7e7a034d0f814f7a535a58975a0b261cb44c7a5e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/4/84e47ea35f445eb5238128908f068928322bf283" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/5/85b0e0d2aec787f208dfd32764a82349f4f231cb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/6/863e0292fd7e9b3e74dafd6cc01f73ba76346482" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/6/86f1697e29965052e56e0c561f754164d7eeb864" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/8/88a9255124c95bdc913197c120a8d560edc59c8e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/e/8e4efdcb2bcf1139851dfacf0a1ed273b870c15f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/f/8f8c833f874e1813b478c7d939adf56c3bc3d713" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/1/91c4b3f63e341693a52886aaecdd56ff0316dc9a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/3/9327340b8caa95a02a717ba749f419bbc8b795c0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/3/93bf03a0478b420c7553b7458d8422f8eb016bb2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/5/95259d1a8358e002b4b7684af65c26eaa3bc3fff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/f/9f44b6b1e9341861ab2538123d0940ad00df3a8e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/1/a1c452c67e5ff22be14986adf921f31705ffa8ac" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/2/a23fecf281bfe300797f845cbd9ec9025ab4ec47" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/2/a2f8f27a93f1854e70e1b56eb46469c0079bba1f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/7/a79c5e70c7126eb47f484ac09fa63780cb24388f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/9/a92ebd0234735fcf9a5188062b8fde0cd8e4e1aa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/d/ade56feb3bb017c7b6fe08b20c4ff290ff8025cb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/a/ba5327b22312085721456bb2bf5989fc7fc37410" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/2/c2437e724aa27222699db92db4d42f9f5982f806" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/7/c778de89c62749ccd2e41717955c279cf77022c6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/0/d0398967d7b3c15df3d7e96dce6407c682cb91b6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/4/d4036e15dfb276ec6a8f4dd7b2cc202dcffca65f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/f/df047b29e4ab0218a747356b6a08025a2233969b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/0/e0d057a765d4b6368b9325eb414b19b3d650aa41" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/5/e5359c46d57d9ef1dce3642a90b2c735d4d9f738" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/8/e8fcfc04783ebb77140c188e7b434af763510920" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/d/ed67eb178d523a4b3f117dcbe0eda5196367ceec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/3/f34eb77695a8fdea2522966277bc150a08d39ae9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/d/fd3a93982b1eac8ddc901ad24b74949d1ae40501" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/2/02fc0246c79bc8581e3884a993caeddbf9872236" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/2/02fc0246c79bc8581e3884a993caeddbf9872236" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3cfe53688d14d9ff20cbe0500d99dd60404b7614" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/7/0726df3722deb0557a391a886f553de77a487a75" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6fd44edfb36ac55b865bd64f64353970b7c5375d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6fd44edfb36ac55b865bd64f64353970b7c5375d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/97dd93c1f8237689931316d80bd9bea6f31b327b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/97dd93c1f8237689931316d80bd9bea6f31b327b" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/c/3cfe53688d14d9ff20cbe0500d99dd60404b7614" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/f/0f4370ea00c502e3c692e44fef02c1d65c424881" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+    <list default="true" id="3e1b6a8c-a3bd-434f-b03d-8d1355c56343" name="Changes" comment="feat: последняя версия">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/astrahakaton/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/astrahakaton/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/astrahakaton/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/astrahakaton/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/logFiles/allTypesLogs/all_types" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logFiles/allTypesLogs/all_types" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/logFiles/debugLogs/debug" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logFiles/debugLogs/debug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/logFiles/errorLogs/errors" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logFiles/errorLogs/errors" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/logFiles/infoLogs/info" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logFiles/infoLogs/info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/logFiles/noticeLogs/notice" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logFiles/noticeLogs/notice" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/astrahakaton/alertsLogs-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/astrahakaton/alertsLogs-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/astrahakaton/allLogs-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/astrahakaton/allLogs-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/astrahakaton/errorsLogs-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/astrahakaton/errorsLogs-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/logFiles/warningLogs/warning" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logFiles/warningLogs/warning" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,26 +44,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Develop&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/dever/IdeaProjects/AstraHakaton/src/main/java/com/example/astrahakaton&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/ekaterinacebykina/Desktop/AstraHakaton&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.HelloApplication.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "Develop",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Users/dever/IdeaProjects/AstraHakaton/src/main/java/com/example/astrahakaton",
+    "last_opened_file_path": "/Users/ekaterinacebykina/Desktop/AstraHakaton",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.astrahakaton" />
@@ -207,6 +94,14 @@
       </method>
     </configuration>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -230,10 +125,7 @@
       <workItem from="1716148244046" duration="28000" />
       <workItem from="1716203672836" duration="326000" />
       <workItem from="1716209649986" duration="13736000" />
-      <workItem from="1716372808969" duration="1371000" />
-      <workItem from="1716374191225" duration="1293000" />
-      <workItem from="1716375898091" duration="325000" />
-      <workItem from="1716376232415" duration="15064000" />
+      <workItem from="1716451997758" duration="1769000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
@@ -339,103 +231,127 @@
       <option name="project" value="LOCAL" />
       <updated>1716212909359</updated>
     </task>
-    <task id="LOCAL-00014" summary="feat: добавлена сохранение конечной даты">
+    <task id="LOCAL-00014" summary="feat: добавил текст &quot;введите путь до файла&quot;, поменял характеристики окна">
       <option name="closed" value="true" />
-      <created>1716365247831</created>
+      <created>1716448620582</created>
       <option name="number" value="00014" />
       <option name="presentableId" value="LOCAL-00014" />
       <option name="project" value="LOCAL" />
-      <updated>1716365247831</updated>
+      <updated>1716448620583</updated>
     </task>
-    <task id="LOCAL-00015" summary="feat: добавлена метод для кнопки обновить">
+    <task id="LOCAL-00015" summary="feat: добавил логотип утиллиты">
       <option name="closed" value="true" />
-      <created>1716372969090</created>
+      <created>1716448682754</created>
       <option name="number" value="00015" />
       <option name="presentableId" value="LOCAL-00015" />
       <option name="project" value="LOCAL" />
-      <updated>1716372969090</updated>
+      <updated>1716448682754</updated>
     </task>
-    <task id="LOCAL-00016" summary="feat: добавлена кнопка анализа">
+    <task id="LOCAL-00016" summary="refactor: убрал не нужеые скрипты">
       <option name="closed" value="true" />
-      <created>1716374410121</created>
+      <created>1716448758391</created>
       <option name="number" value="00016" />
       <option name="presentableId" value="LOCAL-00016" />
       <option name="project" value="LOCAL" />
-      <updated>1716374410121</updated>
+      <updated>1716448758391</updated>
     </task>
-    <task id="LOCAL-00017" summary="feat: добавлена создание графиков анализа">
+    <task id="LOCAL-00017" summary="refactor: убрал не нужеые файлы в папке logFiles">
       <option name="closed" value="true" />
-      <created>1716387173612</created>
+      <created>1716448795212</created>
       <option name="number" value="00017" />
       <option name="presentableId" value="LOCAL-00017" />
       <option name="project" value="LOCAL" />
-      <updated>1716387173612</updated>
+      <updated>1716448795212</updated>
     </task>
-    <task id="LOCAL-00018" summary="feat: добавлена создание графиков анализа">
+    <task id="LOCAL-00018" summary="refactor: переименовал конвертор&#10;&#10;csv_conventor.sh -&gt; csv_convertor.sh">
       <option name="closed" value="true" />
-      <created>1716387191902</created>
+      <created>1716448840017</created>
       <option name="number" value="00018" />
       <option name="presentableId" value="LOCAL-00018" />
       <option name="project" value="LOCAL" />
-      <updated>1716387191902</updated>
+      <updated>1716448840017</updated>
     </task>
-    <task id="LOCAL-00019" summary="feat: добавлена создание графиков анализа">
+    <task id="LOCAL-00019" summary="refactor: удалил ненужный файл в папке jsonFiles">
       <option name="closed" value="true" />
-      <created>1716387332409</created>
+      <created>1716448897480</created>
       <option name="number" value="00019" />
       <option name="presentableId" value="LOCAL-00019" />
       <option name="project" value="LOCAL" />
-      <updated>1716387332409</updated>
+      <updated>1716448897480</updated>
     </task>
-    <task id="LOCAL-00020" summary="feat: добавлена создание файла при нажатие кнопки конвертации в JSON">
+    <task id="LOCAL-00020" summary="fix: исправил метод onClickCSVA">
       <option name="closed" value="true" />
-      <created>1716399275940</created>
+      <created>1716449909772</created>
       <option name="number" value="00020" />
       <option name="presentableId" value="LOCAL-00020" />
       <option name="project" value="LOCAL" />
-      <updated>1716399275941</updated>
+      <updated>1716449909772</updated>
     </task>
-    <task id="LOCAL-00021" summary="feat: добавлена создание файла при нажатие кнопки конвертации в CSV">
+    <task id="LOCAL-00021" summary="fix: исправил метод onClickCSV">
       <option name="closed" value="true" />
-      <created>1716399822142</created>
+      <created>1716449944483</created>
       <option name="number" value="00021" />
       <option name="presentableId" value="LOCAL-00021" />
       <option name="project" value="LOCAL" />
-      <updated>1716399822142</updated>
+      <updated>1716449944483</updated>
     </task>
-    <task id="LOCAL-00022" summary="feat: добавлена создание файла и заполнение по пути">
+    <task id="LOCAL-00022" summary="feat: добавил описание классов и методов">
       <option name="closed" value="true" />
-      <created>1716399917715</created>
+      <created>1716451491412</created>
       <option name="number" value="00022" />
       <option name="presentableId" value="LOCAL-00022" />
       <option name="project" value="LOCAL" />
-      <updated>1716399917715</updated>
+      <updated>1716451491413</updated>
     </task>
-    <task id="LOCAL-00023" summary="feat: добавлен метод конвертации CSV">
+    <task id="LOCAL-00023" summary="fix: убрал не нужный вывод в консоль">
       <option name="closed" value="true" />
-      <created>1716399954259</created>
+      <created>1716452079175</created>
       <option name="number" value="00023" />
       <option name="presentableId" value="LOCAL-00023" />
       <option name="project" value="LOCAL" />
-      <updated>1716399954259</updated>
+      <updated>1716452079175</updated>
     </task>
-    <task id="LOCAL-00024" summary="Fix: исправлена конвертация в allTypes">
+    <task id="LOCAL-00024" summary="fix: исправил ошибку в структуре if">
       <option name="closed" value="true" />
-      <created>1716400802269</created>
+      <created>1716452108005</created>
       <option name="number" value="00024" />
       <option name="presentableId" value="LOCAL-00024" />
       <option name="project" value="LOCAL" />
-      <updated>1716400802269</updated>
+      <updated>1716452108005</updated>
     </task>
-    <task id="LOCAL-00025" summary="feat: ввод пути контроллера">
+    <task id="LOCAL-00025" summary="refactor: удалил не нужный скрипт">
       <option name="closed" value="true" />
-      <created>1716404474654</created>
+      <created>1716452154985</created>
       <option name="number" value="00025" />
       <option name="presentableId" value="LOCAL-00025" />
       <option name="project" value="LOCAL" />
-      <updated>1716404474654</updated>
+      <updated>1716452154985</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="feat: добавил описание к методу start">
+      <option name="closed" value="true" />
+      <created>1716452239484</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1716452239484</updated>
+    </task>
+    <task id="LOCAL-00027" summary="feat: почистил код">
+      <option name="closed" value="true" />
+      <created>1716469265596</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1716469265596</updated>
+    </task>
+    <task id="LOCAL-00028" summary="feat: последняя версия">
+      <option name="closed" value="true" />
+      <created>1716469298906</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1716469298906</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -463,16 +379,21 @@
     <MESSAGE value="fix: Исправлена фильтрация" />
     <MESSAGE value="feat: Создание файлов различных логов в другом потоке" />
     <MESSAGE value="fix: Исправил многопоточное добавление файлов логов" />
-    <MESSAGE value="feat: добавлена сохранение конечной даты" />
-    <MESSAGE value="feat: добавлена метод для кнопки обновить" />
-    <MESSAGE value="feat: добавлена кнопка анализа" />
-    <MESSAGE value="feat: добавлена создание графиков анализа" />
-    <MESSAGE value="feat: добавлена создание файла при нажатие кнопки конвертации в JSON" />
-    <MESSAGE value="feat: добавлена создание файла при нажатие кнопки конвертации в CSV" />
-    <MESSAGE value="feat: добавлена создание файла и заполнение по пути" />
-    <MESSAGE value="feat: добавлен метод конвертации CSV" />
-    <MESSAGE value="Fix: исправлена конвертация в allTypes" />
-    <MESSAGE value="feat: ввод пути контроллера" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: ввод пути контроллера" />
+    <MESSAGE value="feat: добавил текст &quot;введите путь до файла&quot;, поменял характеристики окна" />
+    <MESSAGE value="feat: добавил логотип утиллиты" />
+    <MESSAGE value="refactor: убрал не нужеые скрипты" />
+    <MESSAGE value="refactor: убрал не нужеые файлы в папке logFiles" />
+    <MESSAGE value="refactor: переименовал конвертор&#10;&#10;csv_conventor.sh -&gt; csv_convertor.sh" />
+    <MESSAGE value="refactor: удалил ненужный файл в папке jsonFiles" />
+    <MESSAGE value="fix: исправил метод onClickCSVA" />
+    <MESSAGE value="fix: исправил метод onClickCSV" />
+    <MESSAGE value="feat: добавил описание классов и методов" />
+    <MESSAGE value="fix: убрал не нужный вывод в консоль" />
+    <MESSAGE value="fix: исправил ошибку в структуре if" />
+    <MESSAGE value="refactor: удалил не нужный скрипт" />
+    <MESSAGE value="feat: добавил описание к методу start" />
+    <MESSAGE value="feat: почистил код" />
+    <MESSAGE value="feat: последняя версия" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: последняя версия" />
   </component>
 </project>
