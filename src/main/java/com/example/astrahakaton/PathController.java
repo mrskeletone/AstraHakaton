@@ -49,23 +49,24 @@ public class PathController {
         }
         stage.close();
     }
-    protected void onClickJSON(String path) throws IOException {
-        Util.createFileForConvertor("src/main/java/jsonFiles"+"/JSON");
 
-//        String [] command = {"bash","src/main/java/scrypt/conventor/json_convertor.sh",
-//                "src/main/java/jsonFiles/JSON", "src/main/java/jsonFiles/file.json"};
-//
-//        Process process = Runtime.getRuntime().exec(command);
-//
-//        process.getInputStream().transferTo(System.out);
-//        process.getErrorStream().transferTo(System.out);
+    protected void onClickJSON(String path) throws IOException {
+        Util.createFileForConvertor("src/main/java/jsonFiles/JSON");
+
+        String [] command = {"bash","src/main/java/scrypt/conventor/json_convertor.sh",
+                "src/main/java/jsonFiles/JSON", path};
+
+        Process process = Runtime.getRuntime().exec(command);
+
+        process.getInputStream().transferTo(System.out);
+        process.getErrorStream().transferTo(System.out);
         //Активация скрипта конвертации
     }
     protected void onClickCSV(String path) throws IOException {
-        Util.createFileForConvertor(path+"/CSV");
+        Util.createFileForConvertor("src/main/java/csvFiles/CSV");
         //Активация скрипта конвертации
         String [] command = {"bash","src/main/java/scrypt/conventor/csv_convertor.sh",
-                "src/main/java/csvFiles/CSV", "src/main/java/csvFiles/file.csv"};
+                "src/main/java/csvFiles/CSV", path};
 
         Process process = Runtime.getRuntime().exec(command);
 
