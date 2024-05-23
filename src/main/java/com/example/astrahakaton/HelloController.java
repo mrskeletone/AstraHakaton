@@ -58,10 +58,10 @@ public class HelloController {
             Util.saveTime(Util.processTime(LocalTime.now()));
 
             /* Активация скрипта log_writer_by_date.sh */
-//            Process process = Runtime.getRuntime().exec(command);
-//
-//            process.getInputStream().transferTo(System.out);
-//            process.getErrorStream().transferTo(System.out);
+            Process process = Runtime.getRuntime().exec(command);
+
+            process.getInputStream().transferTo(System.out);
+            process.getErrorStream().transferTo(System.out);
 
 
             fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("allLogs-view.fxml"));
@@ -85,16 +85,16 @@ public class HelloController {
 
                 String[] command1 = {"bash", "src/main/java/scrypt/writer/writer_zero-six.sh",
                         begin.toString(), end.toString()};
-//                try {
-//
-//                    /* Активация скрипта writer_zero-six.sh */
-//                    Process process2 = Runtime.getRuntime().exec(command1);
-//
-//                    process2.getInputStream().transferTo(System.out);
-//                    process2.getErrorStream().transferTo(System.out);
-//                }catch (IOException e){
-//                    e.printStackTrace();
-//                }
+                try {
+
+                    /* Активация скрипта writer_zero-six.sh */
+                    Process process2 = Runtime.getRuntime().exec(command1);
+
+                    process2.getInputStream().transferTo(System.out);
+                    process2.getErrorStream().transferTo(System.out);
+                }catch (IOException e){
+                    e.printStackTrace();
+                }
 
 
                 Map<String, Long> data = Util.allTypesLogs();
