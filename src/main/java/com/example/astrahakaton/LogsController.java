@@ -164,74 +164,7 @@ public class LogsController {
 
     }
 
-//    public void setUser(Set<String> name,int q){
-//        EventHandler<ActionEvent> selectFilter = e -> {
-//            try (BufferedReader bufferedReader = new BufferedReader(new FileReader(currentPath))) {
-//                setTable(null);
-//                ObservableList<Logs> logs = FXCollections.observableArrayList();
-//                if (((CheckMenuItem) e.getSource()).isSelected()) {
-//                    listUsers.add(((CheckMenuItem) e.getSource()).getText());
-//                } else {
-//                    listUsers.remove(((CheckMenuItem) e.getSource()).getText());
-//                }
-//                if (listUsers.isEmpty()) {
-//                    while (bufferedReader.ready()) {
-//                        String line = bufferedReader.readLine();
-//                        logs.add(Util.stringToLogs(line));
-//                    }
-//                } else {
-//                    while (bufferedReader.ready()) {
-//                        StringBuilder s = new StringBuilder();
-//                        String string = bufferedReader.readLine();
-//                        String[] arrLine = string.split(" ");
-//                        String subString = Util.getType(arrLine[4]);
-//                        if (listUsers.contains(subString)) {
-//                            for (int j = 5; j < arrLine.length; j++) {
-//                                s.append(" ").append(arrLine[j]);
-//                            }
-//                            logs.add(new Logs(arrLine[0] + " " + arrLine[1] + " " + arrLine[2], arrLine[3], subString, s.toString()));
-//                        }
-//                    }
-//                }
-//                setTable(logs);
-//            } catch (IOException ignored) {
-//
-//            }
-//        };
-//        EventHandler<ActionEvent> reset = e -> {
-//            StringBuilder s = new StringBuilder();
-//            setTable(null);
-//            listUsers.clear();
-//            ObservableList<Logs> logs = FXCollections.observableArrayList();
-//            try (BufferedReader bufferedReader = new BufferedReader(new FileReader(currentPath))) {
-//                while (bufferedReader.ready()) {
-//                    String line = bufferedReader.readLine();
-//                    logs.add(Util.stringToLogs(line));
-//                }
-//            } catch (IOException exception) {
-//
-//            }
-//            setTable(logs);
-//            var menu = getMenuBar();
-//            Menu sel = menu.get(1);
-//            for (var i :
-//                    sel.getItems()) {
-//                if (i instanceof CheckMenuItem) {
-//                    ((CheckMenuItem) i).setSelected(false);
-//                }
-//
-//            }
-//        };
-//        for (var i :
-//                name) {
-//            CheckMenuItem checkMenuItem = new CheckMenuItem(i);
-//            checkMenuItem.setOnAction(selectFilter);
-//            menuBar.getMenus().get(q).getItems().add(checkMenuItem);
-//        }
-//        MenuItem menuItem = new MenuItem("Сбросить фильтры");
-//        menuItem.setOnAction(reset);
-//        menuBar.getMenus().get(q).getItems().add(menuItem);
-//    }
+
 
     //Действие при нажатие кнопки назад
     @FXML
@@ -334,9 +267,7 @@ public class LogsController {
         logsController.getAllLogsView(table);
         if (!fxml.equals("allLogs-view.fxml")) {
             logsController.setMenuBar(data);
-//            logsController.setUser(name,2);
         }else{
-            //logsController.setUser(name,1);
         }
         logsController.setPieData(data);
     }
