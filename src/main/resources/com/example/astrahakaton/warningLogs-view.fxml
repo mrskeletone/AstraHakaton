@@ -48,6 +48,8 @@
                     </items>
                 </Menu>
                 <Menu mnemonicParsing="false" text="Фильтрация по"/>
+                <Menu mnemonicParsing="false" text="Выбор пользователя:" />
+
                 <Menu mnemonicParsing="false" text="конвертация">
                     <items>
                         <MenuItem mnemonicParsing="false" onAction="#onClickJSON" text="JSON"/>

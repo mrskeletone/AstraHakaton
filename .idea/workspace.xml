@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e1b6a8c-a3bd-434f-b03d-8d1355c56343" name="Changes" comment="feat: последняя версия">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logFiles/allTypesLogs/all_types" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logFiles/allTypesLogs/all_types" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logFiles/debugLogs/debug" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logFiles/debugLogs/debug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logFiles/errorLogs/errors" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logFiles/errorLogs/errors" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logFiles/infoLogs/info" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logFiles/infoLogs/info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logFiles/noticeLogs/notice" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logFiles/noticeLogs/notice" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logFiles/warningLogs/warning" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logFiles/warningLogs/warning" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/astrahakaton/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/astrahakaton/HelloController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,32 +37,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.HelloApplication.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Develop",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/Users/dever/IdeaProjects/AstraHakaton/src/main/java/com/example/astrahakaton",
-    "last_opened_file_path": "/Users/ekaterinacebykina/Desktop/AstraHakaton",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Develop&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/dever/IdeaProjects/AstraHakaton/src/main/java/com/example/astrahakaton&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ekaterinacebykina/Desktop/JAVA/mySELF/Hakatons/AstraHakaton/src/main/java/scrypt&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.astrahakaton" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/scrypt" />
     </key>
   </component>
   <component name="RunManager">
