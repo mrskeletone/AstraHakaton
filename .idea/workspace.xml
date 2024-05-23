@@ -7,6 +7,7 @@
     <list default="true" id="3e1b6a8c-a3bd-434f-b03d-8d1355c56343" name="Changes" comment="feat: последняя версия">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/scrypt/anlog-installer.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scrypt/anlog-installer.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrypt/anlog.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scrypt/anlog.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -133,7 +133,7 @@ function getlogs() {
 
   if [[ \$all || \$type == 0 ]]
   then
-    journalctl -p \$type | grep -E '^[а-я]{3,4} [0-9]{1,2} [0-9]{2}:[0-9]{2}:[0-9]{2}' > name
+    journalctl -p \$type | grep -E '^[а-я]{3,4} [0-9]{1,2} [0-9]{2}:[0-9]{2}:[0-9]{2}' > \$name
     exit 0
   fi
 
@@ -162,7 +162,7 @@ then
 else
   \$func \$@;
 fi
-" | sudo tee /usr/bin/anlog
+" | sudo tee /usr/bin/anlog > /dev/null
 
 
 
