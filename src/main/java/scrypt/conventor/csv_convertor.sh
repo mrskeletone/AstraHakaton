@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# TODO: check existing file
+# TODO: check existing file.csv
+# TODO (from strangecodder): create file, if doesn't exist
 function main() {
   from=$1
   to=$2
