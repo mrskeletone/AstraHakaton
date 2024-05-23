@@ -17,7 +17,11 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-
+/*
+* Класс HelloController отвечает за обработку входных данных
+*   таких как начало и конец времени просмотра логов
+* Методы класса: onHelloButtonClick
+* */
 public class HelloController {
 
     @FXML
@@ -27,10 +31,19 @@ public class HelloController {
 
 
     private static FXMLLoader fxmlLoader;
-    // При нажатие на кнопку ,берет значение из полей для дат и передает их в  скрипт для создание файла с всеми типами логов
-    //Создает другой поток в котором создает файле под определенные логи
-    //Создает таблицу для вывода логов
-    //Создает График по логам
+
+    /*
+    * Метод onHelloButtonClick используется для описания событий
+    *   которвые произойдут, когда пользователь введёт дату на
+    *   первом экране
+    *
+    * В данном методе активируются два скрипта: log_writer_by_date.sh и
+    *                                            writer_zero-six.sh
+    * Команды активации скриптов помечены
+    *
+    * На выходе получаем таблицу для вывода логов (реализуется на базе класса LogsController)
+    *   а так-же график по соотношению логов
+    * */
     @FXML
     protected void onHelloButtonClick() throws IOException, InterruptedException {
         LocalDate begin = datePicker1.getValue();
@@ -38,16 +51,17 @@ public class HelloController {
         Util.saveEndDate(end);
 
         if (begin != null) {
-            // активация скрипта
-//            String [] command = {"bash","src/main/java/scrypt/writer/log_writer_by_date.sh",
-//            begin.toString(),end.toString()};
-//
-//            Util.saveTime(Util.processTime(LocalTime.now()));
-//
-//            Process process = Runtime.getRuntime().exec(command);
-//
-//            process.getInputStream().transferTo(System.out);
-//            process.getErrorStream().transferTo(System.out);
+
+            String [] command = {"bash","src/main/java/scrypt/writer/log_writer_by_date.sh",
+            begin.toString(),end.toString()};
+
+            Util.saveTime(Util.processTime(LocalTime.now()));
+
+            /* Активация скрипта log_writer_by_date.sh */
+            Process process = Runtime.getRuntime().exec(command);
+
+            process.getInputStream().transferTo(System.out);
+            process.getErrorStream().transferTo(System.out);
 
 
             fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("allLogs-view.fxml"));
@@ -69,18 +83,18 @@ public class HelloController {
             table.setId("table");
             Thread thread = new Thread(() -> {
 
-//                String[] command1 = {"bash", "src/main/java/scrypt/writer/writer_zero-six.sh",
-//                        begin.toString(), end.toString()};
-//                System.out.println("вошёл в thread");
-//                try {
-//                    System.out.println("Вошёл в try");
-//                    Process process2 = Runtime.getRuntime().exec(command1);
-//
-//                    process2.getInputStream().transferTo(System.out);
-//                    process2.getErrorStream().transferTo(System.out);
-//                }catch (IOException e){
-//                    e.printStackTrace();
-//                }
+                String[] command1 = {"bash", "src/main/java/scrypt/writer/writer_zero-six.sh",
+                        begin.toString(), end.toString()};
+                try {
+
+                    /* Активация скрипта writer_zero-six.sh */
+                    Process process2 = Runtime.getRuntime().exec(command1);
+
+                    process2.getInputStream().transferTo(System.out);
+                    process2.getErrorStream().transferTo(System.out);
+                }catch (IOException e){
+                    e.printStackTrace();
+                }
 
 
                 Map<String, Long> data = Util.allTypesLogs();

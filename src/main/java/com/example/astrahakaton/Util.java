@@ -1,6 +1,5 @@
 package com.example.astrahakaton;
 
-import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.chart.BarChart;
@@ -133,7 +132,17 @@ public class Util {
 
     private Util(){
     }
-    // Возвращает тип лога без лишних символов
+
+
+    /*
+    * Метод getType используется для форматирования источника
+    *   ошибки в строке лога в вид, используемый при фильтрации
+    *
+    * @param1 - сроковое значени s строка лога
+    *
+    * на выходе получаем обработанную строку лога
+    *
+    * */
     public static String getType(String s){
         int flag = s.indexOf("[");
         if (flag < 0) {
@@ -141,7 +150,15 @@ public class Util {
         }
         return s.substring(0, flag);
     }
-    //Переводит string  в класс Logs
+
+    /*
+    * Метод stringToLogs переводит строку с логов в формат класса Logs
+    *   для дальнейшего использования объекта при отображении в таблице
+    *
+    * @param 1 - строковое значение лога line
+    *
+    * на выходе получаем объект класса Logs, преобразованный из строки лога
+    * */
     public static Logs stringToLogs(String line){
         StringBuilder s = new StringBuilder();
         String[] split = line.split(" ");
@@ -152,7 +169,13 @@ public class Util {
         String subString = Util.getType(arrLine[4]);
         return  new Logs(split[0] + " " + split[1] + " " + split[2], split[3], subString, s.toString());
     }
+
     //Создает таблицу с колонками под логи и нужными размерами
+    /*
+    *
+    *
+    *
+    * */
   public static TableView<Logs> createLogsTable(ObservableList<Logs> logs){
       TableView<Logs> table=new TableView<>(logs);
       TableColumn<Logs, String> dateColumn = new TableColumn<>("Date");

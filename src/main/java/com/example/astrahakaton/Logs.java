@@ -2,6 +2,14 @@ package com.example.astrahakaton;
 
 import javafx.beans.property.SimpleStringProperty;
 
+/*
+* Класс Logs нужен для дальнейшего составления
+*   таблицы отображения логов
+*
+* В классе расписаны основыне элементы структуры лога,
+* такие как дата, пользователь, тип и сообщение
+*
+* */
 public class Logs {
     private SimpleStringProperty  date;
     private SimpleStringProperty user;
