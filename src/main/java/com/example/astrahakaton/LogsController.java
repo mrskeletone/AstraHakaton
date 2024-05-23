@@ -36,16 +36,20 @@ public class LogsController {
     private static final List<String> listFilter = new ArrayList<>();
     private static final List<String> listUsers = new ArrayList<>();
 
-    public static boolean getFlagFiles(){
+    public static boolean getFlagFiles() {
         return flagFiles;
     }
 
-    public  static void setNewTable (TableView<Logs> tables){
-        table=tables;
+    public static void setNewTable(TableView<Logs> tables) {
+        table = tables;
     }
 
-    public static void setCurrentFXMLLoader(FXMLLoader fxmlLoader){
-        currentFXMLLoader=fxmlLoader;
+    public static void setCurrentPath(String path) {
+        currentPath = path;
+    }
+
+    public static void setCurrentFXMLLoader(FXMLLoader fxmlLoader) {
+        currentFXMLLoader = fxmlLoader;
     }
 
     //Создает таблицу в ячейках с (0,1) до (5,4)
@@ -74,7 +78,7 @@ public class LogsController {
     }
 
     //Добавляет новую строку или чистит если получет null
-    public void setTable(ObservableList<Logs> s) {
+    public static void setTable(ObservableList<Logs> s) {
         if (s == null) {
             table.getItems().clear();
         } else {
@@ -93,145 +97,126 @@ public class LogsController {
     //reset событие при нажание на кнопку сброса фильтров
     public void setMenuBar(Map<String, Long> data) {
         EventHandler<ActionEvent> selectFilter = e -> {
-            try (BufferedReader bufferedReader = new BufferedReader(new FileReader(currentPath))) {
-                setTable(null);
-                ObservableList<Logs> logs = FXCollections.observableArrayList();
-                if (((CheckMenuItem) e.getSource()).isSelected()) {
-                    listFilter.add(((CheckMenuItem) e.getSource()).getText());
-                } else {
-                    listFilter.remove(((CheckMenuItem) e.getSource()).getText());
-                }
-                if (listFilter.isEmpty()) {
-                    while (bufferedReader.ready()) {
-                        String line = bufferedReader.readLine();
-                        logs.add(Util.stringToLogs(line));
-                    }
-                } else {
-                    while (bufferedReader.ready()) {
-                        StringBuilder s = new StringBuilder();
-                        String string = bufferedReader.readLine();
-                        String[] arrLine = string.split(" ");
-                        String subString = Util.getType(arrLine[4]);
-                        if (listFilter.contains(subString)) {
-                            for (int j = 5; j < arrLine.length; j++) {
-                                s.append(" ").append(arrLine[j]);
-                            }
-                            logs.add(new Logs(arrLine[0] + " " + arrLine[1] + " " + arrLine[2], arrLine[3], subString, s.toString()));
-                        }
-                    }
-                }
-                setTable(logs);
-            } catch (IOException ignored) {
-
-            }
+            Util.selectFilter(currentPath, e, listFilter);
         };
         EventHandler<ActionEvent> reset = e -> {
-            StringBuilder s = new StringBuilder();
-            setTable(null);
+            resetFilter(1);
             listFilter.clear();
-            ObservableList<Logs> logs = FXCollections.observableArrayList();
-            try (BufferedReader bufferedReader = new BufferedReader(new FileReader(currentPath))) {
-                while (bufferedReader.ready()) {
-                    String line = bufferedReader.readLine();
-                    logs.add(Util.stringToLogs(line));
-                }
-            } catch (IOException exception) {
+            listUsers.clear();
+        };
+        if (data != null) {
+            for (var i :
+                    data.keySet()) {
+                CheckMenuItem checkMenuItem = new CheckMenuItem(i);
+                checkMenuItem.setOnAction(selectFilter);
+                menuBar.getMenus().get(1).getItems().add(checkMenuItem);
 
             }
-            setTable(logs);
+            MenuItem menuItem = new MenuItem("Сбросить фильтры");
+            menuItem.setOnAction(reset);
+            menuBar.getMenus().get(1).getItems().add(menuItem);
+        }
+
+    }
+
+    private void resetFilter(int index) {
+
+        StringBuilder s = new StringBuilder();
+        setTable(null);
+        ObservableList<Logs> logs = FXCollections.observableArrayList();
+        try (BufferedReader bufferedReader = new BufferedReader(new FileReader(currentPath))) {
+            while (bufferedReader.ready()) {
+                String line = bufferedReader.readLine();
+                logs.add(Util.stringToLogs(line));
+            }
+        } catch (IOException exception) {
+
+        }
+        setTable(logs);
+        var menu = getMenuBar();
+        Menu sel = menu.get(index);
+        Menu re = menu.get(2);
+        for (var i :
+                sel.getItems()) {
+            if (i instanceof CheckMenuItem) {
+                ((CheckMenuItem) i).setSelected(false);
+            }
+
+        }
+        for (var i :
+                re.getItems()) {
+            if (i instanceof CheckMenuItem) {
+                ((CheckMenuItem) i).setSelected(false);
+            }
+
+        }
+    }
+
+    public void setUser(Set<String> name, int q) {
+        EventHandler<ActionEvent> selectFilter = e -> {
+            ObservableList<Logs> logs = FXCollections.observableArrayList();
+            ObservableList<Logs> list = FXCollections.observableArrayList();
+            try (BufferedReader bufferedReader = new BufferedReader(
+                    new FileReader(currentPath.substring(0, currentPath.lastIndexOf("/")) + "/buffer"))) {
+                while (bufferedReader.ready())
+                    list.add(Util.stringToLogs(bufferedReader.readLine()));
+            } catch (IOException ignore) {
+
+            }
+            if (((CheckMenuItem) e.getSource()).isSelected()) {
+                listUsers.add(((CheckMenuItem) e.getSource()).getText());
+            } else {
+                listUsers.remove(((CheckMenuItem) e.getSource()).getText());
+            }
+            if (!listUsers.isEmpty()) {
+                for (var i :
+                        list) {
+                    if (listUsers.contains(i.getUser())) {
+                        logs.add(i);
+                    }
+                }
+            } else {
+                logs = list;
+            }
+            table.getItems().setAll(logs);
+        };
+        EventHandler<ActionEvent> reset = e -> {
+            listUsers.clear();
             var menu = getMenuBar();
-            Menu sel = menu.get(1);
+            Menu re;
+            if (currentPath.equals("src/main/java/logFiles/allTypesLogs/all_types")) {
+                 re = menu.get(1);
+            } else {
+                 re = menu.get(2);
+            }
             for (var i :
-                    sel.getItems()) {
+                    re.getItems()) {
                 if (i instanceof CheckMenuItem) {
                     ((CheckMenuItem) i).setSelected(false);
                 }
 
             }
+            ObservableList<Logs> list = FXCollections.observableArrayList();
+            try (BufferedReader bufferedReader = new BufferedReader(
+                    new FileReader(currentPath.substring(0, currentPath.lastIndexOf("/")) + "/buffer"))) {
+                while (bufferedReader.ready())
+                    list.add(Util.stringToLogs(bufferedReader.readLine()));
+            } catch (IOException ignore) {
+
+            }
+            table.getItems().setAll(list);
         };
-        if(data!=null){
+
         for (var i :
-                data.keySet()) {
+                name) {
             CheckMenuItem checkMenuItem = new CheckMenuItem(i);
             checkMenuItem.setOnAction(selectFilter);
-            menuBar.getMenus().get(1).getItems().add(checkMenuItem);
-
+            menuBar.getMenus().get(q).getItems().add(checkMenuItem);
         }
         MenuItem menuItem = new MenuItem("Сбросить фильтры");
         menuItem.setOnAction(reset);
-        menuBar.getMenus().get(1).getItems().add(menuItem);
-        }
-
+        menuBar.getMenus().get(q).getItems().add(menuItem);
     }
-
-//    public void setUser(Set<String> name,int q){
-//        EventHandler<ActionEvent> selectFilter = e -> {
-//            try (BufferedReader bufferedReader = new BufferedReader(new FileReader(currentPath))) {
-//                setTable(null);
-//                ObservableList<Logs> logs = FXCollections.observableArrayList();
-//                if (((CheckMenuItem) e.getSource()).isSelected()) {
-//                    listUsers.add(((CheckMenuItem) e.getSource()).getText());
-//                } else {
-//                    listUsers.remove(((CheckMenuItem) e.getSource()).getText());
-//                }
-//                if (listUsers.isEmpty()) {
-//                    while (bufferedReader.ready()) {
-//                        String line = bufferedReader.readLine();
-//                        logs.add(Util.stringToLogs(line));
-//                    }
-//                } else {
-//                    while (bufferedReader.ready()) {
-//                        StringBuilder s = new StringBuilder();
-//                        String string = bufferedReader.readLine();
-//                        String[] arrLine = string.split(" ");
-//                        String subString = Util.getType(arrLine[4]);
-//                        if (listUsers.contains(subString)) {
-//                            for (int j = 5; j < arrLine.length; j++) {
-//                                s.append(" ").append(arrLine[j]);
-//                            }
-//                            logs.add(new Logs(arrLine[0] + " " + arrLine[1] + " " + arrLine[2], arrLine[3], subString, s.toString()));
-//                        }
-//                    }
-//                }
-//                setTable(logs);
-//            } catch (IOException ignored) {
-//
-//            }
-//        };
-//        EventHandler<ActionEvent> reset = e -> {
-//            StringBuilder s = new StringBuilder();
-//            setTable(null);
-//            listUsers.clear();
-//            ObservableList<Logs> logs = FXCollections.observableArrayList();
-//            try (BufferedReader bufferedReader = new BufferedReader(new FileReader(currentPath))) {
-//                while (bufferedReader.ready()) {
-//                    String line = bufferedReader.readLine();
-//                    logs.add(Util.stringToLogs(line));
-//                }
-//            } catch (IOException exception) {
-//
-//            }
-//            setTable(logs);
-//            var menu = getMenuBar();
-//            Menu sel = menu.get(1);
-//            for (var i :
-//                    sel.getItems()) {
-//                if (i instanceof CheckMenuItem) {
-//                    ((CheckMenuItem) i).setSelected(false);
-//                }
-//
-//            }
-//        };
-//        for (var i :
-//                name) {
-//            CheckMenuItem checkMenuItem = new CheckMenuItem(i);
-//            checkMenuItem.setOnAction(selectFilter);
-//            menuBar.getMenus().get(q).getItems().add(checkMenuItem);
-//        }
-//        MenuItem menuItem = new MenuItem("Сбросить фильтры");
-//        menuItem.setOnAction(reset);
-//        menuBar.getMenus().get(q).getItems().add(menuItem);
-//    }
 
     //Действие при нажатие кнопки назад
     @FXML
@@ -302,10 +287,11 @@ public class LogsController {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource(fxml));
         currentPath = path;
         currentFXMLLoader = fxmlLoader;
+
         Scene scene = new Scene(fxmlLoader.load());
         Stage stage = new HelloApplication().getPrimaryStage();
         stage.setScene(scene);
-        Set<String> name=new HashSet<>();
+        Set<String> name = new HashSet<>();
         int i = 0;
         ObservableList<Logs> logs = FXCollections.observableArrayList();
         Map<String, Long> data = new HashMap<>();
@@ -330,13 +316,14 @@ public class LogsController {
         }
         table = (Util.createLogsTable(logs));
         table.setId("table");
+        Util.createBuffer(currentPath, logs);
         LogsController logsController = fxmlLoader.getController();
         logsController.getAllLogsView(table);
         if (!fxml.equals("allLogs-view.fxml")) {
             logsController.setMenuBar(data);
-//            logsController.setUser(name,2);
-        }else{
-            //logsController.setUser(name,1);
+            logsController.setUser(name, 2);
+        } else {
+            logsController.setUser(name, 1);
         }
         logsController.setPieData(data);
     }
@@ -345,8 +332,8 @@ public class LogsController {
     @FXML
     protected void onClickUpdate() throws IOException {
         String date = Util.getEndDate().toString() + " " + Util.getTime();
-        String [] command = {"bash","src/main/java/scrypt/writer/log_updater.sh",
-                date + " " + Util.getTime(),date};
+        String[] command = {"bash", "src/main/java/scrypt/writer/log_updater.sh",
+                date + " " + Util.getTime(), date};
 
         Util.saveTime(Util.processTime(LocalTime.now()));
 
@@ -382,7 +369,7 @@ public class LogsController {
         Stage stage = new Stage();
         stage.setScene(scene);
         PathController.setStage(stage);
-        flagFiles=true;
+        flagFiles = true;
         stage.show();
     }
 
@@ -394,11 +381,11 @@ public class LogsController {
         Stage stage = new Stage();
         stage.setScene(scene);
         PathController.setStage(stage);
-        flagFiles=false;
+        flagFiles = false;
         stage.show();
     }
 
-    public static FXMLLoader getCurrentFXMLLoader(){
+    public static FXMLLoader getCurrentFXMLLoader() {
         return currentFXMLLoader;
     }
 }
