@@ -40,7 +40,7 @@
                 <MenuItem mnemonicParsing="false" onAction="#onClickMenuWarning" text="warning" />
             </items>
           </Menu>
-            <Menu mnemonicParsing="false" text="Выбор пользователя" />
+            <Menu mnemonicParsing="false" text="Выбор пользователя:" />
             <Menu mnemonicParsing="false" text="Конвертация">
               <items>
                 <MenuItem mnemonicParsing="false" onAction="#onClickJSON" text="JSON" />
