@@ -50,7 +50,7 @@ public class HelloController {
         LocalDate end = datePicker2.getValue();
         Util.saveEndDate(end);
 
-        if (begin != null) {
+        if (begin != null&& end!=null) {
 
             String [] command = {"bash","src/main/java/scrypt/writer/log_writer_by_date.sh",
             begin.toString(),end.toString()};
@@ -110,7 +110,9 @@ public class HelloController {
             logsController.getAllLogsView(table);
             LogsController.setCurrentFXMLLoader(fxmlLoader);
             LogsController.setNewTable(table);
-          //  logsController.setUser(name,1);
+            LogsController.setCurrentPath("src/main/java/logFiles/allTypesLogs/all_types");
+            logsController.setUser(name,1);
+            Util.createBuffer("src/main/java/logFiles/allTypesLogs/all_types",logs);
         }
     }
 
