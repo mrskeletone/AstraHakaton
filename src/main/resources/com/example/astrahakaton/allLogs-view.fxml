@@ -25,7 +25,7 @@
   </rowConstraints>
    <children>
       <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClickBackButton" prefHeight="30.0" prefWidth="607.0" text="Назад" GridPane.columnSpan="5" GridPane.rowIndex="5" />
-      <MenuBar fx:id="menuBar" prefHeight="25.0" prefWidth="600.0" GridPane.columnSpan="5">
+      <MenuBar prefHeight="25.0" prefWidth="600.0" GridPane.columnSpan="5">
         <menus>
           <Menu mnemonicParsing="false" text="Типы логов">
             <items>
