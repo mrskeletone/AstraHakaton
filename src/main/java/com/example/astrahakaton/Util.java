@@ -10,6 +10,7 @@ import javafx.scene.chart.NumberAxis;
 import javafx.scene.chart.XYChart;
 import javafx.scene.control.CheckMenuItem;
 import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableRow;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 
@@ -240,7 +241,21 @@ public class Util {
         TableColumn<Logs, String> commentColumn = new TableColumn<>("Comment");
         commentColumn.setCellValueFactory(new PropertyValueFactory<>("comment"));
         table.getColumns().add(commentColumn);
-
+        table.setRowFactory(tv -> new TableRow<Logs>() {
+            @Override
+            public void updateItem(Logs item, boolean empty) {
+                super.updateItem(item, empty);
+                if (item == null) {
+                    setStyle("");
+                } else if (item.getComment().contains("ACPI: EC: interrupt blocked")||item.getComment().contains("suspend")||item.getComment().contains("Suspend")
+            ||item.getComment().contains("incorrect password attempts")||item.getComment().contains("Unknown kernel command line parameters")
+                ||item.getComment().contains("Failed to enable")) {
+                    setStyle("-fx-background-color: tomato;");
+                } else {
+                  setStyle("");
+                }
+            }
+        });
         table.setPrefSize(1000, 500);
         return table;
 
